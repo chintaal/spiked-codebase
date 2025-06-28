@@ -1,0 +1,387 @@
+kore.a!
+
+Yellow.ai
+Battlecard
+
+Basic Information
+Company Overview
+
+Yellow.ai, founded in 2016, is a conversational Al and customer
+experience (CX) automation platform that enables businesses to
+automate support, commerce, and employee interactions across text
+and voice. The company has raised over $102 million, with investments
+from firms like WestBrdge Capital, Sapphire Ventures, and Safesforce
+Ventures. Yefow.ai serves over 700 customers globally, including major
+brands such as Domino's, Hyundai, and Tata Capital
+
+Competing Products
+
+Yellow.ai Customer Service Automation Platform + VoiceX Platform
+
+. Al Agents
+
+- Al Assistants
+
+- No-code builder, lifecycle optimizer, and designer
+= Al Analytes
+
+- Marketplace
+
+Pricing
+
+Yellow.ai offers freemiumn and premium enterprise plans for its
+conversational Al platform.
+
+Enterprise pricing is based on monthly tracked users (MTU, with exact
+costs Customized according to custom features, imtegrations, and
+compliance requirements. Apart from the subscription plans, Yellow.ai
+Charges based on the usage of specific modules such as MRU count
+and WhatsApp usage.
+
+While pricing is not publicly available, we can extrapolate based on
+various marketplaces and exchanges (from older plans)
+
+00 one time"
+
+ik conversations and 10 agents/year*
+Professional Voice: $58,000/120k voice minutes and § agents/year*
+Enterprise: $285,000/480k conversations and 600k voice minutes for
+up to 20 live agents + $18k/year for generative Al features*
+
+Set Up and Platform Fee: $1
+Professional Digital: $58,000
+
+1. Pricing is tauan from ©
+2. Pricing i taken troe
+
+© 2024 Kore.ai | All Rights Reserved
+
+Features Free Enterprise
+reettnace ’
+Channete 2
+Comnes ernegrocee | tem) ’
+Ceetces daehirea cht bhate exponen .
+Aare ret 2
+At ot tae remains Laeaed
+wT
+eerten ‘as (OOD records
+Can gantgr reagent 1 cone carom
+Mas 10 terpenes
+Come socom
+Comoran *
+Try tr free
+
+How to Spot Yellow.ai in Deals
+
+respects aren't always open to sharing what competitors might be in play. This
+section highlights common feature names or phrases thot may help you detect
+that Yeflow.ai is in ploy:
+
+= Feature and Model Names
+- Automation (bot building platform)
+- Conversation (Gen Al bot builder)
+- VoicexX (new voice bot platform)
+- YellowG, Orchestrator LLM, Komodo 7B, Analyze LLM
+- DynamnicNLP
+- General frequently used phrases
+- Conversational Service Cloud/Commerce Cloud
+- Dynamic Al agents
+- Urefied customer service automation platform
+
+Disclaimer
+
+Everything in this document is designed to be customer-facing, unless noted
+otherwise in red, but donot share the document directly, and be selective about
+copy and pasting any formation. This document is always iving. Reach out to
+sean_tynch@kore.com for questions and feedback.
+
+Talk Tracks
+Our Manta
+
+This section covers the core ideo behind our competitive positioning. It helps
+when asked, “What mokes you cifferent from the rest of the morket?”
+
+Most competitors are suitable for basic chat and voice automation for CX
+or EX use cases. The household names might offer a bit more variety, but
+
+generally want to lock you into their ecosystem.
+
+What makes us different is that we help enterprises generate value from Al
+across a full range of both CX and EX use cases, including generative Al
+apps, RAG/LLM-based search, and experience optimization. We also let
+you choose the model, data, cloud, and application providers that are right
+for your business. No vendor lock-in, black boxes, or ‘Al solutions’
+Consisting of simple API calls to ChatGPT and the like.
+
+How We Position
+
+Use this section as soundiites ond coaching paints when o customer asks,
+“What mokes you cifferent from Yellow.ai?”
+
+|) Validate competitive presence:
+
+Yeah, I'm familiar with their product, and I'm glad you brought them up. Are you
+currently using them, or are you just exploring some different options?
+
+JAcknowledge competitor strengths:
+
+From what I've seen, they're good for customer service automation, and their
+new Conversation module (powered by YellowG) coupled with the orchestrator
+LLM allows you to build bots fast without extensive training or Al knowledge -
+just some prompts, essentially. They've also recertly improved their analytcs
+module by introducing an LLM to heip analyze the quatty of service and agent
+interactions.
+
+Reframe
+
+That said, customers often report that the platform itself has a very steep
+learning curve, and the support experience can leave a lot to be designed.
+in-house LLMs have some cistinct limitations, such as no disambiguation or
+multilingual support for their orchestrator LLM. They also provide limited privacy
+and compliance controls for their LLMs and a smaiier overall selection of model
+integrations
+
+heir
+
+For Internal Use O
+
+nly
+
+
+_BSpecity:
+
+Uniike Yefow.ai, Kore.ai provides the most comprehensive fusion of
+conversational, search, and generative Al capabilities on the market. Our
+platform is model, data, cloud, and application agnostic, so you can quickly build
+upon your existing architecture and integrate all the Li Ms and technologies you
+need to see real value from your Al initiatives.
+
+Our new DialogGPT model aso significantly reduces training time while
+increasing intent recognition, allowing you to build bots in no time fiat, just like
+Yellow.ai, while giving you considerably more contro! and flexibility.
+
+.
+Landmines
+
+This section provides sample tatking points and conversation starters that paint
+Kore.ai in the best possible light compared to Yellow.ai.
+
+1. Complex and frustrating setup
+How important are Ul and UX for you when creating Al agents and bots?
+
+While the jury is tif out on Yelow.ai's new Al Agent module, some customers
+have descrided the development process as more frustrating than a broken
+vending machine. They said the setup felt akin to solving a Rubik's cube
+blindfolded - far from the promised no-code bliss.
+
+il. Tricky integration
+Wilt you need to integrate with a lot of different systems? Do any of them include
+customized interfaces?
+
+Atthough Yellow.ai provides t-click integrations for over 100 popular systems
+and toots for building custom many clients to
+Yellow.ai with customized interfaces have reported that their APIs need to be
+more explicit and can be a hassie to integrate.
+
+WM. Search and answer imitations
+
+How crucial is knowledge retrieval for your Al agents or bots?
+
+Customers have told us that their and Doc Cog features have
+retatively imited customization and configuration options compared to ours. For
+example, Yellow.ai's crawter struggies JavaScript-rendered content, cannot
+index gated websites, and does not support OCR for text extraction. It also can
+struggle with contextual relationships, and you need to be especially careful
+about indexing duplicate or conflicting from the same or different
+sources, as it can result in cluttered search results.
+
+© 2024 Kore.ai | All Rights Reserved
+
+Tactical Information
+Product Teardown
+
+(= Differentiated = Supported —«Partial $= Notsupported @ = Roadmap
+
+Pre-Built Sotution Coverage
+
+fy
+
+and e-commerce
+
+LLMs at runtime and design time
+DialogGPT (@ynamic generative Al for bot creation)
+
+DialogGPT (regression and other forms of testing)
+DialogGPT (mother-child bot architecture support)
+Prompt management suite
+
+Context management and interruption handing
+Drag-and-drop collaborative development tools
+Robust testing and debugging toots
+
+Bxwss0e408
+
+PRS sssss—ss,sGBBsseses
+
+a
+
+#®8Syye.ce seu
+
+Pa an 3
+
+Advanced voice capabilities
+
+Bot orchestration (internal and third-party)
+
+GALE
+
+Development toot for buriaing generate Al agents
+BYOM or Hugging Face modets
+
+Model fine-tuning and one-click depioyment
+Mutti-model and mufti-prompt playground
+Safeguards, controls, and model monitoring
+Agent Al
+
+(Canned and suggested responses with enhancements
+Virtual assistant meegraton and task auto-tufilmert
+Escalation and handoff from automated chat to agent
+Two-way, real-time transtations
+
+Real-time transcription of voice interactions
+Post-call auto summarization
+
+Knowledge retrieval with LUM-powered answers
+Real-time sentmert anayysis with Al rephrasing
+Real-time agent coaching
+
+Guided playbooks with scripted next-best actions
+Coaching and playbook adherence and tracking
+(Cross sef and up sef support
+
+‘Seniar cases
+
+Contact Center
+
+x 8
+
+zs S 888
+
+*sSBBBswsss sees
+
+Sse sees
+
+a a oe 43
+
+SBS
+
+eweees YYY
+
+For Internal Use Only
+
+
+*® be Sk
+
+Comprehensive analytics and insights dashboards
+Enterprise adminstration and security
+
+(Cloud and on-prem deployments
+
+Miulti-regon deployment models for on-premise
+Hybond deployments
+
+i
+i
+sexes SBF seeeee i
+
+ee ee
+
+Motes
+
+1. Yefiow.al provides several banking templates, including creating 2 new account, applying for
+@ ban, tracking loan status and efigibility, catcutating EM, and stanciard knowledge questions.
+2 Yetlovcai provides 2 retal and e-commerce template with pre-built temptates that include
+browse products, add to cart, ed cart, clear cart, buy now, Razorpay payment status, check
+order status, and queries and concerns.
+
+3. Yetlow.ai provides a healthcare template covering bast flows lie new patient registration,
+booking 2 consultation, locating nearby clinics, collecting reports, and connecting with
+
+4 Yelloveai could support HR and ITSM automation via a custom bot, but no templates or
+bots for this purpose are avaiable OOTE on the Marketplace.
+
+S. Yellovcal provides a much more limited range of model integrations, inchuding OpenAL TS,
+Anthropic, and AI21 (Jurassic-1). Some freedom is given to input your custom GPT or LLM
+credentats manually.
+
+6 Yellow provides 4 SMis/LIMs, including YellowG LLM (instant setup), orchestrator LLM
+(zero training), Komodo 78 (Indonesia's first LLM for customer support with Tir languages),
+and Analyze LLM {enhances bot interactions with deep insights and advanced setieaming
+
+Capabilities).
+
+7. White not a mutt-engine approach, Yellow.al's NLP engine is built on zero-shot learning and
+pee-trained on billions of conversations across channets and industries. DynamicNLP elevates
+both customer and employee experiences, consistently achieving market-leading
+
+© 2024 Kore.ai | All Rights Reserved
+
+intent accuracy rates while reducing the cost and training time of NLP models from months to
+mnutes,
+8. Yellow.ai provides basic Pitretated quarcraits and protections. Yellowal does not offer
+comprshensive guardraits beyond this or support feature-based model selection (choose
+model on a feature-by-feature basis).
+
+Yelow.ai provides auto-diaiog and intent training generation using generative Al and uses
+LLMs throughout dialog flows and when answering knowledge questions.
+10. Yellovcal provides similar functionality through a combination of ther YellowG and
+(Orchestrator LUMs. However, the following entries show some significant imitations
+‘compared to Koreai's DiaiogGPT. For example, the OrchLLM is ony available in English,
+‘Compared to 100+ languages for DiaiogGPT. ht also only provides debug logs and not deep
+
+Ti Provides basi tfecycie management tools tke separate development envérorments,
+testing and debugging tools, version control (prompts), and import/export The XD Ptatiorm
+Provides more comprehensive tools, including regression and batch testing versioning and
+version comparisons, bot cloning, and more in-depth heath monitoring of the NLU and flow
+performance with actionable recommendations to validate your training and test datasets.
+‘12. Yellovcal’s secently refeased VoiceX plationm has significantly expanded Yellowal’s voice
+Capabilities. This was previously 2 weak point for the company's piatform.
+13. Yellovcal supports the concept of universal bot orchestration but not for externally buit
+bots. Control over the general routing experience is ato imhed.
+14 Yelovca’s inbox feature provides two-way transtations for chat within the agent chat
+experience.
+18 Yeflow.ai provides a summarized chat Al feature summarizing the entire conversation
+between a customer and a bot or agent. This summary can be used to analyze support
+quality, customer satisfaction, trends, and more. The end user must manually enable this
+feature by clicking the Al cofaborator icon and selecting Summarze chat.
+16 Provides 2 form of intelligent search that can retrieve information from documents,
+manuals, and resources within knowledge bases. This information & summarzed using LLMs.
+77. Yefiow.ai supports live sentiment analysis based on chat sesporses with tone and
+information
+18. Yellow.ai supports basic and answers from jarious sources wang LLMs inthe
+ancwer generation process. However, as a whole, it provides comparatively ierited
+(qustomization and in-depth configuration options as Kore.ai does.
+parses Ly-earplaiiry tins soreirviytn apace brane rsiuir relent
+Seniice-now, Confluence). Any other KB with APIs to acoess the articiesidocuments can aiso
+be integrated. They also support the uploading of documents and URILs. Knowledgebase
+supports URILs, manual upload, and uploading documents/foiders from third-party
+applications (such as AWS $3 and Sharepoint).
+20. Yellow.ai supports custom prompting for knowledgebase responses
+21 Yellowcal supports using either Yellow DNLP or OpenAl API for its document cognition
+feature. KB responses can aiso be customized using prompts, but this is 2 gated feature
+enabled only on a request basis. This feature is powered by third-party LLMs (Large
+Language Models) such as GPT-2.5, GPT-4, Claurie Opus, Google Gemini, Anthropic, and
+other modets to generate custommed responses. By default, al bots use thelr in-house model
+to generate responses.
+22. Yellowai recently significantly expanded its anatytics module to allow users to drill down
+into individual topics, access conversations by categorization, refine analysis with granutar
+fiters, and explore individual user conversations in conjunction with relevant metrics. in
+addition to these enhancements, they also refined topic Gustering algorithms to minsrize
+duplicate topics and further improved sentiment tagging for more accurate results.
+
+Supporting Information
+External Validation
+
+For Internal Use Only
+
+

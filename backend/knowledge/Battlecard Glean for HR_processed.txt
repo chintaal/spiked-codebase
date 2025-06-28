@@ -1,0 +1,108 @@
+# Glean Battle Card for HR Teams
+
+## General Information
+
+### Relevant Competitor Products
+Glean offers several key products within the Work AI Platform that are relevant to HR teams:
+- **Glean Assistant**
+- **Workplace Search**
+- **Work Hub**
+- **Glean App Builder** (for building new HR experiences)
+- **Glean Actions SDK**
+
+**Note:** Glean does not provide an out-of-the-box (OOTB) assistant like HR Assist and currently lacks HR templates in its prompt library.
+
+### Target Audience
+- HR teams in mid-to-large enterprises
+- Focus on streamlining employee interactions, enhancing productivity, and optimizing HR processes.
+
+### Use Case
+- **Kore.ai's HR Assist:** Automates HR processes using conversational AI, AI, and search.
+- **Glean:** Primarily improves information discovery and search across enterprise systems.
+
+## Common HR Pain Points
+- **Repetitive Administrative Tasks:** HR teams spend significant time on routine tasks like benefits administration and leave requests.
+- **Fragmented Knowledge:** Difficulty in finding documents across multiple platforms leads to delays in providing important information to employees.
+
+## Kore.ai's Solutions
+- **Automation of Routine Tasks:** Automates a wide range of repetitive processes OOTB, allowing HR to focus on strategic initiatives.
+- **AI-Driven Conversations:** Resolves employee inquiries quickly using generative AI and search AI, improving response times.
+- **Centralized Search:** Consolidates information across platforms for easy access to policies and documents.
+- **AI-Generated Responses:** Quickly answers HR-related questions, improving employee satisfaction.
+
+## Market Differentiators
+- **Kore.ai's HR Assist:** Known for advanced conversational AI and task automation, excelling in managing HR processes through a virtual assistant.
+- **Glean:** Positioned as a leader in knowledge discovery with deep enterprise search capabilities, suitable for HR teams needing quick access to fragmented knowledge.
+
+## Pricing and Packaging
+- **Pricing Structure:** Based on the number of total seats accessing Glean.
+- **Average Price:** $40 per user per month ($480 per year) with basic volume discounting.
+- **Self-Hosting Cost:** Estimated at $30 per user per month, with additional costs for cloud infrastructure and labor.
+- **Pro-Rata Fees:** For overuse (invoiced separately).
+- **Renewals:** May incur a 7.8% increase over the then-current fees.
+- **Branding Fee:** 10% fee for each Glean service if the customer does not agree to allow their brand and logo to be used by sales and marketing within six months of the contract term.
+
+## Disclaimer
+- The document is customer-facing unless noted otherwise in red. Do not share directly and be selective about copying and pasting information. For questions and feedback, contact seantynch@kore.com.
+
+## Strategic Information
+
+### Competitive Advantages
+#### Kore.ai
+- Comprehensive HR workflow automation with OOTB templates
+- Advanced NLP and generative AI features
+- Multichannel and multilingual support
+- Voice use cases
+- Self-service tooling (workbench)
+- Search configuration and control
+- App management
+- Analytics and reporting
+
+#### Glean
+- Onboarding assistance via dedicated Work Hub
+- Strong document-level security and access control
+
+### Weaknesses to Exploit
+- **Limited HR Process Automation:** Glean focuses on knowledge discovery, not workflow automation.
+- **Read-Only Integrations:** Most integrations are read-only, limiting user actions.
+- **No HR Focus:** Primarily a search and employee directory tool, lacking broader HR management capabilities.
+
+## Key Takeaways
+- **Kore.ai's HR Assist:** Ideal for enterprises seeking automation of HR processes and handling repetitive tasks efficiently.
+- **Glean:** Better suited for HR teams needing enhanced knowledge management and quick access to dispersed information.
+
+## Talk Tracks
+### Positioning Against Glean
+1. **Validate Competitive Presence:** Ask about the customer's experience with Glean.
+2. **Acknowledge Competitor Strengths:** Recognize Glean's capabilities in announcements and document management.
+3. **Reframe:** Highlight the limitations of Glean in HR-specific functionality.
+4. **Specify:** Emphasize Kore.ai's end-to-end automation and comprehensive capabilities.
+
+## Tactical Information
+
+### Product Teardown
+- **Glean does not provide a dedicated HR virtual assistant.**
+- **Core Functionality:**
+  - Onboarding (scheduling and virtual tours)
+  - Offboarding (exit surveys)
+  - Integration with employee experience universal bot
+  - Analytics and insights tracking
+
+### Product Extensibility and Administration
+- Dedicated workbench for personalizing solutions
+- Comprehensive personalization options
+- Robust testing and debugging tools
+
+### Automation and Generative AI Features
+- Flexible LLM framework with orchestration
+- Fine-tuned domain LLM models
+- Advanced dialog and context management
+
+### Knowledge Search Features
+- Content sources and extraction
+- Enrichment capabilities
+
+## Supporting Information
+- **Customer Reviews:** 9.5/10 (5 reviews)
+
+**For Internal Use Only**

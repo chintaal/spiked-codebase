@@ -1,0 +1,245 @@
+BANT + C for Health Assist  
+
+1. Budget (Financial Feasibility & ROI Justiﬁcation) 
+
+Understanding the Financial Scope 
+
+  What is your allocated budget for healthcare technology solutions, particularly for AI-
+
+driven patient engagement and workﬂow automation? 
+
+  Do you have an existing contract with another patient management or AI-powered 
+
+workﬂow automation vendor, and what is the cost structure? 
+
+  Are you currently spending on: 
+
+o  EHR/EMR integrations (Epic, Cerner, Meditech, etc.)? 
+
+o  AI-driven patient monitoring tools? 
+
+o  Automated scheduling, billing, and claims processing systems? 
+
+o  Remote patient management or telehealth solutions? 
+
+  Have you previously evaluated AI-powered patient management solutions but found 
+
+them cost-prohibitive? 
+
+Approval & Budget Flexibility 
+
+  Who manages ﬁnancial approvals for new health tech investments—is it the CFO, CIO, 
+
+hospital administrator, or procurement committee? 
+
+ 
+
+Is your organization eligible for government or insurance reimbursements for adopting AI-
+powered healthcare solutions? 
+
+  Would cost savings from reduced administrative workload, improved patient adherence, 
+
+fewer missed appointments, and enhanced compliance tracking inﬂuence your 
+decision? 
+
+Cost Justiﬁcation & ROI Expectations 
+
+  What ROI metrics are most important to you when investing in a patient engagement and 
+
+workﬂow automation tool? 
+
+o  Reduction in administrative time per patient? 
+
+o  Fewer no-shows due to AI-powered scheduling reminders? 
+
+o 
+
+Improved patient adherence to treatments? 
+
+o  Reduction in billing errors and insurance rejections? 
+
+2. Authority (Decision-Making & Key Stakeholders) 
+
+ 
+ 
+Stakeholder Identiﬁcation 
+
+  Who is the primary decision-maker for purchasing AI-powered patient management and 
+
+workﬂow automation solutions? 
+
+  Which of the following teams are involved in the decision-making process? 
+
+o  Hospital administration & ﬁnance (CFO, COO, VP Operations) 
+
+o  Clinical leadership (Chief Medical O(cid:431)icer, Medical Directors) 
+
+o 
+
+IT & Security team (CIO, CTO, Compliance O(cid:431)icers) 
+
+o  Regulatory & legal team (HIPAA/GDPR Compliance O(cid:431)icers) 
+
+Approval Process 
+
+  What is your vendor evaluation and approval process for new health tech solutions? 
+
+  Have you previously worked with healthcare AI vendors? If yes, what were the key 
+
+challenges? 
+
+  Would our solution require approval from insurance networks, regulatory bodies (FDA, 
+
+HIPAA, GDPR, NHS Digital, etc.), or medical accreditation agencies? 
+
+  Are there speciﬁc compliance or security certiﬁcations that are mandatory for vendor 
+
+selection? 
+
+3. Need (Pain Points & Business Alignment) 
+
+Current Challenges in Patient Management & Automation 
+
+  What are your biggest operational challenges in: 
+
+o  Patient engagement (missed appointments, delayed follow-ups, lack of automated 
+
+reminders)? 
+
+o  Administrative workﬂow automation (manual data entry, fragmented 
+
+communication, redundant tasks)? 
+
+o  Billing & insurance claims processing (denied claims, coding errors, delayed 
+
+reimbursements)? 
+
+o  Regulatory compliance (HIPAA violations, GDPR risks, inaccurate record-keeping)? 
+
+Existing Systems & Gaps 
+
+  What EHR/EMR system do you currently use (Epic, Cerner, Meditech, etc.)? 
+
+  How well does your current patient management system integrate with your EHR? 
+
+  Are your administrative workﬂows still heavily dependent on manual intervention? 
+
+ 
+  What KPIs are you tracking for operational e(cid:431)iciency, patient adherence, and ﬁnancial 
+
+performance? 
+
+Alignment with HealthAssist’s Features 
+
+  Would AI-driven patient engagement automation (SMS/email reminders, chatbot 
+
+interactions) help reduce no-shows? 
+
+  How important is predictive analytics for patient readmission risk assessment? 
+
+  Would an automated claims processing feature improve your revenue cycle 
+
+management? 
+
+  Would AI-powered clinical decision support beneﬁt your care teams in reducing 
+
+diagnostic errors? 
+
+4. Timeline (Implementation & Urgency) 
+
+Implementation Readiness 
+
+  When are you looking to upgrade or replace your patient management system? 
+
+  Are there any upcoming regulatory changes, compliance audits, or insurance policy 
+
+shifts that make this a priority? 
+
+  Have you evaluated other solutions in the past, and what prevented you from moving 
+
+forward? 
+
+Technical & Operational Constraints 
+
+  How long does your IT and procurement team typically take to evaluate and implement 
+
+new health tech solutions? 
+
+  Are you currently undergoing an EHR migration, expansion, or infrastructure upgrade that 
+
+may a(cid:431)ect implementation? 
+
+  What would be the key barriers to a seamless integration of HealthAssist into your current 
+
+workﬂow? 
+
+Pilot Program & Go-Live Considerations 
+
+  Would you be open to a pilot program or proof of concept (PoC) to measure 
+
+e(cid:431)ectiveness? 
+
+  How soon would you like to see measurable results from a new system? 
+
+5. Competitor (Current Alternatives & Di(cid:431)erentiation) 
+
+Existing Vendor Usage 
+
+ 
+ 
+  Are you currently using or evaluating any other AI-powered healthcare management 
+
+solutions? 
+
+o 
+
+If yes, which ones? (Epic, Athenahealth, NextGen, eClinicalWorks, etc.) 
+
+o  What do you like/dislike about them? 
+
+  Are you using a combination of multiple tools for patient engagement, workﬂow 
+
+automation, and billing? 
+
+Decision Criteria for Selecting a Solution 
+
+  What are your top priorities when selecting a patient management and automation 
+
+platform? 
+
+o  Ease of use & integration with existing EHR? 
+
+o  AI-driven automation & predictive analytics? 
+
+o  Security & regulatory compliance? 
+
+o  Cost-e(cid:431)ectiveness & scalability? 
+
+o  Data interoperability across departments? 
+
+Pain Points with Competitor Solutions 
+
+  Have you experienced integration issues, lack of AI-powered automation, or compliance 
+
+risks with your current vendor? 
+
+  What’s missing in your current patient engagement and automation process that 
+
+HealthAssist could solve? 
+
+ 
+
+If HealthAssist could provide a clear ROI in reduced manual workload, increased patient 
+engagement, and improved compliance, would that accelerate your decision? 
+
+Final Qualiﬁcation Summary 
+
+(cid:33061)(cid:57281) Budget: Do they have funds allocated for an AI-powered patient management solution? 
+(cid:33061)(cid:57281) Authority: Who are the key decision-makers & stakeholders? 
+(cid:33061)(cid:57281) Need: Are they struggling with manual workﬂows, patient engagement, or compliance? 
+(cid:33061)(cid:57281) Timeline: How urgent is the need, and are they ready for implementation? 
+(cid:33061)(cid:57281) Competitor: Are they using other solutions, and what gaps exist? 
+
+ 
+ 
+

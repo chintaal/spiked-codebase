@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Reconnection Test</title>
+</head>
+<body>
+    <h1>Simple Reconnection Test</h1>
+    <button onclick="testReconnection()">Test Reconnection</button>
+    <button onclick="clearAndRefresh()">Clear & Refresh</button>
+    <div id="output"></div>
+    
+    <script>
+        function log(message) {
+            document.getElementById('output').innerHTML += '<div>' + message + '</div>';
+            console.log(message);
+        }
+        
+        function testReconnection() {
+            // Set a test URL in localStorage
+            const testUrl = 'https://meet.google.com/tjc-kxof-eoc';
+            localStorage.setItem('currentMeetingUrl', testUrl);
+            log('Set test URL: ' + testUrl);
+            
+            // Verify it was saved
+            const saved = localStorage.getItem('currentMeetingUrl');
+            log('Retrieved URL: ' + saved);
+            
+            // Test validation
+            const googleMeetRegex = /meet\.google\.com\/([a-z0-9-]+)/i;
+            const match = testUrl.match(googleMeetRegex);
+            
+            if (match) {
+                log('URL is valid, meeting ID: ' + match[1]);
+            } else {
+                log('URL is invalid');
+            }
+            
+            log('---');
+            log('Now refresh the page and check if the URL persists');
+        }
+        
+        function clearAndRefresh() {
+            localStorage.clear();
+            location.reload();
+        }
+        
+        // Check on page load
+        window.onload = function() {
+            const saved = localStorage.getItem('currentMeetingUrl');
+            if (saved) {
+                log('Found saved URL on page load: ' + saved);
+            } else {
+                log('No saved URL found on page load');
+            }
+        };
+    </script>
+</body>
+</html>

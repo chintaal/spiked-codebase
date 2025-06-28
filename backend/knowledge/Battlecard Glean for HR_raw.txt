@@ -1,0 +1,355 @@
+kore al
+
+Glean Battle Card
+for HR Teams
+
+General Information
+Relevant Competitor Products
+
+Glean offers several key products within the Work Al Platform that are
+relevant to HR teams.
+
+if customized for HR experiences
+
+Glean Assistant
+
+Workplace Search
+Work Hub
+
+To build new HR experiences
+Glean App Builder
+Glean Actions SDK
+
+Glean does not, however, provide an OOTS assistart like HR Assist, and
+it does not currently have any HR templates in its prompt library.
+
+Target Audience(s)
+
+HR teams in mid-to-laege enterprises, focusing on streamiring
+employee interactions, enhancing productivity, and optimizing HR
+processes.
+
+Use Case
+
+Kore.ai's HR Assist focuses on automating HR processes using a
+combination of conversational Al, Al, and search, while
+Glean focuses primary on improving information discovery and search
+across enterpnse systems.
+
+Common HR Pain Points
+
+~ Repetitive Administrative Tasks: HA teams spend significant time
+managing routine tasks like benefits administration and leave requests.
+
+~ Fragmented Knowledge: HR teams struggle to find documents
+
+spread across muttiple platforms, leading to delays in providing
+employees with important information.
+
+© 2024 Kore.ai | All Rights Reserved
+
+glean
+
+Kore.ai's Solutions
+
+~ Automation of Routine Tasks: HA Assist automates a wide range of
+repetitive processes OOTS, allowing HR to focus on strategic
+intiatives.
+
+~ Al-Driven Conversations: Quickly resolves employee inquiries using
+generative Al and search Al, improving response times for HR requests.
+
+~ Centralized Search: Consoldates information across platforms,
+enabing HA teams to find policies and documenrts easily.
+
+~ Al-Generated Responses: Quickly answers HR-related questions,
+improving employee satisfaction by reducing response times.
+
+Market Differentiators
+
+MR Assist: Known for fs advanced conversational Al and task automation,
+Kore.ai excels at managing HR processes through 2 virtual assistant that can
+interact with employees, emplayens, Ho iicenlly meiing sinlsicieative heniens sed
+employee frustraton. It's teams looking for end-to-end automation of
+HR functions.
+
+Glean: Positioned as a leader in knowledge discovery, Glean's acvantage lies in
+fs deep enterprise search capabilities and market exposure following their
+recent major funding round. HR teams needing a tool to access fragmented
+knowledge quickly and onboard employees faster using the same materials will
+find Giean more suitable in the short term.
+
+Pricing and packaging
+
+Pricing is based on the number of total seats accessing Glean, with
+different pricing for using Glean's SaaS offering or hosting Glean using
+ther own cloud services. For self-hosting, the cost is less per seat, but
+you ultimately incur additional costs for cloud infrastructure and labor to
+Manage that infrastructure.
+
+The average price per user is $40 month (6480 per year)
+with basic volume discounting. Seif hosted fs ts estimated at $: user
+Per month, but you would incur extra storage, computing, and labor
+expenses.
+
+Glean policies also include pro-rata fees for overuse (invoiced
+separately). Renewals may also come with a 7.8% increase over the
+then fees, and a 10% fee ts required for each Giean service if the
+customer does not agree to allow their brand and logo to be used by
+sales and marketing within six months of the contract term.
+
+Disclaimer
+
+Everything in this document is to be customer-facing, unless
+noted otherwise in red, but donot share the document directly, and be
+selective about copy and pasting any information. This document is
+alway's living. Reach out to seantynch@kore.com for questions and
+feedback.
+
+Strategic Information
+Competitive Advantages
+
+Advantage: Kore.ai
+
+V4 HR workflow automation with comprehensive OOTB templates
+M4 NLP and generative Al features at runtime and design time
+
+4 Multichannel and multilingual support
+
+4 Voice use cases
+
+4 Self-service tooling (workbench)
+
+"4 Search configuration and control (enrichment, retrieval, etc.)
+'4 App management
+
+4 Analytics and reporting
+
+Advantage: Tied
+> Muiti-LLM
+> Indexing and API orchestration
+
+Advantage: Glean
+
+@ Onboarding assistance (via dedicated Work Hub)
+@ Content sources
+
+@ Business rules
+
+G Search experience
+
+@ Strong document-level security and access control
+
+Weaknesses to Exploit
+
+~ Limited HR Process Automation: Glean's tes in knowledge discovery,
+not workflow automation, making it less suitab! HR processes like
+attendance and case management.
+
+~ Read-Only integrations: Most of Glean's OOTS integrations are read-only, so
+users can only conmuus the information m peodchadl tos Glenn ie orimarily sboat
+
+surfacing relevant information) instead of both pulling relevant information and
+taking direct action in enterprise systems.
+
++ No HR Focus: Primarily a search and employee directory/homepage (via Work
+Hub) tool, Glean may not address broader HR management needs.
+
+Key Takeaways
+
+ore: l HR Ansist bs deel for Hh innees snaking astomation of 8 pens ond
+automating workflows and handling repetitive tasks efficientty.
+
+Glean is better suited for HR teams that need enhanced knowledge
+phe hse» of HR's key pain point és locating and managing
+dispersed information, Glean might prove to be a more attractive alternative.
+
+For Internal Use Only
+
+
+Talk Tracks
+How We Position
+
+Use this section as soundbites and coaching paints when o customer asks,
+“What makes you different from Giean for HR?*
+
+1) Validate competitive presence:
+
+Happy to share some perspective. What have you seen from Glean so far? Is
+your Hi team aiready using it or just exploring it?
+
+_J Acknowledge competitor strengths:
+
+From what I've seen, Glean's Work Hub is a great resource for making
+announcements, finding colleagues, and creating cofections of HR documents
+for onboarding, benefits, and other purposes. And its enterprise search helps
+reduce af those one-off messages and emails about company policies.
+
+_3Reframe:
+
+However, they don't provide much else in the way of HA-specific functionality,
+so you'd have to build custom actions via the Actions SDK to enable Glean to
+both push and pull information from your systems. Setting up the search
+experience itself can also be very developer-oriented, so you'll likely need
+Glean's support to get things up and running and make changes as time goes
+on.
+
+_BSpecity:
+
+Uniike Glean, HA Assist automates key HA process end-to-end, from tracking
+time-off requests to task management, while stil offering multi-channel
+conversational Al capabilities. HA Assist is perfect for erterprises looking to
+reduce HR's workload by automating repetitive inquiries and tasks, allowing your
+HR team to focus on strategic initiatives.
+
+Kore_ai afso offers the most configurable and comprehensive fusion of
+conversational, search, and generative Al capabilities on the market. Our
+platform is model, data, cloud, and application agnostic, so you can quickly build
+upon your evesting architecture and integrate all the Li Ms and technologies you
+need to future-proof your search investments.
+
+© 2024 Kore.ai | All Rights Reserved
+
+Tactical Information
+Product Teardown
+
+(d= Ditterentiated = Supported —-=Partial $%=Notsupported @= Roadmap
+
+This section covers core pre-built functionality and use case coverage for HR teams. Giean
+Goes not provide a dedicated HR virtual assistant.
+
+Domain fine-tuned LUM (HR LLM)
+Employee engagement poll templates
+Employee engagement survey tempiates
+
+S\LCu nee eee eee DSB Le R eR
+
+i
+TSRSVTCSCVSsesssesesssssssvsvsa
+
+Onboarding (scheduling and virtual tours)
+Onbcarding (set up and assgnments)
+
+Offboanding (exit surveys)
+Integration with employee experience universal bot
+
+Oracle sandbox integration
+
+ADP Workforce Now integration
+BambecHa mteqabor
+Aralytcs and insights tracking
+
+Product Extensibility and Administration
+
+*S 8S *# SS # SESS SSSS
+
+Su pneu SDCun
+
+This section provides a high-level view of the tooling avaiable to extend and personalize the
+(Providied sofutions.
+
+Dedicated workbench for personalizing solution
+Comprehensive personalization options
+Robust testing and debugging took
+Languages supported
+
+Channets supported
+
+Other prebuit integrations
+
+Enterprise administration
+Automation and Generative Al
+
+s BG Rees
+
+a ae
+
+This section provides a high-level view of core automation and Gen Al features.
+
+Flexible LUM framework with orchestration
+Fine-tuned domain LLM modets
+
+xtemai NLU connectors and mutt-engine native NLU
+LLMs at runtime and design time
+
+v
+a
+v
+
+we
+
+”
+”
+v
+
+For internal Use Only
+
+
+(d= Differentiated = Supported —«=Partial = Notsupported #= Roadmap
+Advanced guardraits for LLMs
+
+Prompt management suite
+
+Advanced daiog and context management
+Advanced voice capabilites
+
+Bot orchestration {intemal and third-party)
+Knowledge Search (High-Level)
+
+Search Al comes packaged with aif Assist Solutions and covers a wide range of search
+knowiedge use cases. This section provides a high-fevel comparison of enterprise search
+features.
+
+ss 338
+a
+
+Content sources - v
+Content extracton
+enrichment
+
+FUE
+Hy!
+
+Ses
+'
+
+© 2024 Kore.ai | All Rights Reserved
+
+i
+SSeS
+
+8
+
+3. Youcan use Work Hub’s general announcement feature for this, which supports
+announcements to al employees or only certain ones based on name, Gepartment, and
+
+4 TheGiean allows users to view finance data and anatytcs, HR org charts and
+Quideiines, and IT processes and capabilities.
+§. Gean's allows users to find the employee name, title, department, manager
+
+Apps development
+Step-by-step process rather than a flow bulkier Specific coflaboration-type features (lie
+
+14. Glean Assistant considers the context of who is making a request. Users’ results are
+personalized based on knowledge graph data to ensure that each person sees the
+information relevart to them ang their sole.
+
+18 Glean Assist and Glean Assistant can be used outside of a chat to write customer emails,
+summanze documents, and officad basic tasks. f can also automaticaly create case
+‘summaries from Sckets and upload them to service applications so teams handing
+follow-ups have context on prior interactions. While Glean does not provide an explicit agent
+ashboard or integration to other agent desktops, you can use Glean to answer
+knowledge-based questions using a 3¢J / ALT-J shortcut or within Giean itself.
+
+6. Glean Apps is a lightweight generative Al builder for creating no-code custom generative
+A agents, assistants, and chatbots. It leverages Glean’s core competencies, including
+enterprise search, conversational Al assistant, enterprise data connectors, user permissions,
+and data governance. Many features, lke actions and triggenng, are stil in beta.
+
+Supporting Information
+
+9.5/90 (5 reviews)
+
+For Internal Use Only
+
+

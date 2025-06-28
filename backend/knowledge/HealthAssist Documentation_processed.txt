@@ -1,0 +1,3536 @@
+O HealthAssist
+Documentation
+© HealthAssist
+
+Getting Started
+Overview of HealthAssist
+What is HealthAssist
+Key Features
+Terminology
+HealthAssist Concept
+HealthAssist for Provider
+Benefits
+Patents
+Agents
+Caregivers
+Employees
+Consumers
+Capabilities
+HealthAssist for Payer
+Benefits
+Member Experience
+Agent Experience
+Provider Expenence
+Employee Experience
+Consumer Experience
+Capabilities
+HealthAssist for Life Science
+Benefits
+Patient Expenence
+Agent Experience
+Provider Benefits
+Employee Benefits
+Consumer Benefits
+Capabilities
+Integration
+EMR/EHR Integration
+Symptom Checker Integration
+Natural Language Processing (NLP)
+LLM & Generative Al
+Overview
+Features
+Gen Al Configuration
+LLM Integration
+Dynamic Conversations Configuration
+HealthAssist Use Cases
+
+oomommaommonn nm
+© HealthAssist
+
+HealthAssist for Provider Use Cases
+
+Authentication
+
+Schedule an Appointment
+Read Appointment
+Reschedule Appointment
+Cancel Appointment
+Symptom Checker/Diagnosis
+Care Team
+
+Medication order
+
+Medical Ontology
+
+Health Care for Payers - Member Facing Use Cases
+
+Member Authentication
+
+File a Claim
+
+Request ID Card
+
+Add Dependent
+
+Co-Pay by Service
+
+Ourt-of-pocket limits
+
+Request Annual Health Statement
+
+Health Care for Payers -Provider Facing Use Cases
+
+Provider Validation
+Claim Status
+
+HealthAssist Administration
+Health Assist for Provider
+
+HealithAssist Provider Architecture
+Bot Access
+Customizing HealthAssist with Workbench
+Workbench Introduction
+Accessing the HealihAssist Workbench
+Dashboard Analysis
+Assistant Personalization
+Branding and User Interface Customization
+Assistant Configuration
+Appointment Manager
+Symptom Triage
+Enterprise
+Notifications & Reminders
+Settings
+Invite Members
+Language Configuration
+Publish configuration changes
+Integration
+
+20
+20
+20
+21
+22
+24
+24
+25
+26
+27
+28
+28
+28
+30
+30
+31
+32
+33
+35
+35
+35
+37
+37
+37
+37
+38
+38
+38
+39
+40
+40
+42
+42
+43
+44
+46
+46
+46
+47
+50
+51
+© HealthAssist
+
+Channel Integration
+Live Agent Transfer
+Agent Expenence
+Agent Console
+Introduction
+Access the Console
+Agent Real-time Coaching
+Agent Playbook
+Auto Summarization
+Health Assist for Payer
+Introduction
+Data Table Integration
+SearchAssist Integration
+
+51
+52
+a2
+52
+a2
+
+ak eB
+
+56
+56
+56
+59
+© HealthAssist
+
+Getting Started
+
+Overview of HealthAssist
+
+The modem healthcare industry needs streamlined, quick, and effective services to
+improve patient care while keeping costs low and improving operating efficiency.
+Traditional processes can be slow, resource-intensive, and prone to human error, which
+creates bottlenecks in patient management and reduces the overall quality of care.
+HealthAssist addresses these challenges by providing healthcare onganizations with a
+robust Al-driven solution that automates routine interactions and optimizes workflows. It
+helps organizations deliver 24/7 services without long hold times, empowering patients
+to manage their healthcare more effectively through self-service options.
+
+What is HealthAssist
+
+HealthAssist is an advanced conversational Al solution designed to facilitate
+personalized, human-like conversations through woice and text channels. This solution 1s
+intended to enhance the conversation for healthcare patients, members, caregivers,
+providers, agents, employees, and consumers across the healthcare enterprise.
+HealthAssist is used by some of the world's largest healthcare organizations to increase
+access to care, increase engagement, decrease costs, increase patient/member acquisition
+and retention, improve satisfaction, enhance productivity, and maximize care time. This
+integration is fully compliant with HIPAA and other critical industry regulations.
+
+HEALTHCARE
+PROVIDER
+
+HEALTH
+INSURA
+
+© HealthAssist
+
+Kore.ai serves three healthcare industry This includes hospitals, integrated delivery networks,
+accountable care organizations, retail, HCP/Pharmacy companies, and segments:
+
+Providers.
+
+Includes hospitals, integrated delivery networks, accountable care organizations, retail,
+HCP/Pharmacy companies, ambulatory acute, emergent, post-acute, home, and telehealth
+providers.
+
+Payers
+Includes health insurance companies and support service companies, third-party
+administrators, and private payers.
+
+Life Sciences
+Includes pharmaceutical companies, medical devices, and select medical equipment
+companies.
+
+Key Features
+
+Integration: Seamlessly integrates with leading Electronic Medical Record (EMR)
+systems such as Epic, Gemer, and NextGen, allowing for real-time data synchronization
+and automated workflows like appointment scheduling and patient record management.
+
+Analytics: HealithAssist provides real-time analytics and reporting on user behavior,
+tickets and system efficiency, helping healthcare providers optimize workflows and
+improve patient experiences based on data-driven decisions.
+
+Extensibility: HealthAssist's design facilitates easy customization, enabling the creation
+of custom healthcare workflows for unique organizational needs and the extension of its
+core functionalities. This flexibility allows organizations to create custom workflows,
+integrate new APIs, and add unique use cases.
+
+Security: Fully compliant with the Health Insurance Portability and Accountability Act
+(HIPAA), ensuring that all patent data and communications are secure and adhere to
+stringent privacy regulations.
+
+Terminology
+
+This glossary lists the key terms and concepts related to the HealthAssist solution.
+© HealthAssist
+
+Terminology
+
+Description
+
+Provider
+
+An individual or organization that delivers medical services to
+patients, @.g., a Physician, a Nurse, Hospitals, Clinics, etc.
+
+Organization or entity that finances or reimburses the cost of
+health services for individuals.
+
+Life Science
+
+Life sciences research can lead to innovations in diagnostics,
+preventive measures, and personalized medicine, ultimately
+enhancing the quality of healthcare and patient outcomes.
+
+EMR | EHR
+
+An EMR is a digital version of the paper charts in a clinician's
+office. It contains the médical and treatment history of the
+patients in one practice. 4n EHR is a more comprehensive
+digital record of a patient's health. They're designed to go
+beyond the data collected in the provider's office and can
+include a broader view of a patient's care.
+
+HL?
+
+HL? standards provide a framework for integrating,
+exchanging, sharing, and retrieving electronic health
+information.
+
+FHIR
+
+FHIR is a standard developed by HL? for exchanging healthcare
+information electronically.
+
+OAuth (Open Authorization) is an open standard for access
+delegation commonly used to grant applications limited access
+to a user's information without exposing their passwords. It
+provides a secure and standardized way for applications to
+access resources on behalf of a user.
+
+Medical Ontology
+
+Structured framework that organizes medical knowledge into
+categories and specifies the relationships between them.
+Medical ontologies are essential for ensuring consistency,
+interoperability, and the effective sharing of medical
+information across different healthcare systems.
+
+UMLS (Unified Medical
+Language System)
+
+The UMILS Metathesaurus is a large, multi-purpose, and
+multilingual vocabulary database containing information about
+biomedical and health-related concepts, their names, and their
+relationships.
+
+© HealthAssist
+
+HealthAssist Concept
+
+HealthAssist for Provider
+
+HealthAssist for Providers automates routine patient-facing interactions, such as
+appointment scheduling, medication management, and lab result inquines. It provides
+patients with self-service options while reducing the administrative burden on healthcare
+staff.
+
+This solution supports both voice and text-based interactions and can be accessed
+through multiple channels such as web, mobile, and voice platforms.
+
+ng hehe hey aoe es oe Toget tee Menor use
+
+.
+a
+]
+
+‘The requeeroecd cht tor Aluernch 3, SSS la nic
+areHilgie | get beeen g th Sen aed ake io
+
+Benefits
+
+Healthssist Provider offers several critical benefits to Patients, Agents, Caregivers,
+Employees, and Consumers.
+
+Patients
+
+Healthssist improves the patient's interaction with their healthcare provider for
+scheduling appointments, requesting documents, and accessing FAQs. HealthAssist
+enhances access to the nght provider at the right time.
+© HealthAssist
+
+« Increase Satisfaction: Provides a smoother, more personalized patient
+expenence.
+
+* Decrease Wait Times: Reduces the time patients spend waiting for
+appointments or information.
+
+« improved Access to Care: Enhances access to healthcare services, ensuring
+timely care delivery.
+
+« Streamline Pre-visit Process: Automated appointment scheduling, document
+submission, and preparation before visits.
+
+« Streamline Information Updates: Easily manages updates to patient
+information, such as contact details and health records.
+
+* Price Transparency: Offers clear and accurate pricing information.
+
+Agents
+
+HealthAssist supports agents in assisting patents and in care coordination, as well as tasks
+such as scheduling appointments and responding to FAQs, which enhances their performance.
+
+« Reduce Routine Requests: Automates common inquiries, freeing agents to handle
+more complex tasks.
+
+« Improve Agent Support and Performance: Increases efficiency by reducing call times
+and improving accuracy.
+
+« Improve Info Access: Provides quick access to relevant patient information during calls.
+Decrease After-Call Work: Minimizes the need for post-call documentation and
+follow-ups.
+
+« Increase/improve Compliance: Ensures adherence to healthcare regulations and
+protocols.
+
+« Training/Onboarding: Simplifies the onboarding process for new agents with real-time
+support and guidance.
+
+Caregivers
+
+HealthAssist supports caregivers to interact with EMRs, review lab results, receive notifications
+and alerts, document treatment plans, and assist patients with care instructions.
+
+« Increase Attendance: Ensures caregivers are present and ready for critical tasks with
+real-time updates.
+
+« Improve Patient Routing: Enhances the process of directing patients to the correct
+services and specialists.
+
+« Increase Top of Licensure: Allows caregivers to focus on tasks aligned with their
+training and expertise.
+
+« Increase Number of Appointments: Automates routine tasks, allowing caregivers to
+handle more appointments.
+© HealthAssist
+
+« Improve Documentation: Streamlines the documentation process, reducing errors and
+improving efficiency.
+
+Employees
+
+HealthAssist supports employees in handling tasks related to revenue cycle management,
+including claims, pre-authonzations, billing, and HR activities.
+« Increase Revenue: Enhances billing and claims accuracy, leading to faster payments.
+« Lower Admin Costs: Reduces administrative overhead through automation.
+« Streamline Patient Onboarding: Simplifies the onboarding process for new patients,
+reducing delays.
+« Improve Patient Information: Ensures the accuracy and availability of patient data
+across all systems.
+« CMS Transparency in Coverage: Helps healthcare organizations meet regulatory
+requirements for price transparency.
+
+Consumers
+
+HealthAssist supports consumers’ access to general information, such as finding healthcare
+providers, hours of operation, and wellness services.
+
+e Price Transparency: Ensures consumers have access to transparent pricing
+information.
+
+« Wellness Information: Provides information about the available wellness programs and
+Services.
+
+« Access to Free Services: Offers consumers details about free or low-cost health
+services like wellness clinics.
+
+« Provider Selection: Helps consumers find and select the best healthcare providers or
+specialists based on their needs.
+
+Capabilities
+
+Following are the capabilities that HealthAssist provider offers:
+
+e Appointment Management: Enables patients to schedule, reschedule, or cancel
+appointments through @ conversational interface. Supports integration with major EMR
+systems like Epic, Cemer, and NextGen.
+
+« Medication Management: Allows patients to view prescribed medications and receive
+reminders for prescription refills or dosages.
+
+e Lab Results: Patents can check lab results through secure, HIPAA-compliant
+interactions.
+
+« Care Team Information: Provides patients with details about their care team, including
+contact information, specialties, and availability.
+© HealthAssist
+
+« Symptom Checker: Integrates with clinical symptom-checking tools like Infermedica,
+Isabel, and Mediktor, guiding patients through a series of questions to help identify
+potential health issues.
+
+« Patient Records Access: Seamlessly connects to EMRs, enabling patients to access
+their medical history and records.
+
+« Task Automation: Handles routine inquiries and tasks such as FAQ responses, bill
+payments, and document requests, reducing administrative load.
+
+# Omnichannel Support: HealthAssist Provider is available via web, mobile, and voice
+channels
+
+* Real-time Analytics: Provides insights into system usage, patient interaction data, and
+operational performance, allowing organizations to track key metrics.
+
+HealthAssist for Payer
+
+Healthcare payers often face challenges such as high call center volumes and costs due
+to routine inquiries (¢.g., claims status, coverage information), member dissatisfaction
+caused by long wait times and limited access to information, and administrative
+inefficiencies in managing claims, pre-authorzation, and billing processes. HealthAssist
+addresses these pain points by automating many repetitive tasks that consume
+resources and cause friction in member interactions.
+
+HealthAssist for Payers is designed to streamline and improve interactions between
+healthcare payers (insurance companies) and their members, agents, employees,
+consumers, and providers. HealihAssist enhances health plan member engagement,
+streamlines member enrollment, and improves member satisfaction using a digital,
+self-service solution
+© HealthAssist
+
+ese NT + Health Assist
+1+) What aia con i bap you eh
+
+i rere: es ee pr tb
++ scart
+
+icon cor | Bander yom 7 +) feere gracpoer comune Gea
+
+Cl . + What inca | te-you who
+o— =
+9 hire ae
+Wor unreal deduct 6 E000 oth yo
+
+Panam omaet (f SOs pour Cecile,
+
+Wika va Hag a bermceer HP: Crud OF cd Bea
+9 ee
+
+Benefits
+
+HealthAssist Payers offers several key benefits to Members, Agents, Providers, Employees, and
+Consumers.
+
+Member Experience
+
+HealihAssist streamlines interactions between health plan members and thei payers by
+providing self-service tools for accessing ID cards, checking claims status, improving price
+transparency for healthcare services, and retrieving personalized health plan information. This
+allows members to get answers fo common questons and complete routine tasks without
+waiting for agent assistance.
+
+Agent Experience
+
+HealthAssist assists call center agents in providing better service to members by reducing
+routine tasks and automating common inquines such as claims status or coverage details. This
+reduces human interaction for routine requests, allowing them to focus on more complex
+queries and improving overall performance. It enhances agent performance and support
+through automated information access and improves agent training and onboarding with
+intelligent Al support.
+
+Provider Experience
+© HealthAssist
+
+HealthAssist assists providers in accessing health plan coverage information, checking prior
+authorization statuses, and streamlining the claim status process. Automating these workflows
+helps providers deliver patient care without the administrative burden of handling insurance
+details.
+
+Employee Experience
+
+HealthAssist enables employees to manage pre-authorizations, billing, claims, and HR-related
+responsibilities by automating repetitive administrative tasks, enhancing information availability,
+and optimizing intemal procedures.
+
+Consumer Experience
+
+HealthAssist provides transparency and access to educational content for consumers exploring
+health plans or seeking general healthcare information, such as finding a doctor or educational
+documents. This enhances their understanding of coverage options, helping them make
+informed healthcare decisions.
+
+Capabilities
+The following are the capabilities that HealthAssist payer offers:
+
+* Appointment Management: HealthAssist allows members to schedule and manage
+their healthcare appointments through a digital platform, streamlining the process and
+reducing the need for manual coordination.
+
+« Benefits Management: Members can access their health plan details, review benefits,
+and request coverage updates without having to contact customer service.
+
+« Care Team Management: Provides members with information about their care team,
+including contact details and roles, to improve communication and coordination.
+
+* Member Management: Facilitates self-service options for members, such as ID card
+replacement, updates to personal information, and account preference management.
+
+« Revenue Cycle Management ensures the smooth handling of billing and claims
+processing by automating common tasks and improving communication between payers
+and members.
+
+« Medication Management: In a secure environment, members can review prescribed
+medications, refill requests, and medication histories.
+
+« Employee Management Supports employees in managing their workflow, handling
+HR-related tasks, and addressing member inquiries more effectively.
+
+« FAQ/Search: Al-driven FAQ and search functionalities enable members to quickly find
+answers to common questions, reducing call volumes and improving service efficiency.
+
+HealthAssist for Life Science
+
+Today, the Healthcare industry faces several major issues, such as complexity and high volume
+of data involved in patient and provider interactions, which can overwhelm traditional systems
+© HealthAssist
+
+routine tasks such as adverse event reporting, patient onboarding, and clinical trial enrollment.
+HealthAssist simplifies this by automating all these routine tasks and tackles the problem of
+inefficient call center operations by providing intelligent, self-service solutions that streamline
+interactions and improve response times. Additionally, HealthAssist helps ensure compliance
+with regulatory requirements by automating the documentation and reporting processes.
+
+HealthAssist for Life Sciences is designed to enhance patient, agent, provider, employee, and
+consumer interactions through digital self-service and automation. It helps Life Science
+Organizations create self-service experiences for frequently asked questions, surveys,
+education, etc., and transform life science call centers by providing a digital-first approach.
+
+Benefits
+
+Patient Experience
+
+HealthAssist significantly enhances the patient experience by providing timely health reminders
+and personalized medication information, and seamless onboarding processes for new
+therapies. This self-service capability ensures that patients receive consistent updates about
+their health management, including drug interactions and adverse events, without the need for
+constant direct contact with healthcare providers.
+
+Agent Experience
+
+For call center agents, HealthAssist offers a transformative approach to handling patient
+inquines and support tasks. By automating routine requests and providing real-time access to
+comprehensive patient and product information FAQs, agents can focus on more complex
+issues that require human intervention. Agents also benefit from enhanced training and
+onboarding processes.
+
+Provider Benefits
+
+HealthAssist delivers substantial advantages to healthcare providers by facilitating efficient
+medical information and interaction management. The platform streamlines access to critical
+data such as drug interactions, clinical content, and patient information, thereby improving
+communication with medical affairs and other healthcare professionals.
+
+Employee Benefits
+
+Employees within life science organizations gain significant operational efficiencies from
+HealthAssist's automated processes. The platform supports streamlined reporting, simplified
+GRC (Govemance, Risk, and Compliance) tasks, Employee GRC Reporting, Drug Interactions /
+Adverse Events automated detection, Sales Rep report filing, checking targets. reviewing KPIs,
+© HealthAssist
+
+assisting employees with Help Desk and HR activities, and Coordinating StaffiFacility
+Resources Informational VAS and FAQS.
+
+Consumer Benefits
+
+HealthAssist provides consumers easy access to a wealth of general product information,
+educational resources, and assistance programs.
+
+Capabilities
+
+The following are the capabilities that HealthAssist Life Science offers:
+
+« Automated Inbound/Outbound Communications: Engages patients, providers, and
+employees through intelligent, Al-driven communications, handling both inbound and
+outbound interactions.
+
+« Adverse Event Reporting & Detection: This system automates the capture and
+reporting of adverse events, ensuring compliance with regulatory standards.
+
+* FAQs and Knowledge Base Search: Provides accurate and immediate responses to
+commonly asked questions.
+
+« Employee Assistance: Assists employees with intemal queries related to HR and IT,
+improving employee satisfaction and reducing support costs.
+
+Integration
+
+EMR/EHR Integration
+
+HealihAssist Provider supports integrating several EMRs to streamline data
+sharing and enhance workflow efficiency. The following is the list of supported
+
+EMRs.
+
+Epic
+Cemer
+Denticon
+NextGen
+
+For the Epic Integration, HealthAssist Provider offers two scheduling methods.
+Direct Scheduling and Open Scheduling
+
+Direct Scheduling: This method utilizes a two-factor authentication
+process with Epic MyChart, which requires a session PIN generated via
+the MyChart interface.
+
+Open Scheduling: This flexible model allows for creating new patient
+records and scheduling with providers across the organization.
+© HealthAssist
+
+Administrators can configure either Direct or Open Scheduling or a hybrid
+model based on their business and operational needs.
+
+Providers may use different EMRs and different methods. of authentication.
+HealthAssist task flows remain the same regardless of the authentication. For
+example, if a patient starts scheduling an appointment, the steps to make an
+appointment stay the same regardless of the EMR/authentication selected.
+
+Symptom Checker Integration
+
+What is a Clinical Symptom Checker?
+
+A. clinical symptom checker is an algonthm based on clinical best practices
+implemented as software and integrated with a patient-facing user interface.
+Patients describe thei clinical symptoms to the symptom-checking algonthm, and
+are prompted with follow-up questions to refine further the medical condition they
+are expenencing.
+
+Note: Clinical Symptom checkers are not a substitute for professional medical
+advice, diagnosis, or treatment. They are intended to offer quidance and be used
+as supplementary tools. It is advisable to consult a healthcare provider for a
+comprehensive evaluation and personalized médical advice.
+
+Supported Symptom Checkers
+
+HealthAssist integrates with vanous clinical symptom checkers via API:
+
+«= Infermedica
+«§=§[sabel
+«= |Mediktor
+
+In addition, HealthAssist supports the use of a customer-provided Urgency Table
+which associates clinical symptoms with a set of organizational priorities and
+Standards.
+
+In combination, the clinical symptom-checking service and organization-provided
+Urgency Table improve the dialogue between HA and patent to solicit and
+summarize their symptoms and recommend an appropnate provider specialty as
+as well as applying organizational policies regarding appointment offerings.
+Using the HealthAssist Urgency Table alone allows organizational imperatives to
+be implemented based onmachine learning (ML) and fundamental meaning
+© HealthAssist
+
+(FM) engines to deliver highly accurate understanding of conversations a
+patient's described symptoms and reasons for requesting their visit.
+
+Natural Language Processing (NLP)
+
+HealthAssist uses a combination of Machine Learning (ML) and Fundamental
+Meaning (FM) engines to deliver highly accurate conversation understanding. These two
+models capture user intent with minimal upfront training and ensure that interactions
+between patients, healthcare providers, and the system are efficient and intuitive.
+
+Machine Learning Engine
+
+Training:
+
+HealthAssist's ML model has been pre-trained with over 1,000 utterances in each
+supported language, allowing the virtual assistant to understand a wide range of queries
+out of the box. The platform also includes system entities like date, time, and numbers.
+Additionally, custom entities are designed to recognize specific healthcare-related inputs,
+such as ICD codes, appointment types, medical specialties, and provider details. This
+pre-training drastically reduces the need for extensive customization, ensuring a faster
+go-live.
+
+Intent Detection:
+
+HealthAssist employs a Few Shot Model for intent detection, improving user intention
+identification’s granularity with minimal training. This model relies on cosine similarity,
+measuring the similarity between different utterances to detect user intent accurately.
+The Few Shot Model's strength lies in its minimal reliance on specific pattems, allowing
+for a wide variety of utterance types, which increases accuracy across multiple
+scenanos.
+
+To configure the intent detection model in HealthAssist, navigate to Natural Language >
+Thresholds & Configurations > Machine Learning > Network Type. This section
+provides additional configuration options, enabling fine-tuning of the assistant's intent
+detection capabilities to suit specific operational needs. For more details on Network
+
+Types, click bere.
+
+~ Machine Learning @&
+
+Canfigure the thresholds. and configurations associated with Machine Leaming model
+
+Mobeork Typo
+
+Choose fhe Aebwork Type to train the indent models.
+Faw-shod Mocks! (Kore al Hosted Enibecdings) tet
+Standard
+
+MLP- BW
+
+al Pdi rd eevee Avil ear.
+© HealthAssist
+
+Fundamental Meaning
+
+Training:
+
+The Fundamental Meaning (FM) engine works differently from ML by using semantic
+rules and language context to detect user intent. The FM engine leverages synonyms,
+concepts, and patterns to interpret utterances. For instance, if a user mentions “doctor”
+or "physician," both terms are mapped to the concept of a healthcare provider, ensuring
+that the assistant can detect the correct intent regardless of terminology.
+
+Traits:
+
+In the FM model, traits are critical components for intent detection. Traits represent
+specific entities, attributes, or details that users might express during a conversation. For
+example, a user may ask about "aftemoon" availability without specifying an exact time.
+The FM engine uses this trait (aftemoon) to refine the conversation flow or provide
+relevant options based on time vanations.
+
+LLM & Generative Al
+
+Overview
+
+The latest version of Health Assist has been transformed into a more versatile and flexible
+platform to meet all your healthcare related needs. Powered by advanced Generative Al, itis
+designed to understand, process, and generate human-like text responses, significantly
+enhancing the user experience and offering flexibility and ease of enhancement.
+
+Features
+
+Automated Data Extraction: Al-powered application that enables automatic extraction
+and categorization of relevant information from user input.
+
+Natural Language Processing: Undersiands and processes natural language inputs,
+making it easier to capture entities like names, dates, job tiles, medical conditions etc.
+Customizable Rules: Allows setting up specific rules and conditions for capturing and
+processing data, ensunng the application aligns with policies and procedures.
+Consistent Data Handling: Rule-based entities ensure consistent and accurate data
+handling, minimizing discrepancies.
+
+Conversational Al: Engages in natural, human-like conversations with users, guiding
+them through the process. It can understand user inputs presented in multiple ways or
+using a complex set of instructions.
+© HealthAssist
+
+« Context-Aware Interactions: Understands the user context for interactions, enabling
+more relevant and personalized responses.
+
+Gen Al Configuration
+
+For the Gen Al support in HealthAssist, integrate your application with LLM and Generative Al
+models and configure the Dynamic Conversations feature.
+
+LLM Integration
+
+Go to the Generative Al and LLM integration page and configure the LLM model of your choice.
+For step-by-step instructions on integration with supported LLMs, refer to this documentation.
+
+Bower anus wane CL OD Heeeee 4] a @ cri lai [| oe
+a fa
+anarathed Al & LLM
+© Storyboard a 5 ~
+a Ty Lidl Bh Geeeraches Ai
+2 us
+AL) Fehr Aa
+cp doer! Tako.
+~ (LLM ienegrations
+i Snail Talk = iad Mi
+OC ome
+wy “ . @ sec ® Dome a and Bice: a Comte LLM
+Tbr
+= Thyhoak & Cathy
+oO Keg a 8G ET
+# Geneoies A Lis
+® @iiemo
+ dangrg Evewty
+hon va nmmeue St c=» ©
+
+Dynamic Conversations Configuration
+Enable the following configurations to optimize the use of Generative Al in workflows.
+
+Gen Al Node This is required when using the Gen Al node in dialogs.
+
+Gen Al Prompt This is required to use the Gen Al Prompt node in dialogs.
+Rephrase Dialog This feature enables the LLM to rephrase bot responses before
+Responses displaying them to the user.
+
+For more details, refer to this documentation.
+© HealthAssist
+
+HealthAssist Use Cases
+
+HealthAssist for Provider Use Cases
+
+Authentication
+
+The HealthAssist platfonn provides a seamless authentication process using key patient
+information such as name, phone number, gender, and date of birth. This method
+ensures a secure and straightforward way to verify patient identity during interactions.
+
++ HealthAssist 7 it + HealthAssist
+
+Tie Bp ORO wt oc pers Vou i peo name alg maa
+
+Tipe Gaege 10  e a perme "Yo
+
+Haney Sie Sep 10 Sd ae pe ves |
+
+I Paice ariel a DebeapePa te anti
+sca TOS eth pout OC OUI Hlercy Tae Sep 10 207M at aT pm
+
+Tine Sap 00 OM a TI pee We tb For further wenficwion, pleaie provide pour
+
+Cc) —
+Feeney Tet Sep 10 hdd od pe
+
+a The phon number prowised 1
+Mis that coment? faey Vor Gop 10 2a ace pm
+
+Tie Sep V0 SRD wt cas prs Yow
+
+“Thank you for the otails Richard You are
+
+Tied Shap a aoe pa Vid oe fully verted
+
+Hency Tae Sep 10 303d at hp
+
+Wenoy Te Bep 10 D0 ee] pe lp
+= * lurderstaead you wild lite to uae poet
+] For veriicaien purposes. pleas enber provider Whall af TDOOT ane yOu
+jour dale of Birth er eong?
+he, “ *e
+
+Schedule an Appointment
+
+HealthAssist offers an efficient appointment scheduling feature that allows patients to
+book, reschedule, or cancel appointments with healthcare providers seamlessly. This
+feature is integrated with leading Electronic Medical Record (EMR) systems such as
+Epic, Cerner, and NextGen, ensuring real-time availability and accuracy.
+
+Patients can schedule appointments through multiple channels, including web, mobile
+apps, or voice. HealthAssist uses a step-by-step conversational interface, where patients
+are guided to select their preferred provider, time slot, and location. For example, a
+patient can interact with the virtual assistant by saying, “| need to book an appointment
+© HealthAssist
+
+with Dr. Smith next week," and HealthAssist will check availability and confirm the
+appointment.
+
++ Health Asset rT Be # HealthAssiat
+Maer Tan Se 1 ST a 708 oe Ce PT
+:] Ths language maf to Engine.
+
+ot Plewae tag:the button below io choose 9
+Pireren erie | pa mefcerd wrorveke "eerie Citar apd epoca ere or
+i de a a a
+whe
+
+oe: mary | haeip you today
+
+Tree Soe w (Check Apatite Dots
+at Sapapeteevtr ramet foe Ls - ' =
+7 => puso
+F prvrpang 1: seheeaue thie appears
+in i OTe OTe Lil a nowy For ipo.
+i | Schedule an Appomirer
+mat ia
+2
+FER, cos sorter a “a = Post Op Vina
+Sagnaea 11s, Sou  e ane
+a 2 od foam ti ie
+Aer Pc bec
+FET seecteteir ar somictent Ey
+Pancp fue en 1th
+Uhre
+i bora 1 whareiecan i help you wht
+
+Read Appointment
+
+Healthssist's “Read an Appointment" feature lets patients easily retrieve details of their
+upcoming or past appointments with healthcare providers. This feature, integrated with
+leading EMR systems like Epic, Cerner, and NextGen, provides real-time access to
+appointment information, including date, time, location, and the attending provider's
+details.
+
+Patients can simply ask the virtual assistant, “When is my next appointment?” or “What
+are the details of my appointment with Dr. Smith?" HealthAssist will quickly respond with
+the requested information, ensuring clarity and convenience.
+© HealthAssist
+
++ HealthAssist
+
+Maney Tue Seo 10 2028 at 601-12 om
+<P What else can |help you with?
+
+Tut Sep 10 2024 af €001-32 pe ou
+
+Change the Gove of npr appointment
+
+ancy Tue Sep 10 2024 ABO em
+
+co Okay, | am looking up your upcoming
+medical appointments T
+
+You have 4 appointments scheduled. Which one would
+you fe to meechedule?
+
+Post Op Wisit
+SSepheriber 11th, 224 at 0900 AM
+Fred Hosen
+
+Duration 1 Sirens
+Located af Main Office, i Collier Ac, Atlanta, OA,
+4
+
+Poet Op Viel
+i Semencer 25h, 2024 of 00 AM
+he A
+
+Reschedule Appointment
+
+The HealthAssist "Reschedule Appointment" feature enables patients to modify their
+existing healthcare appointments effortlessly. Patients can simply request to change their
+appointment via voice or web channels, and HealthAssist will display available time slots
+based on the provider's schedule. Once a new time is selected, the system confirms the
+updated appointment, enhancing convenience, reducing administrative workload, and
+improving overall patient satisfaction.
+© HealthAssist
+
++ HealthAssist
+
+Haney Tue Sep 10 3004 af 201 pm
+
+ss What else can i hefip you with?
+
+Pisate select your prefered provider from the x
+av@labte list and choose o date that suis pour
+schedule.
+
+Tue Sep 10 2 at 61-32 os Fou
+
+Fred Boren tw
+
+hency Tue hep 10 Dood a eo 4 pn
+
+Sepaaembar 2024 ?
+J Otcay, Iam looking up your upcoming “
+
+madical appaaniments 7 ee oa Ba
+
+You have 4 apposriments scheduled. Which one would
+
+you like to reschedule 10 11 13
+Op Visi bh 7 18 2)
+ara 1th, 20024 at O90) AM 304 af, W
+Duration 15: rires x
+Located at Main Office, 998 Collier Ad, Astanta, GA, 4
+Bs
+Post Op Vesia
+a, Seplember 25th, 2024.af 0000 AM =
+a a hy, _/
+
+Fanny Tut Sep 1
+
+| Please tap the button below to choose a
+new appointonent shot
+
+Thewe aire The inailable appoisiresnts for Fred Arua = Check Available Sicts
+on Wistneaday, September 25th. pit
+Maney Tue Sep 102004 af 20211 pm
+cand AM -
+" a uf fim trying bo reschedule this appointment
+rn now for you
+oa1s3M
+a-20 AM
+Post Op Visit
+54M September 2905, 2004401199 AM
+Fred asen
+eet 15 rr
+15 aM renege tap ae
+0 AM
+
+ancy Tue Sep 10 2024 st 20218 om
+
+Peas bh Uf What else can |help you wath? b
+
+back
+
+© HealthAssist
+
+Cancel Appointment
+
+The HealthAssist “Cancel Appointment” feature lets patients easily cancel their
+scheduled healthcare appointments through a simple, automated process. Patients can
+initiate the cancellation request by providing basic information like their appointment
+details, after which HealthAssist confirms the cancellation and updates the provider's
+schedule in real-time.
+
++ HealthAssist
+
+Tue Sep 00200 at 2000034 pe Yow
+
+ancy Tue Sep 1020 ed on
+
+oT take 1 capsule by oral route every 12
+
+hours for 30 das for Worniting
+
+Hence Tue Sep 10 20d 2 pe
+
+I What aise can | eip pou with?
+
+Toe Sep $0 at 2 hind pee ew
+
+Mancy Tut Sep 10 2004 eee 13 pe
+
+I Okay, Iam koiing wp your upcoming
+Medical aopcninernts I
+
+Haney Tut dep 1020 a ae 16 pe
+
+4 You have | appoinment scheduled for
+
+October 9th, 2024
+
++ HealthAssist
+
+m
+
+<p
+
+5
+
+Poot Op Vieit
+
+October Sth, aida
+
+Fred Rosen
+
+Geo85 AM
+
+Quratian 15 mins
+
+Locaned at Masn Qefine, G95 Collar Fd,
+Atlinta Ga, R09
+
+Are you sure you weet te cancel thie
+appointment?
+
+Tes Bian
+
+Tue Sep 10-200 at ac10-24 pm eeu
+
+Maney Tue Sep 10 2d eo po
+[canceled this appoinimert for you. Mt
+
+Maney Tue Seq 10 3idd at Bd pm
+
+What elise cain Uteelgs yous with?
+
+Symptom Checker/Diagnosis
+
+The HealthAssist "Symptoms Checker/Diagnosis” feature empowers patients to self-assess
+their health concerns. It allows users to describe their symptoms and receive preliminary
+guidance on potential conditions. This feature facilitates a structured dialogue with patients,
+asking follow-up questions to refine symptom descriptions and provide more accurate
+recommendations. While itis not a substitute for professional medical evaluation, it helps quide
+patients toward appropriate care options and facilitates more informed consultations with
+© HealthAssist
+
+healthcare providers.
+
++ HealthAssist
+
+cr | Junderstand you would like to see your
+Brcridet evhal eyTnpaomna ane you
+experiencing?
+
+Tue Sep 80 224 at hc pen ew
+
+Naney Tue Sep 10 204. at 625008 pm
+
+“2h pn gonry'ba haber teas. (have a few
+questions betore we lock for a aulnabie
+appointment slot.
+
+Magmecy Tae Sep 10 2004 at 6 2508 pn
+a be the fewer 102.5 oF higher?
+
+Tut Sap 80 Ss at cS peri es
+
+Aepy Tue Sep 10 2004 15 pm
+
+“a Is the fewer 100.5 amd hag Geen there for
+mare than 3 days?
+
+Care Team
+
++ HealthAssist
+
+Tue Sep 10 Sod an 7 een
+
+Hof has not been there for 3 days
+
+Maney Tue Sep 10 2024 29 pe
+
+i Are you experiencing abdominal pain?
+
+Tut Sap 10 Doc wt oS peri eo
+
+ancy Tue Sep 10 204 Se on
+
+Thani for sharing shee deta.
+
+Mancy Tue Sep 10 2004. e220 pm
+
+®.
+
+ae a - bs
+
+a
+
+The HealthAssist "Care Team” feature enables patients to easily access information
+
+about their healthcare providers and care teams, ensuring seamless communication and
+
+collaboration. Through this feature, patients can view details about the doctors,
+specialists, and other healthcare professionals involved in their treatment, making it
+
+easier to manage ongoing care.
+
+© HealthAssist
+
++ HealthAssist
+
+Show more
+
+Hasep Tus Se Ph 2004 oo dem
+
+“4 What elee can | help you with?
+
+Tue Sep 10 2024 ot Sie pen Yo
+
+Haney Tue Ses ph 2c a oes om
+I Ok, Fen locking up your care team nore
+Weu hana 1 manniber of your care lear.
+
+Charles Comm
+Bude: CAREGIVER
+
+Aamep Tus See bh 20c4 adobe 8S em
+“OP What else can |help you with?
+
+Medication order
+
+The HealthAssist “Medication Order" feature offers patients a streamlined way to view
+and manage their prescribed medications. This feature allows patients to access details
+about their current prescriptions, including dosage, frequency, and instructions, ensuring
+they stay on top of their medication regimen. HealthAssist reduces the risk of missed
+doses and medication errors by providing real-time updates on prescription statuses and
+refills.
+© HealthAssist
+
++ HealthAssist
+
+Tose CLA a LO ee ag {
+
+Beney Tet Seo 10 20 eT
+
+(Chay, barn ening up pour cee mrcsicilin $00 ng coprele
+—— Preerriiedon Erin icey WIT
+Preuribed ir
+
+Vipera 4 active recicoon orders. To vee reore dete,
+
+eeieci a mecdication fora tha lat beds
+
+at B10 ER ee id
+
+Aapirn Law Dasa A rag nabia aetayedd
+hema Tut eg, 1S a
+“phe 1 capsule oy oem mane weary 12
+Vooling
+
+releane
+=] dee TE, TOT
+cach Barca
+Pecues foo 30 pe for
+
+Topeal EL 245 meg Diosty
+=] re 18, a aay Bue Sep Ta at OR oe
+
+‘a Whar eet oan i Pep na war?
+
+Medical Ontology
+
+The HealthAssist “Medication Ontology" feature leverages a structured knowledge base
+to provide accurate and comprehensive medication information. This ontology organizes
+and categorizes medication data, including drug interactions, side effects, dosage
+guidelines, and therapeutic classifications, making it easier for patients and healthcare
+providers to understand and manage treatments.
+
+Rgrery Tor ep 1 OD oe
+
+Fi OF “,
+
+a Porgy ete oF Pag ei EP aay Med eg 1S TS pee
+
+Begmey Tae ey EO aL Te
+
+a a - a ca 1M TAI “i enke ee the eid Condon:
+Conmponding ICD onde Toa fi 000M nb Hore foo
+Tae ep 0 es pe
+Bieeg Sr es
+
+a Plaga: prostde the CD once to locken, = fd a
+Glee Tam Se 8) pre wed a TY EY ter
+i Ph ing saad ao pe | eS, So CC ROR a
+i Here ar he 2970 Cet fe er eee el a Pa a:
+parr Pa MC FOL Te
+
+ay Se fee 19 2 dc oe | peal cae pg ra id
+
++ nes Chd Cae a ea pina Sekt Apr be eee
+P aurmamech cos E1100 in dad te | akg hh lt
+Famamres ened lee oes aad
+i aes rhe Dee eerie une rae ee pea lan ae a ay
+(ecko eee com Apes cay evi Been
+
+2 howtos ere ech Deer perm dial
+fey Tea Sa 0 es oe
+
+Rina int ora yp Wg] ete ee Pag wey ——_—
+
+h, 2 a Ss J
+
+© HealthAssist
+
+Health Care for Payers - Member Facing Use Cases
+
+Member Authentication
+
+The HealthAssist authentication feature for payers offers secure access for members by
+utilizing their unique member number. Once the member number is provided,
+HealthAssist sends a one-time password (OTP) to the registered mobile number or email
+associated with the member's account. This two-factor authentication process ensures
+that only authorized members can access their sensitive health plan information, claims
+status, and other services, safeguarding their data while maintaining a seamless user
+
+EXpenence.
+
++ Helthaeciet + HealthAssist
+
+Uhura sent the PIM code oe your eegiateredd
+eral kd
+Lt Pease tyoe In chen recetved
+
+Same. nan help pow with thet. Before
+
+Brecending. pease etter wot member
+9 = - | sess
+F mzase | Q Thanks! (wearable to very you
+
+loanisend 2 onefine PIA to ihe registered
+sailor phone raraber negithered with this
+ED serber number which would you preter?
+
++ First o@, is the cain ter yourtelt or aeother
+a Ber ae owe plan?
+
+i
+|, Dapeerabeat J
+
+Sarre. | cme eds yee wth the,
+
+lige ent tee FIN coce ion your nepahenec
+
+onal siren
++ Piguae Spe inwheen rece G a
+
+File a Claim
+
+HealthAssist for Payers simplifies the filing process by allowing health plan members to
+submit their claims digitally through an easy-to-use interface. Members can complete the
+medical benefit request form directly. Additionally, the platform supports uploading
+necessary documentation, including bill images or receipts, to ensure the claim is fully
+supported. This streamlined process eliminates manual paperwork and speeds up claim
+processing.
+weap xanvcvumania
+APRA iy Paiepurovarsy ded] pps pie ey,
+
+ae SO Soe oT a,
+FARA yey A jo A 6
+
+2A, PRY | ATL as YL [Pe |S
+
+FE EG
+
+eR
+cn guru apd yy LAr cup |G WY 6
+
+sad PG
+
+ad SS A OG A
+
+et ae + |
+UE | pes Bel ad
+
+saa os Lae BE OS a,
+
+ioe
+
+lee DE Oe a,
+
+ua O
+
+fo dary erie use gig an aeeag
+
+i aad a A, “i
+
+EE
+
+\
+
+|
+
+oo @ mm ©
+
+.uamped preening) ACY erp ‘RY
+
+Aue ep OCR pe |e
+
+aren Rae ogg) up mie saad crcl Lee apy
+cull yeu Gy pee Le pea Appt a ye
+
+7H
+
+Lh a
+Beira reel dete gue igh po ura dag te py FY
+(BU 0 GAS [A A A
+
+oo wm O
+feet Re 8]
+
+a
+(Ree UP pt PP ag uch pe]
+
+isanbay yyeueg jeaIpayy
+
+x
+
+a “
+=e ©
+
+aap Barre granu
+Jd SU TWU0O 01 Bg Pay
+
+ed ead EO A
+
+cand a ES LL,
+
+“npc sod a 8, anG mLyoon en ey o
+
+ad rd SO
+
+nad Sf EEG
+
+aa) ES)
+
+gen nud egemp eet ue aad [+]
+
+em ed EOE A L.
+
+ngmunyens =O
+
+wd rd Eo A
+
+Aroligacrapecn) iow F
+
+a =
+
+aad ce a EEE PL,
+
+ad ed ET a
+
+aad EP SEE SS
+
+20 ely 6
+bar te rey or
+
+ISISSYYYEAH ()
+© HealthAssist
+
+Request ID Card
+
+HealthAssist for Payers streamlines the process of requesting an ID card by offering
+members a quick and convenient self-service option. Members can request a new or
+
+replacement IID card through the platform, which automatically verifies. their identity and
+
+processes the request. The platform supports digital delivery options via phone or mail,
+allowing members to access a virtual ID card instantly.
+
+Pag LEES i your
+
++ physician for further details.
+
+Ths Peter Sa i Se
+
+Pitas bee 2) OE a BOS per Here b.acopy of your ID card
++ what alte can | halpeyou mith?
+Ths hae 0 2 a BO ers Cree =.
+Sod —~_e
+
+Tis Petar 0) OG ed 4: pars — = a tr
+— = FF
+
+He eit oe yu hue os Deere Care Plan a = ifs
+
+Ey Care Pies sited a Mibeiead Care Plan.
+
+Which iD card ani pees inching: for? a —
+—————
+=
+— ea
+
+Thu Mier 30) SS et EO pee
+
+Dean send a copy ofthls wa $M50n your
+moble or on your registered email ID. Which
+Tis hia 30 BO we 2 ps would ou preter?
+
+Bere ba copy of poer ID card
+
+. / \. /
+
+Add Dependent
+
+HealthAssist for Payers simplifies the process of adding dependents to a health plan by
+offering a seamless self-service feature for members. Members can easily submit a
+request to add a dependent, such as a spouse or child, by filling out a dependent form
+directly through the platform. The form captures essential details like the dependent's
+name, date of birth, and relationship to the member.
+© HealthAssist
+
+Fs a m
+HeithAseet Gependents information HeolthAgsiat
+meobae of 08 yoo! taped eel 10 ‘eich: dey i brers-ieat- fred Ae —————
+— L |
+Lar a PR Lee came? + ot = ne ee
++] Prauae check below ta cotta wear
+re La hg bere
+fia bias LO a a (aa in ge se ia =
+Th ten SEE BET
+Tig oka 01 20S Pare promi time A
+Dedecipidorsetion Fore a
+SGraor Ina Ge 2 nopy oF paar ID) cand ca . o inbeeiatally dienes
+pet tapered eed -
++ Po Pe HC! ee re Thu ete) ES el ps
+“) iia Ferate
+as Pa OR Tp - i+) feu wera co hig a eh
+co =e
+9 hat ee cue! bei you mt i aa ps rider RS iro
+wa [snes |
+Tis bee Li a Ld
+Wer ie Pe ee Th ae A SEE HOS pr
+Pparer 1 bnle bari La noetoman pe
+Pos Paka a BETS pes ieee eg bee
+Plate Tk Deitel at
+Coraruntion aling star at o
+=  -— :
+L j
+Ye. =i Ya =
+
+Co-Pay by Service
+
+HealthAssist for Payers streamlines the process of understanding and managing copays
+by service, making it easier for members to access critical information. Members can
+view detailed copay amounts based on specific services, such as doctor visits, specialist
+consultations, or prescription medications, directly through the platform.
+© HealthAssist
+
++ HealthAssist : + HeoalthAssist
+‘ved hep 11 SUS at 2 See , Care #10
+Autheripatiortor Rilease of Protected Health Speciale: ad
+Information Foren i succeisfulby gubeitned
++ Preventative care bt]
+itea lpg 11. PODS at TS es ‘Wed Mag 11 2007 st 3-30 pe
+9 Hene- is acopy of your form for reference +] ‘What elsecan | help you with?
+‘ive Mieg 11 S022 et See ited My 11 ST at Ce
+
++ ‘What else can | helg you with?
+
+Weed big 11 07 et ee ‘eed! Mag 1) 2S wt eh pe
+
+GHEE neem
+
+Seiad Rally: 11 SS ot Se pe
+
++ ‘Here are your oo-payment details: Service Tepe Ameurd
+Primary Care Pl)
+Service Tepe Amount Specialist re]
+Primary Care $10 Preventather cane A
+Soecieist 505 hed Mag 11 DODD an 7 Se pm
+p =— we +] What dsecan | help you with™
+Viva Pali 11 DS we Ea pes idea baling 11 SS wt: Sid pe
+
++ What ese can | hele you wth?
+
+Saeed
+
+A, y h, /
+
+Out-of-pocket limits
+
+HealthAssist for Payers simplifies health plan members' management and understanding
+of out-of-pocket limits. This feature allows members to easily track their healthcare
+
+spending and view how much they have contributed toward their annual out-of-pocket
+limit.
+© HealthAssist
+
+\
+
++ HealthAssist
+$2000, of which yous have rept $500 towards
+
+GD  sacectte
+
+eat olin 14, DOS ae 10 pw
+
++ ‘What else can | help you with?
+
+Weed Hy U8 SOO wt cI pe
+
+Silman ch SSS oe a? pe
+
+Wiad ley 1) OCS an ac pe
+aval allge 10 SOS wt 1 pe
+
+The: sews! deductible ter pour tarnidy is $4000
+
++) of which you have met $5000.
+
+(ae Mie LL 2002 at dc1330 pe
+
+‘What ese can | help youth?
+
+Wed May 0) 0G 4 pe
+
+i. 2
+CEE
+
+Weed ede a ches
++] ‘What else can help wou with™
+Wied Ming 1!) 2003 wt 2-35-47 pm
+Wed May 10 Sita en llpen
+
+‘Sour daughter Jane's anual deductible is
+$2000, of which you have met $1500 towards
+i+) the deductible,
+Wied alae LE a ace es
++ ‘Wehat eine can i help you with?
+
+ited! lng 11. 2OIS wt 4-35-23 pee
+
+Weed Maly 11 Bd be
+
+‘dour Out Co Network annual deckuectitolgy ig.
+
+$5000, of which you have mat $4500 towards
+
+your deductible. The annual deductible for your
++ Heenily 1a $0000 of which pou Pave met $5500,
+
+Weed ely LE AO ache
+
++] ‘What else can Uhelp you vith?
+
+a
+
+Request Annual Health Statement
+
+* a
+
+HealthAssist for Payers streamlines the process of requesting an Annual Health Statement for
+health plan members. Members can quickly request a summary of their healthcare services and
+expenses for the year, including details on claims, copays, out-of-pocket expenses, and covered
+benefits.
+© HealthAssist
+
+Init
+
+‘soar prirsary cane areydiclan is required te:
+andra your medical canditkon ard provicke
++ deuce ibatiad far a vie,
+
+Ved My 1 See
++] what eincae | hep you with?
+Wied Sigg 1) DO
+
+Mey 1b aA ee
+
+4, =
+
+2021 Annual Health Statement
+
+Your Health Plan Savings
+
+Medical claims:
+This chart and pie graph show how much your health care plan paid and how much you paid
+
+O YorSeege: 3 § Your Cot
+
+© HealthAssist
+
+Health Care for Payers -Provider Facing Use Cases
+
+Provider Validation
+
+Healthssist for Payers simplifies the provider validation process by allowing members
+to verify whether a healthcare plan is within the time limit. This feature enables members
+to quickly check a provider's eligibility, credentials, and validity before scheduling
+appointments or receiving care.
+
+~
+
++ HealthAssist } + HealthAssist y
+
+TS rg
+
+i+] = term are the plans this mamber is eligible for
+Select apian trom the Est in-view details
+
+ed tocheck a member's eligibility
+
+Deed Cae Paes:
+Effective Data: Aaruary 9, 2022
+
+Tis her 1 SS ot Be ee
+
+Play Loonfirm the MPH or Medicaid IID you Eye Care Pian
+i+] are inquiring about? ET Effective Chute: Mier, 322
+
+Thay Mar 10 2002 wt DEA pm
+Maceal Care Plan
++) Ofhective Cmte: Merch 10, 2003
+Thos Boag 2D SHOVE wt EPH oer
+
+— eee
+
+Thy Pla 10 200g a 20r1F pe
+
+Thus br 10) 2 at Bee pe
+
+Ts Potar SS ot S e
+
+‘ ‘This member has Medical Care Plan with ain
+
+effective date of March 10, 2022. This plan
+
+o 0 98 @
+
+Ths Mier 20) SO at Beep expires on March #, 2025.
+eta Teron
+Thu Mar 10 2002 at AL pen Tinea Pea 0) DD we BS em
+. Gg te
+/\ /
+
+Claim Status
+
+Health4ssist for Payers streamlines the claim status inquiry process, allowing members
+to easily check the progress of their submitted healthcare claims. Members can view
+© HealthAssist
+
+real-time updates on their claims, including approval status, payment details, and any
+required actions for pending claims.
+
+Lan
+
+Thar SUCH i Te Se
+
+Vester St REE ee
+
+That retnibe: bat bbeaicad Care Pan vith an
+aftecties det March 1 00] Trnplan
+emiren oo edarch & OG
+
+Wott as a a a pe
+
+1+] ‘What aha cus | help pou es
+
+Pig a DI TD at BC
+
+Peta Safe ES Saat pe
+‘Happy to beso! Myo bee th 17 dig ii
+nab, goat wclecte tun ron [T
+(Gthersiat icasuearca tar claim ning a
+
+o ==
+
+Dey ter Ba OG we: eb as
+
+~s,
+
+=
+
+9
+
+a
+
+emmy bo Peter Opie redress
+sorter po shea aed este tices [TF
+“Drherede (ope aioe Por Clans vain a
+mania 1D
+
+Thee br 10 20 a
+
+nm “BES ER a S15 oa
+
+a=
+_——.
+
+oo
+
+Pier 2020S oe Ls
+
+Tegel Pore deta tall alee bo
+thtuboon.
+
++
+9
+
+Teer Lee Foods ee
+
+Thea ha i SS ae HS
+
+oak Laem 3D,
+
+is har 1 Sa
+
+The belt pare: ee ed eit che EFT
+alta A rad eer Oe ALON
+30 Baa
+
+"Ps Pla BL) Jt Sak a
+
+Wise pies Dat 1a tres he ae
+ledewen gti fee ties chases”
+
+Ge)
+
+~
+
+© HealthAssist
+
+HealthAssist Administration
+
+Health Assist for Provider
+HealthAssist Provider Architecture
+
+Bot Access
+HealthAssist Provider bot can be accessed through the following channels:
+
+Accessing the Web Channel
+The HealthAssist Provider bot is accessible to users via the dedicated web URL. This
+channel enables users to navigate and interact easily with the bot's features.
+
+Accessing the Voice Channel
+© HealthAssist
+
+The HealthAssist Provider bot allows users to engage through voice calls in multiple
+languages.
+
+« English (EN): +1 938-888-2904
+
+* Arabic (AR): +1 251-351-4593
+
+* Spanish (ES): +1 251-297-3118
+
+Customizing HealthAssist with Workbench
+
+Workbench Introduction
+
+To create a virtual assistant that reflects the brand image and is engaging and
+usetul for their consumers, every organization needs to tailor the virtual
+assistants to suit their specific needs. HealthAssist allows easy customization
+of the assistant using the Solution Workbench. Solution Workbench provides a
+sandbox-like environment that will enable you to customize, personalize, and
+extend HealthAssist enabling capabilities without complex coding or resources.
+As an administrator, you can personalize the look and teel of HealthAssist,
+modify the conversational design, configure or pre-train it to respond to
+queries, enhance the assistant'’s capabilities to support customized use cases
+and monitor it for continuous improvements.
+
+Accessing the HealthAssist Workbench
+
+The HealthAssist team will create your account to set up a HealthAssist
+Provider VA for demonstration/testing. Ensure that you receive the email with
+Your Usemame and password.
+
+Once the account is created,
+© HealthAssist
+
+1. Open your web browser and navigate to the Workbench login page.
+
+GHeatthtesiss
+
+2. Enter your email ID and password.
+3. Click Sign In to access the Workbench.
+
+Dashboard Analysis
+
+The Overview dashboard gives a snapshot of the Virtual Assistant's conversations,
+user analytics, and performance over time. You can filter the information by date,
+conversation type (interactive and non-interactive), conversation status, and more.
+
+To view the Overview dashboard, click the Analyze tab on the top menu and then click
+Standard Dashboard in the left navigation. Select appropriate filters on the dashboard
+and click Apply.
+
+<need updated image>
+© HealthAssist
+
+Ce ee et — coer lll ee o t=]
+eee » Bowie Matrice
+— tonee ute ere oI
+Hosea ee eee
+oor oe
+Pe singe “ w aura
+_— =
+a
+il .
+Linara Per Day That Pires bop nad necked predate
+(yess
+2 | wih > , \
+al _ “oe _
+Theat Neat!
+That by oe oreeresiion Seasices Pes Coy
+= | \
+a” oO"
+Ou _
+} )
+Tait hat
+br eeerere cere Dee ence 9; Pale ery OC
+
+Assistant Personalization
+
+Branding and User Interface Customization
+
+Branding helps build trust and familiarity in user interactions with HealthAssist.
+The platform provides customization options to ensure the virtual assistant
+aligns with your organization's brand identity, creating a consistent and
+professional experience for users.
+
+(D tigmth dapat EARLS DOSNT ETTORE SET il or ranaaren ranqe 7 a Oo ana =] oO
+
+2 amorer seca - Branding:
+
+|- ere on Mare
+FA secs tera an bet
+tend a ong Lo
+
+Gh carce weirs
+
+FR ade ccs
+
+Site eee
+
+Bama ol che Jiri
+
+He aed
+
+tia Li
+
+AE Fm pid ar
+oN Eo pall re Se bare a ah Sr aa sd ey
+
+Wen ions ti Coshgeutan
+Woks! Thercer
+
+Cetin gL re OD ctax3:_| ““@
+© HealthAssist
+
+You can configure the following elements of HealthAssist to represent your
+brand:
+
+Company Name: Name of the company
+
+Company Logo: Logo of the company
+
+Assistant Name: Name to be displayed on the top of the virtual
+assistant widget representing your service desk
+
+« Assistant Logo: Logo to be displayed along with the name on the top of
+the virtual assistant widget.
+
+« Widget Theme: Color scheme to be used for the virtual assistant
+widget. There are two color themes available by default. You can also
+create anew color scheme as per your requirements. To create a
+custom widget, refer to the following section.
+
+To create a new theme or modify the existing one to suit your requirements,
+
+1. Navigate to the Branding page under Assistant Personalization.
+
+ited GMT RS RT BETTE a en a ed | oS
+
+oD serra,
+eps dort
+
+| ff oe
+GB eres
+6 a
+Bose meres
+
+fe hogar pracy ed Bhar pe yh romp fH het prt pT eer as prep
+
+‘Perk Minit OS coterie
+
+Woes he
+
+— =
+
+= iS)
+2. Click the Create Theme button to add a custom theme for the widget
+and give ita name. This opens the theme editor, which allows you to
+customize the color combinations for the chat widget, employee
+messages, and bot messages.
+
+© HealthAssist
+
+You can visually preview the changes made in the editor in the chat
+widget on the right panel.
+
+Assistant Configuration
+
+Appointment Manager
+
+The appointment manager is designed to streamline the scheduling process for
+healthcare providers. For an admin, an appointment manager offers the
+following functionalities.
+
+Scheduling an Appointment
+Rescheduling an Appointment
+Get an appointment
+
+Cancel an appointment
+
+To access the appointment manager,
+© HealthAssist
+
+1. Navigate to the configuration tab and select the appointment manager
+from the assistant configuration menu on the left.
+
+Cefn Che er tT Ti ae Tier) ites — ue ree 7 a a ea | =]
+Tl crane aera ree Appoltia nt Manager
+fei
+
+creda Apart
+By eee teu:
+
+2 Pura Boos
+
+omer
+i ieee: Gi
+Be okanerest cormearce
+
+Bi tome Ca ipeeeres GD
+
+| ( Amwchrensat memes
+fi
+Bee
+
+a Cy Fee
+te et
+
+eee
+
+2. To enable or disable a specific appointment type, toggle the switch next to
+it.
+
+Symptom Triage
+
+The Symptom Triage feature in HealthAssist helps healthcare providers and
+patients efficiently assess symptoms and determine appropriate next steps. The
+Symptom Triage system prompts users to input their symptoms. It quides them
+through a series of follow-up questions, helping to narrow down potential medical
+conditions and recommend relevant actions.
+
+Symptom Triage is not a substitute for professional medical advice, diagnosis, or
+treatment, but rather it serves as a supplementary tool to assist in providing more
+accurate and timely care.
+
+To configure symptom triage,
+© HealthAssist
+
+1. Navigate to the configuration tab and select the symptom triage from
+the assistant configuration menu on the left
+
+foe een ee Mt eco] — ft eee | oc Fe | Oo
+( akdetteart poner. Syonpénm Triage
+#7 rere
+
+‘weer Tie
+Fy tet trnteg
+
+ee
+- eg
+
+Boe ee
+
+bie Hes
+
+6 comers
+
+GA samc ete L
+| tee bo
+
+dl terns =
+a Co Tee
+
+i Medes ble
+
+S reo
+
+2. Under the Symptom Triage section, choose the desired symptom
+checker service (e.g., Infermedica, Isabel, or Mediktor) from the
+
+drop-down list.
+3. Click Save.
+Enterprise
+
+In the Enterprise section of the HealthAssist configuration, you can select the
+desired backend Electronic Medical Record (EMR) system to integrate with the
+virtual assistant. This process allows you to set up the connection to the
+healthcare organization's EMR and configure how the virtual assistant interacts
+with it.
+
+To configure EMR,
+© HealthAssist
+
+1. Navigate to the configuration tab and select the Enterprise from the
+assistant configuration menu on the lett.
+
+(Die BEML YER CORIIGEETIDE GTRORATINES aT TEES ee o. imi | ©
+= Laie lel (Eniapiiee
+* bore
+Lie he Hariri
+GB bere tees
+a = Drs ine, einen Reewons
+HS ieee eee
+
+coer! a
+
+2. Select the EMR system that your organization uses from the available
+options. HealthAssist supports multiple EMR systems like Epic, Cerner,
+Denticon, and NextGen.
+
+3. After selecting the EMR, select the authentication mechanism from the
+drop-down menu. The authentication mechanism varies based on the
+EMR system. For example, Epic supports two different authentication
+methods:
+
+&. Open Authentication (via PatientLookup): This method allows
+for more flexible access, enabling patients to search for
+appointments and schedule them without logging into MyChart.
+
+b. Direct Scheduling (via MyChart): This method uses a more
+secure two-factor authentication process. Patients must log in
+using their Epic MyChart credentials. During this process, a
+session PIN is generated for security, and patients must have their
+records pre-configured in MyChart.
+
+Geweneaea | EREUTTED COMMER ESTUCRETIOSE | BITTONO ee ee ie o
+0 ae eee Enterpran
+epee
+
+Prep perey irargranoe Farrar
+OB er ree
+5 ome Vircicme hreinal evens
+TE Serie ints
+A eres ose
+Ciera Poe
+Boss
+
+tt = | crest
+
+tee tan
+ba) Srv ca
+aa Core Trae
+
+foros ete an
+© HealthAssist
+
+Notifications & Reminders
+
+<placeholder>
+
+Settings
+
+Invite Members
+
+As an administrator, you can create users in the Workbench. Workbench
+defines a set of user roles like Analyst, Developer, Tester, etc. Each role has a
+different set of permissions. An admin can add other team members and assign
+them appropriate roles based on their assigned responsibilities. The
+combination of the user role and the context determines the permissions for the
+user. For example, an analyst may have editing access to only the Analytics
+page, whereas a tester may only have editing access to the test sections on the
+Workbench.
+
+Only an admin can perform user management tasks. An admin can add a new
+user, delete an existing user, and promote an existing user to the admin role.
+
+To add a new user:
+
+1. Click Invite Members under the Settings tab. This page lists the existing
+users of the Workbench.
+
+2. Click Add User button at the bottom of the existing users’ list.
+
+3. Enter the email id of one or more team members to be invited and assign
+a role.
+
+4. Click Add.
+
+Add workbench user
+To delete an existing user:
+
+1. Go to the list of users under the Invite Members page.
+© HealthAssist
+
+2. Click the settings icon against the name of the user to be
+deleted.
+3. Select the Delete option fram the list.
+
+ARUGATESE = CRUE BETTI TTR TET abn Oreos m=
+
+a invite Members
+Ty ace
+[==] baer tere nn
+oO TMI roact Lieer
++ eel Lee
+Delete workbench user
+
+To promote or change the role of a user:
+
+1. Go to the list of users under the Invite Members page.
+2. Click the settings icon against the name of the user to be deleted.
+3. Select the Promote as owner option from the list.
+4. Modify the role of the user as required and Save.
+. ue (evite Members
+
+Ts
+
+i Og dale
+
+[re epee or Preckel Lae
+
+Rete Lie
+
+Promote workbench user
+
+Language Confiquration
+
+=e
+© HealthAssist
+
+HealhAssist provides native language support directly for a few languages,
+including Spanish and Arabic, with English as the default lanquage. The support will
+be extended to many more lanquages in the future.
+
+You can enable more than one employee lanquage at 4 time. HealhAssist can
+automatically identify the language in which the employee interacts with the
+assistant from one of the enabled languages. The assistant continues to
+communicate with the employee in the same language. If the employee
+switches to another enabled language anytime later, the assistant automatically
+changes to the new language.
+
+Go to the Languages under the Settings tab to enable the assistant to use one
+or more languages. All the supported lanquages are listed here. Use the toggle
+button against the lanquage name to enable one or more languages.
+
+Language Management oi
+
+. - Standard Languages ny
+
+Wg arg Dal died PERCE RACUaly for enya DHE ee quage. Lowe More
+
+aes soca | + AcLanauace |
+
+EH Engin Gieteult Language Enabled
+ES Spanish > fraps
+AR Arabic brated
+
+You can also add a new language to be supported in the assistant. For more
+details, refer to this.
+
+HealthAssist identifies the language the employee uses based on the language
+selection logic. Language selection can be set to one of the following.
+
+« = Lifetime: Once the employee's language is identified, it is set as the
+preferred language until the employee chooses to switch.
+
+« Per session Once the language is identified, it is set as the preferred
+language for the session.
+© HealthAssist
+
+« Every user message: The assistant identifies the lanquage for every
+employee message.
+
+AU OC. ie] 2 SED Of aS Tet
+
+Language Detention Tiresframa
+Lifetime
+Get user input language on cieoution count
+
+The detected language, wil be food for fhe comeietes easton on fhe eeecution count
+
+= a Execatinon Count pst tc: 1
+
+Par Sealant: Road eect Ihe utlaece language at the baginning of avery session
+
+Bory User Mansage Init langage Fen cory WEG reosage and ued Aas Ohio ees peetarredd langue unl a ray
+leiregpacecp ba idence Recetas ised ip.
+
+Note that for effective communication of the assistant with the employee, the
+conversational messages of the assistant should be configured for all the
+enabled lanquages in the Workbench.
+
+reciaieom Werner fe Var Charars
+
+0 ac a
+
+(Scary Cea han”
+ar sao mar
+
+te Perio x pe)
+
+To modify the messages for a particular language, select the language from the
+drop-down menu on the top right corner of the Workbench and enter the
+messages.
+
+Language Selection Logic
+© HealthAssist
+
+(Ceecenircer Minera boa ede: Caray
+
+PS ee i Re 2 SS
+
+Publish configuration changes
+
+After the configuration, testing, and integration of the assistant is completed
+using Workbench, you can publish the changes for use. To do so, click Publish
+under the Test and Deploy tab.
+
+EeesHedosit BKELFTICS CCHPUEUETIGH TEGRATIONS SETTING. Com So Pram esa a o ae
+
+BA seed ea Publish
+i cab ce
+
+P mete
+
+Select the changes to be published and Proceed to confirm.
+
+If there are any pending or incomplete configurations, they will be listed in the
+beginning. You can choose to complete those configurations or continue to
+publish.
+© HealthAssist
+
+Integration
+
+Channel Integration
+
+HealthAssist can be configured to work seamlessly with various widely used
+communication channels, making it easy and convenient for employees to perform
+their everyday tasks through the same preferred channel.
+
+You can integrate HealthAssist with one or more channels. HealthAssist will
+communicate with the employees through any of those integrated channels.
+
+if you want to integrate HealthAssist with a custom communication system, use the
+webhook channel to enable it. For more information on the webhook channel, refer to
+this. Similarly, you can use the Web/Mobile client to create a chat widget for a web
+page or a mobile application. If you wish to modify the look and feel of the widget, you
+can use the web/mobile SDK. Find more information on setting up web and mobile
+cllent channels here.
+
+To configure any of the available channels, go to the Channels under the Integrations
+
+tab.
+
+Giesthdasiri BRELTTIOS OOF POLGETION TEGAN: SCT TDS av Pn ramen manga a e ead | Oo
+A he Chanmats
+(rye Configueed Cranrents
+
+& eam
+
+eae rad. AA ea A PC ec, A em CCM CY
+
+u een by eg cle chee eerie oe ered cha cep opine IT or paris ah |
+
+ty wr o Wee) Miche Dleri. @ Terilic SHS:
+© HealthAssist
+
+The configured channels are listed at the top of the page. To configure any other
+
+channel, click the channel name from the list.
+
+Bietkdede!  SHELETICH CSHRCURUITION IRTECEATICNE = ENTtmceE
+| © cums Channets
+GC) a cur ae
+
+& Hrattensot
+
+= Fed oer oie eed tenis eres Herero ht
+See Oy Br Cree Ce eager cer ed oe he
+
+5 eo:
+
+wrong teeeees ae
+
+Cees = SP Rated hee a
+
+a= Bo
+
+Wihalilipe Busters Modckigirey =
+
+oietion Conyerution
+
+Rturipg 6 o cine, pecans ond eae voy iow eee Io Pech Mer Cee A Kev
+Pe rahe, Pema) eras ear Ty eh a a area ee Cmte ey ee
+abeal
+
+oer fo eae a Rag yeep erp oe are eed eed, ee
+pubic poavioe
+
+Penn elec! (he Periegeeg pee res yo Opie toe ei We a Breet rei
+
+ink “
+
+Ham
+
+«The no puctions aod configurations af the Chere wil chee bed of the deci
+managing parrer
+
+@ The neannge tamnpinies gore iby Borel to te prosicer willie based on the medectes
+ce Con)
+
+Step 1 Asaockilind Mernar
+
+Looe no lnlom daaoner coral mciier men chee att para. Cece 2 tha La preted
+
+Ea oes
+
+Under the Configurations tab, provide application-specific configurations. Then, use
+the help and details provided under the Instructions tab to enter the field values.
+
+If you have any queries about integration with a particular channel or system, prompt
+users to input their symptoms. It is then a custom app; please contact us.
+
+Live Agent Transfer
+< placeholder>
+
+Agent Experience
+
+Agent Console
+
+Introduction
+
+In HealthAssist, the agent experience is driven by AgentAl and the SmartAssist Agent
+Console, enabling agents to effectively manage customer interactions, improve
+© HealthAssist
+
+productivity, and enhance service quality. It ensures that agents are well-equipped to
+deliver quick, accurate, and personalized support through a seamless interface.
+
+The Agent Console allows agents to access AgentAssist and execute conversational
+tasks. AgentAssist seamlessly performs the following functions:
+
+« Guide agents through conversations by providing response suggestions.
+
+« Find information from an external system or knowledge base.
+
+« Provide structured training and coaching to Agents.
+
+Access the Console
+
+To access the console from the SmartAssist interface, follow these steps:
+1. Open the bot ona web channel.
+2. Navigate to the Agent Console login URL and enter your smartassist
+credentials.
+3. Initiate a transfer request from the web bot interface and accept the new
+transfer request from the queue and proceed.
+
+The Agent Console is an agent's primary working area consisting of the following
+panels:
+1. The Conversation Tray
+2. Incoming Interactions (Next Customer notification)
+3. Live Interaction Pane
+4. Additional Tools (AgentAssist Widget, History, Actions, Responses, User Info).
+For more information, refer to the smartassist documentation.
+
+o = 2
+1 Ba _—
+or mn =|
+a irene
+6
+rey —_ —-
+eee =
+oe |...
+a |
+ee
+_
+OEY DP
+—— J .— aa
+— @ c= a,
+Lt tee Le
+oe
+= oa “ees
+a a
+
+© HealthAssist
+
+Agent Real-time Coaching
+
+The real-time coaching feature of HealthAssist offers instant feedback and
+guidance to agents during live interactions. Using AgentAssist, the system
+analyzes agent utterances and speech patterns to detect specific phrases and
+trigger relevant actions. This feature helps agents respond effectively, ensuring
+better service quality and compliance with organizational guidelines. For
+example, if an agent discusses appointment cancellations, AgentAssist may
+suggest rescheduling options or key information to confirm.
+
+Rete ome et Seaeas a os
+a 7 TET ses eo BB
+et a =a
+oy, =a
+ee i el — Ei
+Pera
+decane Sy al F
+Teac a -
+ia Teac a ao ¥
+Ager hi Broo
+aie ng KF
+* a
+Seorsrmras hms a ts
+ium 2
+2 . ip ny ang PM AC dln GC PL, rl a Rasy:
+fim aks Pa a . -
+Pe ts ae ad =
+fei he a:
+‘a Pp’ ~_
+
+Agent Playbook enhances the efficiency and effectiveness of agents by
+providing structured guidance throughout their workflows. This feature offers
+supervisors the ability to monitor agent performance and adherence to the
+prescribed steps within the playbook. To access this feature, agents can
+navigate to the Playbook section within the Agent Console, where they can
+select topics that align with the user's query. Once a topic is selected, the
+comesponding standard response is sent to the user interacting with the agent,
+© HealthAssist
+
+while the system tracks adherence for supervisor evaluation.
+
+oOo hekebeeth | imemaini 5 == 7 no & Em = |
+— —
+n= : Bene *
+| = -oF ibthasd
+a _
+—— = Ss
+a ———
+“ =e
+a #
+=n -
+er
+Auto Summarization
+
+The feature shortens lengthy information into concise summaries. It utilizes the
+
+capabilities of XO GPT to effectively rephrase complex dialogues and extract
+key points, generating clear and coherent closing notes of the conversation.
+
+=] ee -oNEE 7 rs = ODes
++ aS 7 freer
+==
+o ee —_— .
+
+a
+es Ace
+
+dusto genevated summary ¥ GPT en
+
+© HealthAssist
+
+Health Assist for Payer
+
+Introduction
+
+The HealthAssist for Payer streamlines interactions between members, providers, and payers
+by automating key insurance-related tasks. It enables members to self-manage their policies,
+such as filing claims, requesting ID cards, checking copays, or adding dependents, and allows
+providers to verity patient eligibility and monitor claim statuses.
+
+HealthAssist for Payers offers multiple integration options to ensure seamless connectivity
+between the virtual assistant and backend systems.
+
+Platform Data Tables: The integration with platform data tables ensures seamless access to
+essential member and provider information, enabling efficient authentication using member
+number and date of birth (DOB).
+
+SearchAssist: The integration with SearchAssist enhances the experience by extracting
+relevant data from uploaded documents, using both extraction and generative Al models for
+rephrasing. HealthAssist for Payer supports multiple communication channels, including web
+and phone, and integrates with agent consoles to facilitate live support for complex queries,
+ensuring a comprehensive and efficient member and provider experience.
+
+Data Table Integration
+
+Data tables provide a structured way to store and access low-volume, conversation-relevant
+information that can significantly improve the quality and efficiency of user interactions.
+
+You can create a data table and share it with virtual assistants, apps and process assistants.
+
+Step to create a new table:
+© HealthAssist
+
+1. Go to the Data tab in the Home page and select the Data Tables option and click
+Create Data Table.
+
+GO Platform ST eT CU [=] omer ep B-
+=a __. Gate Tales ©
+
+am iy andy Seared Tepe
+
+Fp Deedes Tebtes ected ee
+
+ng cere Deep Lee ioe peng aed merger ey ea cepewrtes yer hone
+
+=r —
+
+2. Inthe New Table page, enter the following details:
+a. Name of the Data Table.
+b. Description of the Data Table.
+c. Columns to be included in the Table.
+d. Indexes for the Table.
+e. Bot Assignments to let virtual assistants access data in this table.
+f. App Assignments to let apps access data in this table.
+g. Process Assignments to let a process app access data in this table.
+Pires Tintba
+
+uke thihilida
+
+The Ln is adhd) 00 Shore Guelervay Canal
+© HealthAssist
+
+3. Click Create.
+For more information on the new table page, refer to the data table.
+
+Import & Export
+
+You can export and import Data Table definitions as JSON format files.
+
+Export a Data Table
+
+Steps:
+
+1. Hover over the table definition that you want to Export
+2. Click the more (ellipses) icon and select Export Definition
+3. AJSON file is generated and downloaded.
+
+Data Tables | New tata | !
+
+atccuridalaki Ctaite af the accra —— sure ee a — [i]
+Tht table i bo store the 1 Bas Jenn Sanit Jobin Sth Pees) Dela
+
+Sustorverse tats Curelietver delay 14Appe ‘d +) Delete
+Import a Data Table
+Steps:
+
+1. Click the down arrow next to the New Table button.
+
+?. Select the Import Table Definition option.
+
+3. Enter a Table Name and select the JSON file containing the table definition.
+
+4. Click Import.
+
+Data Tables as
+
+port Tatts Delinkin
+
+1 Bate (der pula Pict party Manjula Paisparty
+moDoUNIcetads Getads of the account
+
+So Ape fh 1 Pe
+uso tails Thnk Late be be are Uae 1 Bate. Manpla Scdaparty : Margulis: Perperty
+
+Customer cetais So Ape
+
+© HealthAssist
+
+Sample Data Definition in the JSON file
+
+{"name": "customertable" ,
+“description’: "Table containing customer details",
+“indexes” :[],
+
+“schemaDef": [{"name":"CustEmail",
+"type": "string",
+"isRequired": false,
+“isEnerypted": false,
+"reference": {},
+“maxLength":"",
+"default": ""},
+
+{"name":"CustType" ,
+“type: "string",
+"isRequired": false,
+“isEnerypted": false,
+"reference": {},
+“maxLength":"",
+"default": "Preferred" },
+
+{"name":"sys_Id" "type": "string", “isRequired”: true, "readOnly": true},
+{"name":"Created_On", "type": "date", "isRequired": true, “readOnly": true},
+
+{"name":"Updated_On", "type": "date", "isRequired" : true, “readOnly": true},
+
+For more information on the data table integration, refer to the data table.
+
+SearchAssist Integration
+
+Introduction
+
+Organizations store information across various sources like websites, third-party apps, blogs,
+help centers, user guides, and product catalogs, with content available in both structured
+(CSV, JSON) and unstructured formats (documents, media files). Finding specific information
+across these diverse sources can be challenging.
+
+SearchAssist simplifies this process by allowing the ingestion of data from multiple
+sources—such as files, web pages, and applications—into a single platform. This functionality
+© HealthAssist
+
+streamlines the process of locating information, eliminating the need to manually locate
+specific documents and sift through their contents, thus saving users both time and energy.
+Step 1: Signup and Login
+
+1. if you are a new user, the first step is to signup for a new account using your email
+address. Visit our home page and proceed to the signup section. You can signup using
+your email address or by using any of the Single Sign-on (SSO) options.
+
+For more information, refer to SearchAssist Onboarding.
+
+2. After successfully completing the signup process, log in to the account, and get
+started.
+© HealthAssist
+
+3. Workspace is where you can build your apps
+users for collaboration.
+
+O) Senehaiissiot
+Lets sctup your workspace
+
+fered cee pares heed yr rae
+
+. You can share the workspace with other
+
+Waris. Fira) fea) nitive,
+Conversational 2
+Complete Search
+Eaparence
+
+ia’
+Lf r
+a .
+
+af. ¥
+
+4. Enter a name for your workspace and click Continue. This will create your workspace.
+
+You will also see an introductory video explai
+
+ning the features of SearchAssist.
+
+kore &)
+
+Weeooiet ta Sear
+
+Ce ee
+
+raed bebe,
+
+© HealthAssist
+
+5. Within the workspace, create your application. You can use the option to create an app
+with some sample data or choose to start from scratch.
+0 Raper pepe:
+
+Wietcomay 17485 i
+
+Few clicks aivay fromm
+
+rw tapes apna Bw ‘creating your Search
+Empornenne
+Cepare pg oars faarcmy De = -
+Ce =
+
+6. Enter a name and description for the application.
+(Seer hae
+
+‘Welton 12215 @
+
+a ary be pee ara
+samme
+
+oe
+
+% On successful creation, it shows the dashboard of the application
+
+Step 2: File Upload
+
+You have the option to upload single files from a local device or a URL. Alternatively, you can
+also upload many files simultaneously from a designated directory. The uploaded files are
+organized into directories in the SearchAssist application. A default directory is always
+present to store individual files. Once a file is successfully uploaded to the SearchAssist
+application, itis automatically indexed and is readily available for search.
+© HealthAssist
+
+Supported File formats:
+
+# Search Results: POF, DOCX, PPT, JPEG, PNG, and TXT
+# Extractive Answers: PDF
+« Generative Answers: PDF, DOCX, PPT and TXT
+Scanned PDFs and password-encrypted PDFs are not currently supported.
+
+To add content from files, follow the steps outline below:
+
+1. Navigate to the File Upload page under the Sources tab. Click the Upload button
+
+ss || = re g=
+— . Fin Uipiced
+oo oo
+
+rey
+2 ee
+WU domsomrms ams
+
+o Con
+
+a.
+
+Feu er eee ey ee
+
+2. To upload an individual file, select the FILE radio button. Select the directory under
+which you want the file to be uploaded in the SearchAssist application. lf no directory
+is created in the application, the files are uploaded to the default directory. After
+selecting the directory, provide the location of the file, and click Proceed. This will
+upload the local file and make it available in the SearchAssist application.
+© HealthAssist
+
+@ er UL EEC Te
+
+bein “
+
+fe MICMEDSAL 3002 BOE x
+
+[ee
+
+3. Once the file is uploaded, a dialog box is displayed with the status as shown below.
+
+4. You can see the files that have been successfully uploaded, either individually or as
+part of the directory upload, under the File Upload page and their details on the right,
+© HealthAssist
+
+such as status marked as ‘Success’.
+
+Glows kee ne aseeci- | ee
+
+oS = baie Liebe)
+© eect
+S tea
+a * Hen Cemmery tere ween Foren mere,
+Soe
+' 7
+a be a Be
+. a
+
+To upload more files, use the Upload button on the top right.
+
+ams ra
+
+Ot | He |
+
+Thane
+
+om
+
+Glows kee ne aseeci- | ee
+
+a be it 1B Bee
+Umer Sa
+
+a]
+a
+
+oS = baie Liebe)
+
+© eect
+
+S tea
+
+a * Hen Cemmery tere ween Foren mere,
+Soe
+
+ams ra
+
+Ot | He |
+
+Thane
+
+o— Fy]
+© HealthAssist
+
+Delete a File
+
+To delete one or more files from the SearchAssist application, go to the corresponding
+folders, select the files, and click the Delete button on the top.
+
+Bowers ce sem ees. ee cig Peis item | ao
+=z Pile Lip CS 2 ie TL
+D Pete
+| = eee . a
+So + nae tmereey
+oo
+is = = ees
+Ory
+tate
+Tint
+
+Alternatively, click the delete icon corresponding to the file to be deleted.
+
+Gowers ces se aeerecr- | ee mai | Fe eo | oOo
+
+tn =
+Pete
+
+| = renee
+S
+can
+
+OF ever
+oO ery
+
++ meleeesy
+
+5 ire.
+
+dae
+
+eta
+
+Pie Lipkoaal «Sh 2 om 7 Unto
+
+es ahs
+
+Search Files
+
+© HealthAssist
+
+When there are many files, you can use the search feature to look for a specific file in
+
+a directory.
+ee A a PCL - che a Phe hae a rl =e
+a a
+— fo =
+Cee Cee
+| = sue
+
+@ rin > a
+ue wm rane eran ao a i sar ta
+
+S we
+
+nea
+
+o 1 Se oe
+a a Lanner 2 Oe ee Ce]
+ad
+
+& pve 2 ears
+
+Train a File
+After selecting the documents, click the Train button located at the tap. The system
+
+will process the selected document(s) for training.
+
+(Booraeres eco ees ane ie Veridoe E> Preview (tree ra co o
+—e = Fig Wpicad LIE i nS ke eee
+Gl Wek eet
+
+| © Fae Updo o ny
+S Fads ie Camcerp
+@ be irisw
+
+(= Sete 1 f
+GB Sructeed Dats = ABCMBCA B22) 117 Detealt = ACET A CHW
+© Conecton
+
+@ hemng tacky
+
+Step 3: Answer Snippets
+
+A snippet is a brief and most relevant text excerpt or a paraphrased answer from the data
+ingested in “Sources” and appears at the top of the results. It provides a quick answer to a
+user's query, eliminating the need for the user to sift through the search results. The answer
+snippets are in the form of textual answers along with a link to the URL from where the snippet
+is extracted or the source of truth. For more information, refer to the Answer Snippet.
+© HealthAssist
+
+SearchAssist offers two models to provide answer snippets.
+
+® Extractive Model: In the case of extractive snippets, the chunk most relevant to the
+user query is displayed to the user. So, an extractive snippet is an answer extracted
+from the source data which is displayed as it is.
+
+* Generative Model: In this model, SearchAssist uses third-party large language models
+to paraphrase the answer snippets. The top five chunks that are most relevant to the
+USé@r query are sent to the third-party LLMs. The paraphrased answer received from
+the LLM is then displayed as the answer to the user. The snippet can be derived from
+single or multiple sources of ingested data and is paraphrased to give a cohesive and
+relevant answer.
+
+To configure answer snippets, go to the Answer Snippets page under the Indices tab.
+
+Bo wee me =] et ae breve Cd Per a & G o
+pene aeons =
+
+ba Tae
+
+= mw Soames Moses
+
+© reelen
+
+You can enable one or both models to display answer snippets. Click the Train button after
+enabling Answer Snippets to generate the chunks from the ingested data. When both models
+are enabled, the model with the highest priority is first used to generate snippets. To change
+the priority of the models, use the drag dots icon and place the models as required.
+© HealthAssist
+
+a veterans orem! ibaa natal pend — ag @ oO
+— seamen 8 =
+fertartivm nice:
+ee art]
+AE raben Forid
+tt ee]
+Perens ea
+rate Parte Geen Lied
+Hetic iets a
+
+buen Leas
+1 Aare SenceT
+[ dhrguiny Hantang
+= teh
+
+iE ina — — ry
+——
+
+Hears greenery et ra
+heen eoriere
+el Teen,
+
+Extractive Model Configuration
+
+To enable the extractive model of answer snippets, use the slider at the top of the page. For
+more information, refer to Extraction Model Configuration.
+
+Generative Model Configuration
+
+SearchAssist supports using OpenaAl and Azure OpenAl LLMs to generate the answer
+snippets. To enable the Generative Model for answer snippets, the application must be
+integrated with one or more of the supported LLMs.
+
+For integration,
+© HealthAssist
+
+1. click on the Ge te Integrations.
+
+i
+
+© nden tonnds
+ce Psa
+
+Wormer
+
+Answer Srippels
+
+| Geemative bed
+ee
+
+2. Select the required integration.
+
+fps
+TT
+
+Boor
+
+o heer tee ia
+
+Sou fervent) configured are Generative Model yal!
+seer rir ees age agua mies fe Loe ees
+
+a pee ee de ot ee em bid aia
+
+3. After you have successfully integrated one or more of the supported third-party LLMs,
+you can configure it to be used for generating Answer Snippets. Select the model to be
+© HealthAssist
+
+enabled from the drop-down menu. The drop-down will list all the configured LLMs.
+
+Qo ower nen [oe |aarees ans ee Freee Jee | ao I o
+ca 7 ewe ieoces 2 Pe |
+(a lenis Fei 7
+a be =
+Ct li ed
+2 ob ® ee ~ ~ ~ ~
+2 ee [ aod
+2 as
+fmt ike - = .
+oe eee ode
+2 on fee Cee
+a to :
+shares bones ao
+Piet eteee
+= eer rete — he +i be
+ce Raa a
+*
+She seen - se a pro ee is
+CSS eS Ste Se EE
+SESS SS ee SS St ee
+4. To enable or disable the selected model, use the slider button. If an enabled integration
+is removed from the Integrations pages, it is automatically disabled for answer
+snippets.
+owes ceo Hem serrc- arem imei EF che og | oa
+
+— 2 he |
+
+—T —— ——o
+Sinai Finis
+
+era
+* Fo | ae 5
+Stee ee
+cl — a ail ed sd Wel MSP ks
+A =a i vs
+Hemet —
+r - ee = 2
+Se fara
+
+m6
+5 kere Los
+(ul ear oa og Hote chewy
+a immoral a - .
+
+mimi
+TS ieemares fine La
+Maire
+© mee ene —— le
+
+5. Set the following configuration properties for the selected integration.
+a. Similarly Score
+b. Temperature
+c. Number of Chunks
+
+For more information, refer to the Generative Model Configur.
+
+© HealthAssist
+
+Step 4: Chunks
+
+The Chunk Browser provides a means for you to observe the extracted chunks from the
+source data, giving you an insight into the output from the extraction process and enabling
+you to undertake subsequent actions like editing and rectifying the chunks.
+
+To view the chunks extracted from content, navigate to the Chunks page under the Indices
+tab. For more information, refer to the Chunks.
+
+[| ee Trg Homers mo B pee 2) trae asf @ B---- 6
+
+vied cia = s oO aaa 7 Fw
+
+on em am ma ae oe IL ray
+
+© has Aen 7 eremetar nace re reer
+2 oar
+3 ae
+A pacman
+5 - nee = FY Sepa nor eae
+- chee .
+© rae deta
+TSN + HRN en = Bei nad i Pi waves be Cara a DA
+: : ete
+Geled Reeth -
+D Seech Serge
+ha a : ea aot] wand rv Rebbeet i i
+a
+Jt aS et ae ST rs TE TT mares be Comte areca Daa
+. : ier
+
+i Seacniaetce <i imp a a o
+
+You can also tab on ‘Preview’ to test how the data will be fetched from the document
+
+a al nec Berth x SeerchAssiat ao
+bee Oe ee
+a
+ha Ue ee 1 toe om ee ae |
+oo (CAM A Copy Auminence & Accurudster Program
+ies Serves Ma) CAP Hie rb a oeigeare Chad ees
+Phrmagh Bere ie Pa pepe eat ieee eed eres of mia ed or ag rod aera cies by og Compe Benen pd of perked onl oe high cost yaecatly deaage
+drag eine ope snd eee i emia Game ins Us kere ran ry inung they manoter ter: oop seven banoe aher doy avail
+Ramee STIS bs PT CT Ba Deca ae Sere es ne fae ag TT a ee aD
+
+ee ee resem iy eae Fang mage pr geey oie th ET i erg
+aH none Garhi Perce acter Oat Puan, Ete ane ere
+a Na CK CM Ay Cy LL Pa,
+vets bres ee) Pete by Gees Sey Bad Me
+
+A ABC ME DMCA, 20G7 OCSMA BRS beceden MEE pet
+
+Mies a SR ce a Dp
+
+wwectesirs Neel Semage Mawes Npepiatp bes Pea Z —— —_— a
+SS Se eT Re es
+Elena Pee hee ents Lemons Sage reners
+leererries
+= .
+© HealthAssist
+
+Step 5: Channels Integration
+
+A channel is a connection between communication applications and SearchAssist. In
+SearchAssist, you can configure destinations for your application to communicate with one or
+more channels.
+
+Currently, SearchAssist allows you to configure channels only through Web/Mobile Client.
+
+Add Channels
+To add channels, follow the below steps:
+
+1. On the landing page, click the Manage tab on the top.
+
+La
+
+[= vais etch oe deere Leal Veer mano bees Tre a
+
+o~-
+
+.cneore Channels 1
+|= Channehy
+
+fe Comdendias
+
+= te
+
+OF binge
+
+TA Chaespe Lage
+
+Ibe Won /Mebie Client
+So Umage Log
+
+Q Gedend recce
+
+2. By default, the General Settings page is displayed. On the leit pane, click Channels.
+© HealthAssist
+
+3. Onthe Channels page, click the Web/Mobile Client card.
+
+a a EC CE TCE « Petre | ne Peewee i] Traian a a" Be.
+
+ih Geracni initings Ceanceis
+
+Wet) Mgtnke Client
+
+4. On the Web/Mobile Client's Instructions page, you can find the instructions displayed
+
+in four steps:
+« Download SearchAssistKit SDK — Download the SearchAssist SearchAssistkit
+SDK from our GitHub Repo.
+Register Credential — Create a credential or register an existing credential.
+
+Define Callback URL — Define the callback URL of your credential to be invoked
+
+for SearchAssistKit SDK events.
+« Select Events — Select the required events and complete the setup process.
+
+(rier eet eit iris ee era Boies {Tee 1 of B--
+
+. btieien es) inh IMebile Client
+
+| 2 omer
+
+ie Comtertas sil
+7 Toar
+
+Oo teeters
+
+bo ee
+
+men - fi
+Phar Cort — _—
+oe eal
+
+ij ©
+
+Lamy Laing Pr
+o Cees Bo
+
+co =
+
+5. Click Continue.
+6. On the Web/Mobile Client's Select Credential page, you can
+e Select an existing credential, or
+« Add New Credential
+a. Enter a name in the Credential Name field.
+b. Select a signing algorithm from the JWT Signing Algorithm Used For
+Client App Authentication drop-down list.
+© HealthAssist
+
+a eS CN CIATED - 0 Tesi dem bees OF han a oo B--
+i Gemntisiings erties Glaeet
+| er
+» Cees - ~
+7 eo
+® Sauer Bo than ne oe a ee”
+7 Gergeiage
+ieee beim son =
+) has
+hip Lig a foggy agora ee i a ay aeana ara
+Cee Bevis =
+— “ c—
+*% Click Continue.
+&. Goto App Details.
+a Ce CE EY TEC = Mabe Tera Aga DB eer fy Train a ae i] B= o
+i Gewreidecings oo Witte bebo bier Cbg
+| ° commen
+fe Comtenitints App Detaite 1
+eo or pe pra Gear nanan Broan aaeny ember tr Ae | baits Taare
+O epee
+SB champe Lint Keperra - 7
+(meee SEE
+hee Der
+S esp leg
+
+oe | sow |
+
+9. Select the credentials created above from the drop-down and click Save. This will
+generate app ID, client ID and client secret which will be used for interaction with the
+© HealthAssist
+
+application.
+
+a Ovi ea eel
+
+D tere Sel begs
+|: Taare
+Te Creeshalt
+
+7 ton
+
+Mae Tete orery Tae es
+
+Vint! itichie Clant
+
+App Ceti
+
+Sie WS eal
+
+Aim Hares
+
+Tent App
+
+Borsa
+
+=,
+
+—_—
+
+aed Ser -b bce ede
+
+Step 6 : Configure App ID in Environment Variables
+
+=
+
+Copy the App ID from the App Details Section
+
+o--- ©@
+
+2. Navigate to Configurations > Environment Variables on the bot you are working with.
+3. Locate the "SABotld' variable in the Environment Variables list.
+
+Environment Variables
+
+rela
+
+Pipa ae cor Src Party BP
+Cat
+Dee UC
+
+aT aC Ga
+
+HBCeS
+
+WH Le 2238 Scie.
+ablated
+
+4. Click on the SABotld variable and paste the copied App ID into the value field.
+
+es Ti
+et Ay ie
+TY bbe wierd Lobe
+
+Step 7 : Generating JWT Token
+
+SearchAssist uses a JWT token for authentication. The client application(in this case, IT
+
+Ereapoira to med SAS ca
+ri]
+Sts Jane hase coe,
+
+Assist) must send a JSON Web Token in the authorization header of the HTTP request to the
+API. To generate the JWT Token, you need to use the Client ID and Client secret generated
+above. Refer to this for more details.
+© HealthAssist
+
+Add the JWT token to the environment variable named "SAAuthToken’.
+
+Envirorenent Variables EL.
+
+lari Plies halen core T- Ted ary ay Bedi es pared go SS oe
+i iseoonerunie emit Pers iaien ja Pensa FE
+
+SADR (er oe
+
+hdioria nd bb i Sc.
+
+ant: d Soe ie
+
+Shut omen enc OuLohaersooe
+HVAC Fe Joc aes Dae
+TF ered fore EE.
+
+Step 8 : Configure Search ID in Environment Variables
+
+1. Copy the Search ID from the App Details Section
+
+a oe EC CEE | ABMLYTICE AE a P Pine FY Tem & a" Bo fee o
+
+hae oh ham arena ed ber dinamo A ade A reer aang dey 1d Te cade arog Beer eet aged pare dare ee ied or eked) APD ee
+
+Chere ae eg fetes dety 200d ee eee int ais, piers rte be oer cure Ce Toll ec we.
+cranes
+| ~ WabiMesile Client
+nh oeoe ie
+7 Teas
+Aaa
+a magus.
+one [ae
+OH Ceange loge
+ino
+ins mei nin we 100 -e) eed el EE]
+| Part Dard ky aa
+5 Usage Lag ce de See eg de eh EI
+Cee b tose. Gee eon 0
+= . =
+a)
+efor 1 am a - ae Ea
+
+— =
+2. Navigate to Configurations > Environment Variables on the bot you are working with.
+3. Locate the Search |D vanable in the Environment Vanables list.
+
+Doh tte anmir) ee oD serie sao ef ms tor 9 ®
+
+Eewironumant =
+vera Wariebion a
+
+Eo Seren ds Corba
+
+erate AL
+
+. oo
+
+= Vase
+5 vos
+e
+
+4. Click on the Search!D variable and paste the copied Search ID into the value field.
+© HealthAssist
+
+Step 9 : Configure SA domain in Environment Variables
+
+a) D " 1 GB: ea f=]
+
+ee
+
+1. Navigate to ‘Manage’ > channels > Web/Mobile Client. Copy the Whitelist Domains
+
+ enaret dantings eet Motee Clore
+
+Fe Crmubeetiat, J Tedard onisart eng wd che Gears dovusd ard via foe erabaerieaed ror
+
+7 2 So ey Saee devess ae
+
+Sagas et ied a Hey ge
+O remo
+mi ene ree nerd,
+
+rar: Fete
+
+ae Leg
+
+2 Oeckers E ievmicen
+‘apes | bakes in!
+
+2. Navigate to Configurations > Environment Variables on the bot you are working with.
+3. Locate the ‘SADomian' variable in the Environment Variables list.
+Eewvironment Variables O | ca veriaten |
+
+its APT
+
+4 Click on the ‘SADomian' variable and paste the copied App !D into the value field.
+Step 10 : Enable SearchAssist Integration with the Bot
+
+1. Open the SearchAssist app and navigate to the Manage > Credential.
+© HealthAssist
+
+2. Select ‘API Scopes’ and select the ‘Full Search’ option to grant the necessary
+pennissions.
+
+Edh Credencial %
+
+Coie A oes
+
+Loon Saar.
+5 Pal ae
+|
+3. Click Save.
+4. Now navigate to Configurations > Environment Variables on the bot you are working
+with.
+
+5. Search for the environment variable ‘isSearchFirst Set the value to ‘true’ to enable
+SearchéAssist and ‘false’ to disable it.
+
+Envonmont Variats =
+
+Saami Poke Lata - fo Te PT
+Pa eee Me
+
+ee ct ™
+
+Once the above steps are complete, the app will be fully integrated with the bot, allowing
+seamless search functionality.
+

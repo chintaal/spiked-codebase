@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Live Transcription Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #6b7280;
+            font-size: 1.1rem;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn-secondary {
+            background: #f3f4f6;
+            color: #374151;
+        }
+        
+        .btn-secondary:hover {
+            background: #e5e7eb;
+        }
+        
+        .btn-danger {
+            background: #ef4444;
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background: #dc2626;
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+        
+        .status-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            background: #f8fafc;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .status-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        .status-ready { background: #10b981; }
+        .status-listening { background: #3b82f6; }
+        .status-recording { background: #ef4444; }
+        .status-error { background: #f59e0b; }
+        
+        .volume-bar {
+            width: 200px;
+            height: 6px;
+            background: #e5e7eb;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        
+        .volume-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10b981 0%, #fbbf24 70%, #ef4444 100%);
+            transition: width 0.1s ease;
+        }
+        
+        .transcription-area {
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            min-height: 300px;
+            max-height: 500px;
+            overflow-y: auto;
+            padding: 20px;
+            background: #fafafa;
+        }
+        
+        .live-text {
+            color: #3b82f6;
+            font-weight: 500;
+            padding: 10px;
+            background: #dbeafe;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 4px solid #3b82f6;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .final-text {
+            color: #1f2937;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            border-left: 4px solid #10b981;
+            animation: slideIn 0.3s ease;
+        }
+        
+        .timestamp {
+            font-size: 0.8rem;
+            color: #6b7280;
+            margin-left: 10px;
+        }
+        
+        .error-message {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            color: #b91c1c;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .method-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        
+        .method-option {
+            padding: 8px 16px;
+            border: 2px solid #e5e7eb;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .method-option.active {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-10px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .listening-indicator {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #6b7280;
+            font-style: italic;
+        }
+        
+        .dot {
+            width: 6px;
+            height: 6px;
+            background: #6b7280;
+            border-radius: 50%;
+            animation: bounce 1.4s ease-in-out infinite both;
+        }
+        
+        .dot:nth-child(1) { animation-delay: -0.32s; }
+        .dot:nth-child(2) { animation-delay: -0.16s; }
+        .dot:nth-child(3) { animation-delay: 0s; }
+        
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">🎤 Enhanced Live Transcription</h1>
+            <p class="subtitle">Real-time speech-to-text with optimized performance</p>
+        </div>
+        
+        <div class="method-selector">
+            <div class="method-option active" data-method="hybrid">🔀 Hybrid Mode</div>
+            <div class="method-option" data-method="webspeech">🌐 Web Speech</div>
+            <div class="method-option" data-method="whisper">🎯 Whisper</div>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn" class="btn btn-primary">
+                🎙️ Start Recording
+            </button>
+            <button id="stopBtn" class="btn btn-danger" disabled>
+                ⏹️ Stop Recording
+            </button>
+            <button id="clearBtn" class="btn btn-secondary">
+                🗑️ Clear
+            </button>
+        </div>
+        
+        <div class="status-bar">
+            <div class="status-info">
+                <div id="statusDot" class="status-dot status-ready"></div>
+                <span id="statusText">Ready</span>
+                <span id="timestamp" class="timestamp"></span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <span style="font-size: 0.9rem; color: #6b7280;">Volume:</span>
+                <div class="volume-bar">
+                    <div id="volumeFill" class="volume-fill" style="width: 0%"></div>
+                </div>
+                <span id="volumeText" style="font-size: 0.8rem; color: #6b7280; min-width: 35px;">0%</span>
+            </div>
+        </div>
+        
+        <div id="errorMessage" class="error-message" style="display: none;"></div>
+        
+        <div id="transcriptionArea" class="transcription-area">
+            <div class="listening-indicator">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <span>Click "Start Recording" to begin transcription...</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        // Simple mock implementation for testing
+        class MockEnhancedTranscription {
+            constructor() {
+                this.isActive = false;
+                this.currentMethod = 'hybrid';
+                this.callbacks = {};
+            }
+            
+            async initialize(method) {
+                this.currentMethod = method;
+                console.log(`Initialized with method: ${method}`);
+                return true;
+            }
+            
+            async startTranscription() {
+                this.isActive = true;
+                this.updateStatus('listening');
+                
+                // Simulate microphone access
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    this.setupAudioVisualization(stream);
+                    
+                    // Simulate transcription updates
+                    this.simulateTranscription();
+                } catch (error) {
+                    this.showError('Microphone access denied');
+                }
+            }
+            
+            async stopTranscription() {
+                this.isActive = false;
+                this.updateStatus('ready');
+                this.updateVolume(0);
+            }
+            
+            setupAudioVisualization(stream) {
+                const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                const analyser = audioContext.createAnalyser();
+                const source = audioContext.createMediaStreamSource(stream);
+                source.connect(analyser);
+                
+                const dataArray = new Uint8Array(analyser.frequencyBinCount);
+                
+                const updateVolume = () => {
+                    if (!this.isActive) return;
+                    
+                    analyser.getByteFrequencyData(dataArray);
+                    const volume = Math.max(...dataArray) / 255 * 100;
+                    this.updateVolume(volume);
+                    
+                    requestAnimationFrame(updateVolume);
+                };
+                
+                updateVolume();
+            }
+            
+            simulateTranscription() {
+                if (!this.isActive) return;
+                
+                const phrases = [
+                    "Hello, this is a test of the enhanced transcription system.",
+                    "The quick brown fox jumps over the lazy dog.",
+                    "Real-time speech recognition is working perfectly.",
+                    "This demonstrates smooth live transcription capabilities.",
+                    "The system provides immediate feedback with high accuracy."
+                ];
+                
+                let currentPhrase = 0;
+                let currentWord = 0;
+                
+                const addWord = () => {
+                    if (!this.isActive || currentPhrase >= phrases.length) return;
+                    
+                    const words = phrases[currentPhrase].split(' ');
+                    if (currentWord < words.length) {
+                        const partialText = words.slice(0, currentWord + 1).join(' ');
+                        this.updateLiveText(partialText);
+                        currentWord++;
+                        
+                        setTimeout(addWord, 200 + Math.random() * 300);
+                    } else {
+                        // Complete the phrase
+                        this.addFinalText(phrases[currentPhrase]);
+                        this.updateLiveText('');
+                        currentPhrase++;
+                        currentWord = 0;
+                        
+                        setTimeout(addWord, 1000);
+                    }
+                };
+                
+                setTimeout(addWord, 500);
+            }
+            
+            updateStatus(status) {
+                const statusDot = document.getElementById('statusDot');
+                const statusText = document.getElementById('statusText');
+                const timestamp = document.getElementById('timestamp');
+                
+                statusDot.className = `status-dot status-${status}`;
+                statusText.textContent = status.charAt(0).toUpperCase() + status.slice(1);
+                timestamp.textContent = new Date().toLocaleTimeString();
+            }
+            
+            updateVolume(volume) {
+                const volumeFill = document.getElementById('volumeFill');
+                const volumeText = document.getElementById('volumeText');
+                
+                volumeFill.style.width = `${Math.min(100, volume)}%`;
+                volumeText.textContent = `${Math.round(volume)}%`;
+            }
+            
+            updateLiveText(text) {
+                const area = document.getElementById('transcriptionArea');
+                
+                // Remove existing live text
+                const existingLive = area.querySelector('.live-text');
+                if (existingLive) {
+                    existingLive.remove();
+                }
+                
+                // Add new live text if not empty
+                if (text.trim()) {
+                    const liveDiv = document.createElement('div');
+                    liveDiv.className = 'live-text';
+                    liveDiv.innerHTML = `🎤 ${text}<span style="animation: blink 1s infinite;">|</span>`;
+                    area.appendChild(liveDiv);
+                }
+                
+                area.scrollTop = area.scrollHeight;
+            }
+            
+            addFinalText(text) {
+                const area = document.getElementById('transcriptionArea');
+                
+                // Remove listening indicator if present
+                const listening = area.querySelector('.listening-indicator');
+                if (listening) {
+                    listening.remove();
+                }
+                
+                const finalDiv = document.createElement('div');
+                finalDiv.className = 'final-text';
+                finalDiv.innerHTML = `${text}<span class="timestamp">${new Date().toLocaleTimeString()}</span>`;
+                area.appendChild(finalDiv);
+                
+                area.scrollTop = area.scrollHeight;
+            }
+            
+            clearTranscription() {
+                const area = document.getElementById('transcriptionArea');
+                area.innerHTML = `
+                    <div class="listening-indicator">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <span>Click "Start Recording" to begin transcription...</span>
+                    </div>
+                `;
+            }
+            
+            showError(message) {
+                const errorDiv = document.getElementById('errorMessage');
+                errorDiv.textContent = message;
+                errorDiv.style.display = 'block';
+                
+                setTimeout(() => {
+                    errorDiv.style.display = 'none';
+                }, 5000);
+            }
+        }
+        
+        // Initialize the transcription service
+        const transcriptionService = new MockEnhancedTranscription();
+        let currentMethod = 'hybrid';
+        
+        // UI Elements
+        const startBtn = document.getElementById('startBtn');
+        const stopBtn = document.getElementById('stopBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const methodOptions = document.querySelectorAll('.method-option');
+        
+        // Event Listeners
+        startBtn.addEventListener('click', async () => {
+            try {
+                await transcriptionService.initialize(currentMethod);
+                await transcriptionService.startTranscription();
+                
+                startBtn.disabled = true;
+                stopBtn.disabled = false;
+            } catch (error) {
+                transcriptionService.showError(`Failed to start: ${error.message}`);
+            }
+        });
+        
+        stopBtn.addEventListener('click', async () => {
+            await transcriptionService.stopTranscription();
+            
+            startBtn.disabled = false;
+            stopBtn.disabled = true;
+        });
+        
+        clearBtn.addEventListener('click', () => {
+            transcriptionService.clearTranscription();
+        });
+        
+        methodOptions.forEach(option => {
+            option.addEventListener('click', () => {
+                if (transcriptionService.isActive) return;
+                
+                methodOptions.forEach(opt => opt.classList.remove('active'));
+                option.classList.add('active');
+                currentMethod = option.dataset.method;
+                
+                console.log(`Switched to ${currentMethod} mode`);
+            });
+        });
+        
+        // Initialize
+        transcriptionService.initialize(currentMethod);
+        
+        // Add CSS for blinking cursor
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes blink {
+                0%, 50% { opacity: 1; }
+                51%, 100% { opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>

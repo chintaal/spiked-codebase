@@ -1,0 +1,78 @@
+Questions the client can ask the kore.ai sales rep about health assist – use this
+for role play and load these questions as UTTERANCES
+
+General &amp; Overview:
+1. Can you provide a high-level overview of the HealthAssist architecture? (Ref:
+Page 37)
+2. What security measures are in place to ensure HIPAA compliance and data
+privacy? (Ref: Page 6)
+3. Can you share examples of how HealthAssist has helped other healthcare
+organizations improve patient care and reduce costs? (Ref: Page 5)
+4. What are the standard service level agreements (SLAs) for HealthAssist support
+and uptime?
+5. Integration &amp; Technical:
+6. What EMR/EHR systems does HealthAssist seamlessly integrate with?
+(Specifically Epic, Cerner, NextGen, Denticon mentioned) (Ref: Pages 6, 15, 20,
+21)
+7. What API standards are used for integration (e.g., HL7, FHIR)? (Ref: Page 7)
+8. Can you elaborate on the integration process with external symptom checkers
+like Infermedica, Isabel, and Mediktor? (Ref: Pages 11, 16)
+9. What are the technical requirements for deploying HealthAssist, both on-premise
+and in the cloud?
+10. How is data synchronization and real-time data updates handled between
+HealthAssist and integrated systems? (Ref: Page 6)
+11. What are the specifications for LLM and Generative AI integration, including
+supported models and configuration options? (Ref: Pages 18, 19)
+12. Can you provide details on the authentication methods supported (e.g., OAuth)?
+(Ref: Page 7, 20, 28)
+
+2
+13. How does HealthAssist handle scalability and performance under high user
+loads?
+14. What are the backup and disaster recovery procedures for HealthAssist data?
+15. Details on the Channel Integration, specifically Voice Channel, SMS and
+Web/Mobile Client details? (Ref: Pages 38, 51)
+16. What database technology is used by HealthAssist to store and manage data?
+17. Can HealthAssist be customized with custom APIs to extend its core
+functionalities? (Ref: Page 6)
+18. NLP &amp; AI:
+19. Can you explain the NLP engines used (Machine Learning and Fundamental
+Meaning) and how they are trained and updated? (Ref: Page 17)
+20. How does the Few Shot Model work for intent detection? (Ref: Page 17)
+21. What is the accuracy rate of intent detection, and how is it measured?
+22. How does HealthAssist handle multilingual support, and what languages are
+currently supported? (Ref: Pages 47, 48)
+23. Can HealthAssist adapt to industry specific language such as medical
+ontologies? (Ref: Page 27)
+24. Workbench &amp; Administration:
+25. Can you provide a demo of the HealthAssist Workbench and its customization
+capabilities? (Ref: Page 38)
+26. What roles and permissions can be assigned to users in the Workbench? (Ref:
+Page 46)
+27. How can we monitor and analyze the performance of HealthAssist using the
+dashboard? (Ref: Page 39)
+28. What are the steps for publishing configuration changes to the live environment?
+(Ref: Page 50)
+29. Details on Live Agent Transfer and Ag
+30.
+31.
+32. ent Playbook? (Ref: Pages 52, 54)
+
+3
+33. Explain the different configurations options for dynamic conversations? (Ref:
+Page 19)
+34. Data Security &amp; Privacy:
+35. How is patient data encrypted both at rest and in transit?
+36. What access controls are in place to protect patient data?
+37. How are audit logs managed and retained for compliance purposes?
+38. What data breach notification procedures are in place?
+39. Licensing &amp; Support:
+40. What are the different licensing models available for HealthAssist?
+41. What kind of training and documentation is provided for administrators and
+users?
+42. What are the support channels available, and what are the response times for
+different support tiers?
+43. What are the ongoing maintenance and upgrade costs?
+44. List of clients
+45. How does Citibank use kore
+46. How does Pfizer use kore

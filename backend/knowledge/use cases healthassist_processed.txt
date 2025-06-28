@@ -1,0 +1,85 @@
+# Document Summary: Customer Use Cases for Health Assist
+
+## List of Customers Using Health Assist
+- Florida Blue
+- Express Scripts
+- Signify
+- AAA Insurance
+- Citibank
+- Enbridge
+- Pfizer
+- AB InBev
+
+---
+
+## Use Cases
+
+### 1. Express Scripts
+- **Situation**: Express Scripts Holding Company (ESHC) is a pharmacy benefit management organization with over 30,000 employees serving millions of members across the U.S. and Canada.
+- **Problem**: ESHC's contact center handled 50 million calls annually, struggling with a legacy IVR system that required multiple bot interactions, leading to increased call transfers and reliance on live agents.
+- **Solution**: A universal bot was created on the Kore.ai platform to handle multi-turn requests, integrating various functions (Authentication, Refill request, Order Status, Payment).
+- **Result**: 
+  - Achieved an 8% increase in call containment rates.
+  - Projected annual savings of $3 million.
+  - The bot handles 30 million calls annually.
+
+### 2. Signify
+- **Situation**: Signify, a leader in energy-efficient lighting, employs 32,000 people and has diverse legacy solutions for employee support.
+- **Problem**: Employees faced productivity losses due to multiple bots and systems for raising complaints, leading to operational cost escalations.
+- **Solution**: Developed 'Ask Thea', a universal bot on the Kore.ai platform, integrating with 10 other bots for various functions.
+- **Result**: 
+  - Monthly task completion of 17,000 to 21,000.
+  - Average resolution time reduced from 24 minutes to 20 seconds.
+  - 84% task completion rate.
+
+### 3. AAA Insurance
+- **Situation**: CSAA Insurance Group, a top personal property and casualty insurance group in the U.S., has 3,500 employees.
+- **Problem**: Increased transaction volume led to agents spending excessive time on simple tasks.
+- **Solution**: My Policy Virtual Assistant was built on the Kore.ai platform to automate common insurance transactions.
+- **Result**: 
+  - Resolved over 700 requests per day since launch in February 2020.
+  - Higher customer satisfaction and better agent utilization.
+
+### 4. Florida Blue
+- **Situation**: A member of Blue Cross Blue Shield, Florida Blue offers health insurance services.
+- **Problem**: Agents spent significant time answering queries about ID cards and claims, leading to long wait times.
+- **Solution**: Developed a Visual IVR assistant to handle ID card queries and form filling.
+- **Result**: 
+  - 90% containment rate achieved.
+  - Wait and response time reduced by 3X.
+
+### 5. Citibank
+- **Situation**: Citibank serves over 65 million credit card customers.
+- **Problem**: High call volumes (175 million annually) were increasing operational costs and impacting customer satisfaction.
+- **Solution**: Developed a virtual assistant on the Kore.ai platform to automate transactions and queries.
+- **Result**: 
+  - 90%+ containment rate with 85% of transactions automated.
+  - 3% of customers now make payments via SMS.
+
+### 6. Enbridge
+- **Situation**: A multinational energy supply leader with a workforce of 15,000.
+- **Problem**: Increased HR inquiries due to workforce growth strained HR resources.
+- **Solution**: Developed an HR support virtual assistant "Mya" to automate routine HR queries.
+- **Result**: 
+  - 90% containment rate achieved in the first 6 weeks.
+  - Resolutions now average 7 seconds.
+
+### 7. Pfizer
+- **Situation**: Pfizer needed to improve relationships with stakeholders due to increasing demand for products.
+- **Problem**: High call center operational costs due to a growing volume of queries.
+- **Solution**: Deployed over 35 virtual assistants globally for various functions.
+- **Result**: 
+  - Achieved payback on implementation costs in the first year.
+  - Improved customer and employee experience.
+
+### 8. AB InBev
+- **Situation**: A multinational brewing company with 155,000 employees.
+- **Problem**: Manual email processes were time-consuming and error-prone, increasing operational costs.
+- **Solution**: Developed an AI-powered email sorter virtual assistant to automate email workflows.
+- **Result**: 
+  - Reduced operational costs by $187K annually.
+  - Improved productivity by 15X and increased customer satisfaction.
+
+---
+
+This structured summary captures the key information from the document, detailing the use cases, problems, solutions, and results for each customer utilizing health assist technology.

@@ -1,0 +1,115 @@
+# BANT + C for Health Assist
+
+## 1. Budget (Financial Feasibility & ROI Justification)
+
+### Understanding the Financial Scope
+- **Allocated Budget**: Inquiry about the budget for healthcare technology solutions, especially AI-driven patient engagement and workflow automation.
+- **Existing Contracts**: Information on current contracts with other patient management or AI-powered workflow automation vendors, including cost structure.
+- **Current Spending**:
+  - EHR/EMR integrations (e.g., Epic, Cerner, Meditech)
+  - AI-driven patient monitoring tools
+  - Automated scheduling, billing, and claims processing systems
+  - Remote patient management or telehealth solutions
+- **Previous Evaluations**: Inquiry about past evaluations of AI-powered patient management solutions that were deemed cost-prohibitive.
+
+### Approval & Budget Flexibility
+- **Financial Approval Management**: Identification of who manages financial approvals for new health tech investments (CFO, CIO, hospital administrator, procurement committee).
+- **Reimbursement Eligibility**: Inquiry about eligibility for government or insurance reimbursements for adopting AI-powered healthcare solutions.
+- **Influence of Cost Savings**: Consideration of how cost savings from reduced administrative workload, improved patient adherence, fewer missed appointments, and enhanced compliance tracking might influence decision-making.
+
+### Cost Justification & ROI Expectations
+- **Important ROI Metrics**:
+  - Reduction in administrative time per patient
+  - Fewer no-shows due to AI-powered scheduling reminders
+  - Improved patient adherence to treatments
+  - Reduction in billing errors and insurance rejections
+
+---
+
+## 2. Authority (Decision-Making & Key Stakeholders)
+
+### Stakeholder Identification
+- **Primary Decision-Maker**: Identification of the primary decision-maker for purchasing AI-powered patient management and workflow automation solutions.
+- **Involved Teams**:
+  - Hospital administration & finance (CFO, COO, VP Operations)
+  - Clinical leadership (Chief Medical Officer, Medical Directors)
+  - IT & Security team (CIO, CTO, Compliance Officers)
+  - Regulatory & legal team (HIPAA/GDPR Compliance Officers)
+
+### Approval Process
+- **Vendor Evaluation Process**: Inquiry about the vendor evaluation and approval process for new health tech solutions.
+- **Previous Vendor Experience**: Questions regarding past experiences with healthcare AI vendors and key challenges faced.
+- **Approval Requirements**: Consideration of whether the solution requires approval from insurance networks, regulatory bodies (FDA, HIPAA, GDPR, NHS Digital), or medical accreditation agencies.
+- **Mandatory Certifications**: Inquiry about specific compliance or security certifications that are required for vendor selection.
+
+---
+
+## 3. Need (Pain Points & Business Alignment)
+
+### Current Challenges in Patient Management & Automation
+- **Operational Challenges**:
+  - Patient engagement (missed appointments, delayed follow-ups, lack of automated reminders)
+  - Administrative workflow automation (manual data entry, fragmented communication, redundant tasks)
+  - Billing & insurance claims processing (denied claims, coding errors, delayed reimbursements)
+  - Regulatory compliance (HIPAA violations, GDPR risks, inaccurate record-keeping)
+
+### Existing Systems & Gaps
+- **Current EHR/EMR System**: Identification of the current EHR/EMR system in use (e.g., Epic, Cerner, Meditech).
+- **Integration Quality**: Assessment of how well the current patient management system integrates with the EHR.
+- **Manual Intervention**: Inquiry about the extent of manual intervention in administrative workflows.
+- **KPIs Tracking**: Identification of KPIs tracked for operational efficiency, patient adherence, and financial performance.
+
+### Alignment with HealthAssist’s Features
+- **AI-driven Engagement Automation**: Inquiry about the potential impact of AI-driven patient engagement automation (e.g., SMS/email reminders, chatbot interactions) on reducing no-shows.
+- **Predictive Analytics Importance**: Assessment of the importance of predictive analytics for patient readmission risk assessment.
+- **Automated Claims Processing**: Inquiry about the potential benefits of automated claims processing for revenue cycle management.
+- **Clinical Decision Support**: Consideration of how AI-powered clinical decision support could benefit care teams in reducing diagnostic errors.
+
+---
+
+## 4. Timeline (Implementation & Urgency)
+
+### Implementation Readiness
+- **Upgrade Timeline**: Inquiry about when the organization plans to upgrade or replace its patient management system.
+- **Regulatory Changes**: Assessment of any upcoming regulatory changes, compliance audits, or insurance policy shifts that may prioritize this upgrade.
+- **Previous Evaluations**: Inquiry about past evaluations of other solutions and reasons for not moving forward.
+
+### Technical & Operational Constraints
+- **Evaluation Duration**: Inquiry about how long the IT and procurement team typically takes to evaluate and implement new health tech solutions.
+- **Current Projects**: Assessment of whether the organization is undergoing an EHR migration, expansion, or infrastructure upgrade that may affect implementation.
+- **Integration Barriers**: Identification of key barriers to seamless integration of HealthAssist into current workflows.
+
+### Pilot Program & Go-Live Considerations
+- **Pilot Program Interest**: Inquiry about openness to a pilot program or proof of concept (PoC) to measure effectiveness.
+- **Desired Results Timeline**: Assessment of how soon measurable results from a new system are expected.
+
+---
+
+## 5. Competitor (Current Alternatives & Differentiation)
+
+### Existing Vendor Usage
+- **Current Solutions**: Inquiry about any current or evaluated AI-powered healthcare management solutions (e.g., Epic, Athenahealth, NextGen, eClinicalWorks).
+- **Likes/Dislikes**: Assessment of what the organization likes or dislikes about current solutions.
+- **Combination of Tools**: Inquiry about the use of multiple tools for patient engagement, workflow automation, and billing.
+
+### Decision Criteria for Selecting a Solution
+- **Top Priorities**:
+  - Ease of use & integration with existing EHR
+  - AI-driven automation & predictive analytics
+  - Security & regulatory compliance
+  - Cost-effectiveness & scalability
+  - Data interoperability across departments
+
+### Pain Points with Competitor Solutions
+- **Integration Issues**: Inquiry about any integration issues, lack of AI-powered automation, or compliance risks with current vendors.
+- **Gaps in Current Process**: Assessment of what is missing in the current patient engagement and automation process that HealthAssist could address.
+- **Accelerating Decision**: Inquiry about whether clear ROI in reduced manual workload, increased patient engagement, and improved compliance would accelerate the decision-making process.
+
+---
+
+## Final Qualification Summary
+- **Budget**: Do they have funds allocated for an AI-powered patient management solution?
+- **Authority**: Who are the key decision-makers & stakeholders?
+- **Need**: Are they struggling with manual workflows, patient engagement, or compliance?
+- **Timeline**: How urgent is the need, and are they ready for implementation?
+- **Competitor**: Are they using other solutions, and what gaps exist?

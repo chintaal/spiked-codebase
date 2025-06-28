@@ -1,0 +1,164 @@
+# Kore.ai Evaluation Questions
+
+## 1. General Overview
+- **What is Kore.ai, and what problem does it solve?**
+- **How does Kore.ai differ from other AI-powered virtual assistants?**
+- **What industries and business functions does Kore.ai serve?**
+- **Can Kore.ai be used for both internal (employee-facing) and external (customer-facing) interactions?**
+- **What are some real-world use cases and success stories?**
+- **Who are Kore.ai’s biggest clients?**
+- **How long has Kore.ai been in the market?**
+- **What are the main products or solutions offered by Kore.ai?**
+
+## 2. Features & Capabilities
+
+### Conversational AI & Automation
+- **How does Kore.ai process natural language (NLP/NLU)?**
+- **Can Kore.ai understand and respond to complex queries?**
+- **How does Kore.ai ensure context-aware conversations?**
+- **Can Kore.ai handle multi-turn conversations?**
+- **How does Kore.ai personalize responses based on user behavior?**
+- **Does Kore.ai support voice-based interactions?**
+- **Can Kore.ai detect intent and sentiment in conversations?**
+- **Does Kore.ai provide proactive suggestions or only reactive responses?**
+- **Can Kore.ai handle multilingual conversations?**
+
+### Sales AI Capabilities
+- **How does Kore.ai help sales account executives in real time?**
+- **What insights and recommendations does Kore.ai provide during a sales call?**
+- **How does Kore.ai automate interaction summaries?**
+- **Does Kore.ai integrate with CRM tools like Salesforce, HubSpot, or Microsoft Dynamics?**
+- **Can Kore.ai suggest dynamic playbooks for different sales stages?**
+- **How does Kore.ai identify potential leads and sales opportunities?**
+- **Can Kore.ai assist in deal forecasting and pipeline management?**
+- **Does Kore.ai offer real-time coaching for sales reps?**
+
+### Customer Support & Service AI
+- **How does Kore.ai enhance customer service operations?**
+- **Can Kore.ai integrate with call center software?**
+- **How does Kore.ai handle escalation to human agents?**
+- **Does Kore.ai support omnichannel customer engagement?**
+- **Can Kore.ai manage FAQs, troubleshooting, and ticketing automation?**
+
+### Workflow & Task Automation
+- **What types of business processes can Kore.ai automate?**
+- **Can Kore.ai trigger automated workflows based on conversation context?**
+- **How does Kore.ai assist in approvals, reminders, and follow-ups?**
+- **Can Kore.ai generate automated reports and analytics?**
+- **Does Kore.ai integrate with RPA (Robotic Process Automation) tools?**
+
+## 3. Customization & Implementation
+- **How easy is it to customize Kore.ai for our business needs?**
+- **Does Kore.ai offer pre-built AI models, or do we need to train our own?**
+- **Can Kore.ai be fine-tuned for industry-specific requirements?**
+- **What level of technical expertise is required to deploy Kore.ai?**
+- **How does Kore.ai integrate with existing software ecosystems?**
+- **Is there a self-service option for configuring Kore.ai bots?**
+- **Does Kore.ai offer professional services for implementation?**
+- **What is the typical implementation timeline?**
+
+## 4. Integration & Compatibility
+- **What CRM platforms does Kore.ai integrate with?**
+- **Does Kore.ai work with collaboration tools like Slack, Microsoft Teams, or Zoom?**
+- **Can Kore.ai integrate with ERP, HRMS, and ITSM platforms?**
+- **How does Kore.ai connect with data lakes and knowledge bases?**
+- **Does Kore.ai have an open API for custom integrations?**
+- **Can Kore.ai be deployed on-premises or only in the cloud?**
+- **Does Kore.ai work with IVR (Interactive Voice Response) systems?**
+
+## 5. AI, NLP & Machine Learning
+- **What AI models power Kore.ai’s virtual assistants?**
+- **How does Kore.ai train and improve its AI models?**
+- **Does Kore.ai use proprietary AI models or third-party AI like OpenAI, Google, or AWS?**
+- **Can Kore.ai’s AI learn from past conversations and interactions?**
+- **How does Kore.ai handle ambiguous or incomplete queries?**
+- **What methods does Kore.ai use for intent detection and entity recognition?**
+- **Does Kore.ai support AI-powered speech recognition and synthesis?**
+- **Can Kore.ai generate AI-driven predictive insights?**
+
+## 6. Security & Compliance
+- **How does Kore.ai ensure data privacy and security?**
+- **Is Kore.ai compliant with GDPR, HIPAA, CCPA, and other regulations?**
+- **What security measures are in place to prevent AI hallucinations or misinformation?**
+- **Does Kore.ai encrypt sensitive data?**
+- **How does Kore.ai handle access control and authentication?**
+- **Can Kore.ai be hosted in a private cloud or on-premise for added security?**
+- **Does Kore.ai provide detailed audit logs for compliance tracking?**
+
+## 7. Pricing & Licensing
+- **What pricing models does Kore.ai offer (subscription, per-user, usage-based)?**
+- **Are there different pricing tiers based on features or usage?**
+- **Do you offer a free trial or demo?**
+- **Are there additional costs for advanced features like AI-driven recommendations?**
+- **Does Kore.ai offer enterprise licensing with volume discounts?**
+- **What is the total cost of ownership (TCO) over time?**
+
+## 8. Support & Training
+- **What type of customer support does Kore.ai provide (email, chat, phone)?**
+- **Is there a dedicated account manager for enterprise clients?**
+- **What SLAs (Service Level Agreements) does Kore.ai offer?**
+- **Does Kore.ai provide onboarding and training sessions?**
+- **Are there self-service knowledge bases or documentation available?**
+- **Can Kore.ai assist with AI model fine-tuning post-implementation?**
+
+## 9. Performance & ROI
+- **What are the measurable benefits of using Kore.ai?**
+- **How does Kore.ai impact sales team productivity?**
+- **Can Kore.ai provide metrics on efficiency gains?**
+- **What is the average ROI for businesses using Kore.ai?**
+- **Are there case studies showing revenue growth or cost reduction?**
+- **How does Kore.ai compare to human-assisted workflows in terms of accuracy?**
+
+## 10. Future Roadmap & Innovations
+- **What are Kore.ai’s upcoming features and roadmap?**
+- **How often does Kore.ai update its AI models?**
+- **Are there plans for deeper AI personalization and predictive analytics?**
+- **Is Kore.ai exploring new integrations with other platforms?**
+- **How does Kore.ai stay ahead of competitors in the AI space?**
+
+## 11. Architecture & Infrastructure
+
+### Platform Architecture
+- **What is the underlying architecture of Kore.ai’s platform?**
+- **Is Kore.ai a monolithic or microservices-based architecture?**
+- **What cloud providers does Kore.ai use (AWS, Azure, Google Cloud, etc.)?**
+- **Can Kore.ai be deployed on-premises, in a private cloud, or in a hybrid cloud setup?**
+- **How does Kore.ai ensure scalability for enterprise-grade deployments?**
+- **What are the core components of Kore.ai’s AI and automation framework?**
+- **How does Kore.ai separate data processing and storage layers?**
+- **What database technologies does Kore.ai use?**
+
+### AI & NLP Processing
+- **What NLP engine powers Kore.ai’s conversational AI?**
+- **How does Kore.ai process intent recognition and entity extraction?**
+- **Does Kore.ai use a transformer-based model (like GPT) for conversations?**
+- **How does Kore.ai handle context switching in conversations?**
+- **What ML techniques does Kore.ai use for training and improving its models?**
+- **Can Kore.ai leverage external AI/ML models (e.g., OpenAI, Google BERT, custom ML models)?**
+- **How does Kore.ai handle dynamic knowledge retrieval in conversations?**
+- **Does Kore.ai have a reinforcement learning mechanism for AI improvements?**
+
+## 12. Security & Compliance at the Architecture Level
+- **How is data secured at rest and in transit within Kore.ai’s architecture?**
+- **What encryption standards does Kore.ai follow?**
+- **Does Kore.ai support role-based access control (RBAC) and multi-tenancy?**
+- **How does Kore.ai handle user authentication and authorization (SSO, OAuth, JWT, etc.)?**
+- **What measures are in place for preventing AI bias and hallucinations?**
+- **How does Kore.ai implement data anonymization and privacy controls?**
+- **Does Kore.ai provide a dedicated environment for different clients (SaaS vs. on-premise)?**
+
+## 13. Integration & API Architecture
+- **What APIs does Kore.ai expose for third-party integrations?**
+- **How does Kore.ai handle webhook-based event triggers?**
+- **Can Kore.ai be integrated with legacy systems and databases?**
+- **Does Kore.ai support GraphQL, REST, or gRPC APIs?**
+- **How does Kore.ai ensure high availability and fault tolerance for API calls?**
+- **What is the API rate limit for Kore.ai’s services?**
+
+## 14. Infrastructure & Performance
+- **What is Kore.ai’s uptime SLA guarantee?**
+- **How does Kore.ai ensure low latency for real-time interactions?**
+- **What caching mechanisms does Kore.ai use for improving response times?**
+- **How does Kore.ai handle high-volume traffic and concurrent users?**
+- **Does Kore.ai use Kubernetes or containerization for deployment?**
+- **How does Kore.ai optimize AI model performance in production?**

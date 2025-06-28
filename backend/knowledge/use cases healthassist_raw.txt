@@ -1,0 +1,799 @@
+List of customers using health assist 
+
+Use Cases 
+
+Customer Stories 
+
+Florida Blue  
+
+Express Scripts  
+
+Signify  
+
+AAA insurance  
+
+Citibank  
+
+Enbridge  
+
+Pﬁzer  
+
+ABInBev 
+
+ 
+ 
+ 
+ 
+Universal bot provides quick resolution orchestrating  multiple bots 
+Voice based telephony with orchestration of multiple bots
+
+-·· 
+f II EXPRESS SCRIPTS·
+·-
+
+Situation 
+
+Problem 
+
+Solution 
+
+Result 
+
+Express Scripts Holding Company 
+(ESHC) is a pharmacy benefit 
+management organization. The 
+company's more than 30,000 
+employees seMCe tens of millions  of 
+members through facilities across the 
+United States and Canada. 
+
+ESHC's contact center handles 
+-SOM  calls annually from members
+seeking support with their order
+status, refills and payments.
+
+ESHC  sought to increase their call 
+containment rate with a 
+conversational IVR to reduce their 
+contact center burden. 
+
+The company's legacy solution relied 
+on multiple non�conversational IVR 
+bots, forcing employees to interad 
+with multiple bots. 
+
+The individual virtual assistants  were
+domain-specific and therefore
+unable to handle all individual 
+member requests. 
+
+Resolution of member calls often 
+required support of multiple bots. 
+This meant most callers experienced 
+bot-to-bot transfers of their 
+conversation and were more likely 
+to request support from a live 
+agent. 
+
+A member seMCe  universal bot is 
+created that interacts with multiple bots
+(AuthenticatK)n, Refill request, Order 
+Status, and Payment} to serve multi-tum 
+requests from the customer. 
+
+The company offered omnichannel 
+conversational support experience. 
+Callers are now able to engage with 
+ESHC's support services across voice 
+digital channels using IVR, SMS or chat. 
+
+The universal bot handles large 
+volume of calls, able to address 
+indivx:fual  member requests w/o
+members requiring to switch bots o r  
+needing a live agent. 
+
+Universal bot built on Kore.ai platform 
+easily understands callers• intent, 
+seamlessly handle  mutti�turn 
+conversation by coordinating wrth 
+other bots as needed and provide 
+contextual responses t o  the user. 
+
+The VA at ESI handles 30M calls 
+with a goal to handle SOM calls 
+annually. 
+
+The universal virtual assistant plans 
+to increase overall containment 
+rates by 8% and realize $3M annual 
+savings 
+
+The value of domain-specific virtual 
+assistant is maintained by distribution 
+of intents across existing ones. 
+Intents are also reused in other virtual 
+assistants, which will reduce overall 
+maintenance costs. 
+
+Ongoing training and maintenance of 
+all domain-specific virtual assistants 
+is streamlined with updates to 
+anyone. 
+
+• Retraining
+• Increased containment
+
+L Lower costs from: 
+
+• -
+
+-· - -
+
+Ask Thea Universal  Bot resolves 60+ issues orchestrating 1 O+ bots 
+Orchestration of multiple bots 
+
+@ignify 
+
+Situation 
+
+Problem 
+
+Solution 
+
+Result 
+
+Signify, a world leader in the 
+
+development, manufacturing, and 
+sales of innovative, energy­
+efficient lighting products,
+systems, and services. 
+
+With an employee strength of 
+32,000 people spread across 70 
+countries, while their products, 
+systems, and services are sold in 
+
+over 100 countries. 
+
+Over  a period, the company has built 
+and inherited  diverse set of  legacy 
+solutions and bots for to support 
+various employee support functions. 
+
+Due to  diverse set of legacy 
+application and multiple bots across 
+the organization,  the employees had 
+to log in to different bots with 
+environments to raise complaints 
+or get information. This led to 
+productivity losses and 
+operational  cost escalations. 
+
+The company buitt 'Ask Thea' 1 an 
+universal bot on Kore.ai platform. 
+Along with this,  Si gnify built 10 other 
+bots • Bridge bot, ITSM,  Supply 
+chain, employee onboard and exit, 
+Customer support, Security FAQ, 
+Finance, HR, QC, purchase, and 
+others. Ask Thea is deployed on web, 
+MS Teams, and IVR channel and 
+integrates with enterprise systems like 
+SeMCeNow for ticketing, SAP�R3 for 
+supply management  and others. 
+Universal bot built on Kore.ai 
+platform easily integrates and 
+orchestrates with multiple bots.  It 
+understands complex intents, able 
+to ask clarifying questions in case 
+of ambiguity, seamlessly handle 
+multi•tum conversation by 
+coordinating with other bots as 
+needed, connects with backend 
+systems (SAP, ServiceNow) to 
+process the request, and provide 
+contextual responses to the user. 
+
+Monthly 17,000 to 21,000 tasks are 
+completed by Ask Thea 
+
+Average  resolution time down to 
+20 seconds from 24 minutes, 
+employees need not to access 
+multiple bots/systems 
+
+13,000to  15,000 monthly active 
+users 
+
+14,000 to 17,000 conversatK)n 
+sessions 
+
+84% task completion rate 
+
+With Kore.ai no-code platform, Signify 
+small IT  team is able to build, deploy, 
+and maintain multiple bots. 
+
+-- - -
+
+• -
+
+Virtual Assistant automates enrollment and policy FAQs. 
+Transaction based conversations 
+
+Situation 
+
+Problem 
+
+Solution 
+
+Result 
+
+CSAA insurance group is one of 
+top personal property and 
+casualty insurance groups in 
+U.S.  Founded in 1907, they 
+have 3,500 US employees. 
+
+Their customer base has been 
+growing significantly and
+consequently their transaction 
+volume. 
+
+Managing such transactions in 
+i
+h
+gh  volume led them to seek 
+solutions that can automate 
+routine transactions and manage 
+costs by letting highly paid 
+agents handle complex customer 
+issues 
+
+CSAA agents were spending too 
+much time handling simple 
+transaction tasks.  This was 
+costing CSAA time and money 
+in order to provide top-tier 
+customer service. 
+
+CSAA's objective was to
+automate the most common 
+insurance account transactions 
+for their customers. 
+
+These transactions included: 
+•
+Policy renewal
+•
+Scheduling a payment
+• Checking due dates
+•
+Setting up Auto-Pay
+
+My  Policy - Virtual Assistant  built 
+on Kore.ai platform provided self 
+service options to customers 
+to get answers to  their queries 
+and routine transactions 
+
+CSAA has successfully resolved 
+on average over 700 requests 
+per day since the virtual 
+assistant's successful launch in 
+February 2020. 
+
+The virtual assistant built on 
+Kore.ai platform is 
+
+Agents focus on addressing 
+escalated queries 
+
+enabled on web and 
+mobile channel using 
+Web SDK. 
+has integration with 
+enterprise APls 
+has Integration with Live 
+Person for seamless 
+Agent Transfer using 
+Bot-kit 
+
+Higher engagement seen on the 
+website 
+
+Higher customer satisfaction 
+and better agent utlllzatlon 
+
+CSAA is extending this 
+automation objectives to IVR 
+and SMS channels as well 
+
+-· - -
+
+• -
+
+Visual IVR assistant helps members with ID cards 
+Complex dialogs 
+
+Situation 
+
+Problem 
+
+Solution 
+
+Result 
+
+Member company of Blue Cross Blue 
+Shield, Florida Blue offers affordable 
+health insurance to individuals, 
+familtes, and businesses.
+
+The members call  1 ·800 number to get 
+various  services in their preferred 
+language - English or Spanish. 
+
+The members get authenticated with 
+last 4 digits of SSN and DOB, post 
+which members . 
+
+Agents spend significant time on 
+answering queries related to 
+member ID card, claims status, and 
+guiding members in filling up various
+!Ofl'TlS.
+
+The members have to wait too long 
+in queue to get  guidance on 
+getting digital member ID card or to 
+fill up  basic forms. 
+
+The company needed a solutK)n that 
+could help members 9et the digital ID 
+card or help fill up a daims form or 
+get the polity details or claims status. 
+
+IVR assistant handles 1000+ 
+queries  daily related to member 
+ID card download. 
+
+Since the deployment in  March,  VA 
+has achieved a 90% containment 
+rate. Inquiries are addressed by VA 
+without transfers to live support. 
+
+Members have self service option 
+available all the time. 
+
+The wait and response time 
+reduced by 3X. 
+
+Florida blue team with the help of 
+Kore.ai team developed a Visual IVR 
+assistant that helps members both i n
+English and Spanish language. 
+
+The IVR assistant authenticates 
+members with secrete questions and 
+then if the query is related to member 
+ID card or form fill, the IVR assistant 
+sends a SMS. It continue to guide 
+the member  over IVR on how  to 
+download the digital ID card or fill 
+up the form. 
+
+Service  is  accessible on the 
+company's 1-800 number. This 
+omnichannel deployment gives
+members access to information they 
+need without engaging with a live 
+person. 
+
+-· - -
+
+• -
+
+Virtual Assistant provides brand specific customer service 
+Large scale implementation/ Complex dialogs 
+
+cffibank 
+
+Situation 
+
+Problem 
+
+Solution 
+
+Result 
+
+Citibank has crve.r 65 million credit card 
+customers from 49 partner firms like 
+Macy's, BestBuy, Home Depot in North 
+America. 
+
+AJI card customers are supported by the 
+Citi contact center for queries and  basic 
+transactions, putting Significant load on 
+the contact ce.nter agents. 
+
+Citi Retail $e<vices needed to reduce 
+their' contact center burden to 
+accommodate growing customer base 
+by automating these transactions with 
+OM vii'lUal ai�Jstant on lh@ii' W!ilOM@i' 
+por'tal. 
+
+On ave1c1ge, the bank contact ce.nter' 
+receives ts million calls monthty {175 
+million calls annually) pertaining to 
+pannel' credit car'd queries, with the call
+volumes increaSing in the 1'3nge of 10�
+15" YOY. 
+
+This increasing load and stress on 
+contact cente.r was increasing 
+operational cost and impacting customer 
+satisfaction, because all inquiries and 
+transactions were routed through 
+contact ce.nter live agents. 
+
+Current IVR system was inefficient and 
+was unable to provide customized 
+responses per brand's requirements. 
+
+rvR volume reduced by 18" YOY crver
+the past 2 years 
+
+90%+ containment rate with: 
+
+• 85% of transaction.based
+
+conversations are now automated
+with conversational Al
+
+• 15% of customer engage.me.nts
+serviced with automated FAQs
+
+• 3% of customers now make
+
+payments via SMS
+
+Oti develop •cRS", virtual assistant (VA) 
+on Kore.ai platform to support
+enterprise credit card partners 
+customers. 
+
+The VA enabled on IVR,  Web,  chat and 
+SMS channels support all kinds of 
+queries and transactions (Queries 
+regarding bill payments, credit limits, 
+card transitions, los-t or stolen, and 
+promotional offers), all WITHOUT any 
+human agent involvement or assistance. 
+
+The VA provides brand specifi< 
+customized and and caller specific 
+personalized responses on different 
+channels. 
+
+The VA built on Kore.ai platform can 
+easily scale to inc:reasing call volume 
+without any additional coding.
+
+-· - -
+
+• -
+
+HR virtual assistant answers complex queries for employees 
+Complex dialogs 
+
+BRIDGE 
+
+Situation 
+
+Problem 
+
+Solution 
+
+Result 
+
+This multinational energy supply leader In 
+crude ol:I and natural gas transportation.
+Moves about 25% of the crude on 
+produced In North America and 20% of 
+the natural gas consumed in the US. 
+
+The company grew Its workforce to 
+15,000 In 2019-20, !n an effort to achieve 
+its aggressive business obfe<tlves. 
+
+The company updates its 15,000 
+employee pay and benefits data every 6 
+months which Is re-filed again during the 
+annual open enrollment period. 
+
+Employees were dependent on HR staff 
+for !nfonnatlon access Including 
+quest&ons about pay, PTO and benefits, 
+whk.h took -30 m!n each. 
+
+The staffing growth was further straining 
+HR resources with slgnifkant increase in 
+monthly calls and data management 
+requirements. 
+
+The burden of data management 
+processes combined with appraisal 
+cycles were taxing HR staff resources. 
+
+The company developed an HR support 
+virtual assistant "Mya" that automates 
+HR related routine query responses. 
+
+The already cumbersome employee 
+data updates and infonnatlon 
+exchanges were further exacerbated 
+by high volum� of low•value, 
+repetitive employee inquiries. 
+
+As staff numbers Increased so did the 
+number of routine HR queries each 
+month. In-person inquiries and can 
+volumes trended to be over 100 per 
+day, preventing HR staff from 
+addressing business priorities such as 
+re<.ruitment and enrollment. 
+
+Mya has over complex 50 dialog flows 
+related to benefits, onboarding, PTO 
+that engage employees In valued, 
+conversat&onal exchanges and can 
+accesses relevant enterprise data to 
+inform quick, accurate responses to 
+100• FAQs involving complex dialogs. 
+
+An integration with HR Workday via a 
+simple object access protocol (SOAP) 
+API and Sharepoint via Web SOK, helps 
+enhance Mya's conversational 
+c.,pabllltles. 
+
+Mya ls accessible on-demand 24/7/365 
+on the company's intranet and 
+Microsoft Teams. This omnlchannel 
+deployment gives employees access to 
+answers at anytime and from 
+anywhere, on their prefened channel. 
+
+The original project goals Included 
+50% user intent recognition and 50% 
+containment. 
+
+In the first 6 weeks of deployment 
+Mya achieved a 90% containment 
+rate. Inquiries were resolved by Mya 
+without transfers to Uve support. 
+
+The qual!ty of automation and speed 
+of operation exceeded initial 
+expectations. 
+
+Mya  handles an average of over 900 
+questions every month. 
+
+The time to answer repetitive queries 
+was reduced by 256%. 
+
+Resolutions now average 7 seconds 
+( compared to 30 minutes) 
+slgnlflcantty increasing employee 
+satisfaction and giving them more 
+time to focus on critical tasks. 
+
+-· - -
+
+• -
+
+Multiple virtual assistant for customer and employee services 
+Large scale implementation/ Transaction based conversations 
+
+Situation 
+
+Problem 
+
+Solution 
+
+Result 
+
+Pfizer, due to increaSing demand ror' its 
+products, was missing out on the 
+opportunity to build strong
+relationships with its individual 
+stakeholders. both internal and 
+external. and better employee and 
+customer satisfaction, loyalty and 
+retention. 
+
+Pfizer wanted to build an automated 
+support system ror' its global custome.l"S 
+and employees in their preferred 
+channel and languages.
+
+As the demand for pfizer products was 
+growing, It needed quie:k, easy•tO­
+understand, and accurate answers or 
+support to their stakeholders' 
+questions the most convenient way 
+possible {read channels)
+
+Its call center operation cost was 
+mounting due to high volume of 
+queries.
+
+Pfizer was looking for a conversational 
+Al platform to provide automated 
+support for its custome.rs and 
+employees: patients, healthcare 
+profesSionals and  sales reps. It needed 
+a platform that is easy to use, c.an 
+support both internal and external use 
+cases, can support multiple channels 
+and languages, and is scalable.
+
+Pfizer partnered with Kore.ai to 
+develop and deploy virtual assistants to 
+automate support for its stakeholde.rs. 
+
+Pfizer rolled out over 35 VAs globally 
+in multiple languages 
+
+• VAs for sales reps to help with
+repetitive processes like - filing
+daily activity report, checking
+targets and progress, reviewing
+KPIS etc
+
+• VAs for Employees that help
+
+resolve queries related to IT & HR
+suppott
+
+• Informational VAs that provide
+access to critical medical, drug
+and usage information easily and
+quickly for healthcare
+professionals and patients
+
+In less than a year, Pflzer rolled out 35 
+VAS in multiple languages supporting 
+its customers and employees globally. 
+
+No code platform empowered Pfizer 
+business teams & IT teams to rollout 
+VAS quickly 
+
+Achieved payback on Kore.ai direct 
+license and implementation cost in 
+year one. 
+
+Created downstream budget benefits 
+for buSiness units, improved Customer 
+Experience, Employee experience, 
+speed of service and ease of se.rvice 
+through NLP search and guided 
+processBOTs 
+
+-· - -
+
+• -
+
+Virtual Assistant responds to emails and triggers 
+processes by integrating with RPA 
+tomplex dialog management 
+
+ABlnBev 
+
+Situation 
+
+Problem 
+
+Solution 
+
+Result 
+
+A multinational drink and brewing 
+company based in Leuven, Belgium 
+wanted to drive business growth In both 
+developed and developing markets 
+through innovation. 
+
+As the world's largest brewer, the 
+company boasts 155,000 employees 
+with operat&ons In more than 50 
+countries and sales In 150+ countries. 
+
+The organlzat&on recognized the power 
+of technology to bring people together, 
+cr•allngv�lued •n�g•m.nts with 
+consumers, partners and their 
+employees across the world. 
+
+Their primary focus was on reducing 
+errors and delays that were Increasing 
+operational costs. 
+
+The organlzatlon's largest brewery In 
+the Czech Republic was using a 
+Transport Management System (TMS) 
+to manage hundreds of emails each 
+day to inform booking requests, 
+deliveries and changes for thousands 
+of dispatch points across the country. 
+
+Support teams were using manual 
+processes which were time consuming 
+and error•prone processes to access 
+and extract eman data. 
+
+Th• manual manipulation of 
+Information was resulting in 
+operational delays, slowing customer 
+support workflows and order 
+fulfillment. 
+
+Additionally, the high number of staff 
+needed to maintain these labor 
+Intensive processes drove up 
+operational costs. 
+
+Kore.al built an Al.-powered Intelligent 
+email sorter virtual asslst:1nt that 
+automated these volum!nous email 
+worldlows.  The assistant with Its 
+superior NLP recognized, processed 
+and color<oded each email. 
+
+Dispatch points are now kept up•to­
+date in near real time about booking 
+slots, dellvery times, courier orders 
+and other requests. 
+
+Automated dialog ta.sks created using 
+Kor,.al's vlrual Ola log Bulld,r, now 
+speed up order processing and 
+fulfilment thereby helplng  Increase 
+CSAT. 
+
+The cloud.-based virtual assistant 
+requires m!nimal maintenance and
+has reduced the staff required for 
+email processing tasks, reducing 
+operational costs.
+
+Enhanced utilization of the TMS staff 
+with 8oX automation rates (fro m oX) 
+for email processing 
+
+Reduced employee overhead by 
+$187K annualty 
+
+Decreased errors caused by manual 
+processing, ls saving  -$10K annually 
+
+Improved productivity by 15X by 
+automating booking requests, 
+deliveries and changes for thousands 
+of dlspatth polnH atross th• tounny 
+
+Increased CSAT by speeding emall
+processing and Improving accuracy 
+rates for task assignments and 
+handling 
+
+-· - -
+
+• -
+
+

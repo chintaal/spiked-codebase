@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Transcript Display</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <h1 class="text-2xl font-bold mb-4">Transcript Display Test</h1>
+    
+    <div class="max-w-4xl mx-auto space-y-6">
+        <!-- Test Controls -->
+        <div class="bg-white p-4 rounded-lg shadow space-x-4">
+            <button id="add-message" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+                Add Message
+            </button>
+            <button id="add-meeting-message" class="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700">
+                Add Meeting Message
+            </button>
+            <button id="add-rapid" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">
+                Add 5 Rapid Messages
+            </button>
+            <button id="clear-all" class="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">
+                Clear All
+            </button>
+            <label class="inline-flex items-center ml-4">
+                <input type="checkbox" id="auto-scroll" checked class="mr-2">
+                Auto-scroll
+            </label>
+        </div>
+        
+        <!-- Debug Info -->
+        <div id="debug-info" class="bg-yellow-50 border border-yellow-200 p-4 rounded-lg text-sm">
+            <div class="font-semibold mb-2">Debug Information</div>
+            <div id="debug-content">No messages yet</div>
+        </div>
+        
+        <!-- Message Container -->
+        <div class="bg-white rounded-lg shadow">
+            <div class="p-4 border-b border-gray-200">
+                <h2 class="text-lg font-semibold">Conversation Panel</h2>
+            </div>
+            <div id="message-container" class="h-96 overflow-y-auto p-4 space-y-3">
+                <div class="text-center text-gray-500 py-8">
+                    No messages yet. Click a button above to add test messages.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let messageCount = 0;
+        let messages = [];
+        let autoScroll = true;
+        
+        const messageContainer = document.getElementById('message-container');
+        const debugContent = document.getElementById('debug-content');
+        const autoScrollCheckbox = document.getElementById('auto-scroll');
+        
+        autoScrollCheckbox.addEventListener('change', (e) => {
+            autoScroll = e.target.checked;
+            updateDebugInfo();
+        });
+        
+        function updateDebugInfo() {
+            const regularMessages = messages.filter(m => !m.isSystem && !m.isMeetingTranscript);
+            const meetingMessages = messages.filter(m => m.isMeetingTranscript);
+            const systemMessages = messages.filter(m => m.isSystem);
+            
+            debugContent.innerHTML = `
+                <div>Total messages: ${messages.length}</div>
+                <div>Auto-scroll: ${autoScroll}</div>
+                <div>Container height: ${messageContainer.scrollHeight}px</div>
+                <div>Visible height: ${messageContainer.clientHeight}px</div>
+                <div>Scroll position: ${messageContainer.scrollTop}px</div>
+                <div class="mt-2 border-t pt-2">
+                    <div class="font-semibold">Message Types:</div>
+                    <div>Regular: ${regularMessages.length}</div>
+                    <div>Meeting: ${meetingMessages.length}</div>
+                    <div>System: ${systemMessages.length}</div>
+                </div>
+                ${messages.length > 0 ? `
+                <div class="mt-2 border-t pt-2">
+                    <div class="font-semibold">Latest Message:</div>
+                    <div>Text: ${messages[messages.length - 1].text.substring(0, 50)}...</div>
+                    <div>Source: ${messages[messages.length - 1].source}</div>
+                    <div>ID: ${messages[messages.length - 1].id}</div>
+                </div>
+                ` : ''}
+            `;
+        }
+        
+        function scrollToBottom() {
+            if (autoScroll) {
+                messageContainer.scrollTop = messageContainer.scrollHeight;
+            }
+        }
+        
+        function renderMessages() {
+            if (messages.length === 0) {
+                messageContainer.innerHTML = `
+                    <div class="text-center text-gray-500 py-8">
+                        No messages yet. Click a button above to add test messages.
+                    </div>
+                `;
+            } else {
+                messageContainer.innerHTML = messages.map((msg, index) => `
+                    <div class="p-4 rounded-lg border transition-all duration-200 ${
+                        msg.isSystem 
+                            ? 'bg-blue-50 border-blue-200 text-blue-800' 
+                            : msg.isMeetingTranscript
+                                ? 'bg-purple-50 border-purple-200 text-purple-800'
+                                : 'bg-gray-50 border-gray-200 text-gray-800'
+                    }" style="animation: slideInUp 0.3s ease-out;">
+                        ${msg.isMeetingTranscript && msg.speaker ? `
+                            <div class="flex items-center mb-2 space-x-2">
+                                <div class="w-6 h-6 bg-purple-500 rounded-full flex items-center justify-center">
+                                    <span class="text-white text-xs">👤</span>
+                                </div>
+                                <span class="text-xs font-semibold text-purple-700">${msg.speaker}</span>
+                                ${msg.platform ? `
+                                    <span class="text-xs px-2 py-0.5 bg-purple-100 text-purple-600 rounded-full">
+                                        ${msg.platform.replace('_', ' ').toUpperCase()}
+                                    </span>
+                                ` : ''}
+                            </div>
+                        ` : ''}
+                        <p class="mb-1 text-sm font-medium">${msg.text}</p>
+                        <div class="flex items-center space-x-2 text-xs opacity-75">
+                            <span>${new Date(msg.timestamp).toLocaleTimeString()}</span>
+                            ${msg.isSystem ? '<span class="px-2 py-1 bg-blue-200 text-blue-800 rounded-full">System</span>' : ''}
+                            ${msg.isMeetingTranscript ? '<span class="px-2 py-1 bg-purple-200 text-purple-800 rounded-full">Meeting Bot</span>' : ''}
+                            <span class="px-2 py-1 bg-gray-200 text-gray-700 rounded-full">${msg.source}</span>
+                        </div>
+                    </div>
+                `).join('');
+            }
+            
+            setTimeout(scrollToBottom, 10);
+            updateDebugInfo();
+        }
+        
+        // Add CSS animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(10px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Event listeners
+        document.getElementById('add-message').addEventListener('click', () => {
+            messageCount++;
+            messages.push({
+                id: `msg_${Date.now()}_${messageCount}`,
+                text: `Test message ${messageCount} - ${new Date().toLocaleTimeString()}`,
+                timestamp: new Date().toISOString(),
+                source: 'hotmic'
+            });
+            renderMessages();
+        });
+        
+        document.getElementById('add-meeting-message').addEventListener('click', () => {
+            messageCount++;
+            const speakers = ['Alice', 'Bob', 'Charlie', 'Diana'];
+            const speaker = speakers[Math.floor(Math.random() * speakers.length)];
+            messages.push({
+                id: `meeting_${Date.now()}_${messageCount}`,
+                text: `Meeting transcript ${messageCount} from ${speaker} - ${new Date().toLocaleTimeString()}`,
+                speaker: speaker,
+                timestamp: new Date().toISOString(),
+                isMeetingTranscript: true,
+                source: 'meeting',
+                platform: 'google_meet'
+            });
+            renderMessages();
+        });
+        
+        document.getElementById('add-rapid').addEventListener('click', () => {
+            for (let i = 0; i < 5; i++) {
+                setTimeout(() => {
+                    messageCount++;
+                    messages.push({
+                        id: `rapid_${Date.now()}_${messageCount}`,
+                        text: `Rapid message ${i + 1}/5 - ${new Date().toLocaleTimeString()}`,
+                        timestamp: new Date().toISOString(),
+                        source: 'hotmic'
+                    });
+                    renderMessages();
+                }, i * 200);
+            }
+        });
+        
+        document.getElementById('clear-all').addEventListener('click', () => {
+            messages = [];
+            messageCount = 0;
+            renderMessages();
+        });
+        
+        // Initial render
+        renderMessages();
+    </script>
+</body>
+</html>

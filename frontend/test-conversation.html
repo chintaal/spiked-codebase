@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Conversation Panel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <h1 class="text-2xl font-bold mb-4">Test Conversation Panel</h1>
+    
+    <div class="max-w-4xl mx-auto">
+        <div id="conversation-panel" class="h-96 bg-white rounded-lg shadow"></div>
+        
+        <div class="mt-4 space-x-4">
+            <button id="add-message" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+                Add Test Message
+            </button>
+            <button id="add-meeting-message" class="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700">
+                Add Meeting Message
+            </button>
+            <button id="clear-messages" class="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">
+                Clear Messages
+            </button>
+        </div>
+        
+        <div class="mt-4 p-4 bg-gray-50 rounded">
+            <h3 class="font-semibold mb-2">Debug Info:</h3>
+            <div id="debug-info">No messages yet</div>
+        </div>
+    </div>
+
+    <script>
+        // Simple test script to verify message display
+        let messageCount = 0;
+        let messages = [];
+        
+        function updateDebugInfo() {
+            document.getElementById('debug-info').innerHTML = 
+                `Messages: ${messages.length}<br>` +
+                `Last added: ${messages.length > 0 ? messages[messages.length - 1].timestamp : 'None'}`;
+        }
+        
+        function renderMessages() {
+            const container = document.getElementById('conversation-panel');
+            container.innerHTML = messages.map(msg => `
+                <div class="p-4 m-2 border rounded ${
+                    msg.isMeetingTranscript 
+                        ? 'bg-purple-50 border-purple-200' 
+                        : 'bg-gray-50 border-gray-200'
+                }">
+                    ${msg.speaker ? `<div class="font-semibold text-sm text-purple-600">${msg.speaker}</div>` : ''}
+                    <div class="text-gray-800">${msg.text}</div>
+                    <div class="text-xs text-gray-500 mt-1">${new Date(msg.timestamp).toLocaleTimeString()}</div>
+                </div>
+            `).join('');
+            
+            // Auto scroll to bottom
+            container.scrollTop = container.scrollHeight;
+            updateDebugInfo();
+        }
+        
+        document.getElementById('add-message').addEventListener('click', () => {
+            messageCount++;
+            messages.push({
+                id: Date.now().toString(),
+                text: `Test message ${messageCount}`,
+                timestamp: new Date().toISOString(),
+                source: 'hotmic'
+            });
+            renderMessages();
+        });
+        
+        document.getElementById('add-meeting-message').addEventListener('click', () => {
+            messageCount++;
+            messages.push({
+                id: Date.now().toString(),
+                text: `Meeting transcript ${messageCount}`,
+                speaker: `Speaker ${(messageCount % 3) + 1}`,
+                timestamp: new Date().toISOString(),
+                isMeetingTranscript: true,
+                source: 'meeting',
+                platform: 'google_meet'
+            });
+            renderMessages();
+        });
+        
+        document.getElementById('clear-messages').addEventListener('click', () => {
+            messages = [];
+            messageCount = 0;
+            renderMessages();
+        });
+        
+        // Initial render
+        renderMessages();
+    </script>
+</body>
+</html>

@@ -1,0 +1,339 @@
+"""
+Vexa API client utility for managing meetings and transcripts.
+Based on official Vexa API documentation.
+"""
+import httpx
+import logging
+from typing import Dict, Any, Optional, List
+import json
+import asyncio
+from app.config import VEXA_API_KEY, VEXA_BASE_URL
+
+# Set up logging
+logger = logging.getLogger(__name__)
+
+# Configuration
+MAX_RETRIES = 3    # Maximum number of retry attempts
+RETRY_DELAY = 1.0  # Initial delay between retries in seconds (will be exponentially increased)
+
+async def vexa_api_request(
+    method: str,
+    endpoint: str,
+    data: Optional[Dict[str, Any]] = None,
+    params: Optional[Dict[str, Any]] = None,
+    timeout: int = 30,
+    retry: bool = True
+) -> Dict[str, Any]:
+    """
+    Make a request to the Vexa API with automatic retry for transient errors.
+    
+    Args:
+        method: HTTP method (GET, POST, etc.)
+        endpoint: API endpoint path
+        data: The data to send in the request body for POST/PUT
+        params: Query parameters for GET requests
+        timeout: Request timeout in seconds
+        retry: Whether to retry on failure
+        
+    Returns:
+        Response data as dictionary
+    """
+    url = f"{VEXA_BASE_URL}{endpoint}"
+    headers = {
+        "Content-Type": "application/json",
+        "X-API-Key": VEXA_API_KEY
+    }
+    
+    logger.info(f"Making Vexa API request: {method} {url}")
+    
+    retries = MAX_RETRIES if retry else 0
+    attempt = 0
+    last_error = None
+    
+    while attempt <= retries:
+        attempt += 1
+        
+        try:
+            async with httpx.AsyncClient() as client:
+                if method.upper() == "GET":
+                    response = await client.get(
+                        url,
+                        params=params,
+                        headers=headers,
+                        timeout=timeout
+                    )
+                elif method.upper() == "POST":
+                    response = await client.post(
+                        url,
+                        json=data,
+                        headers=headers,
+                        timeout=timeout
+                    )
+                elif method.upper() == "PUT":
+                    response = await client.put(
+                        url,
+                        json=data,
+                        headers=headers,
+                        timeout=timeout
+                    )
+                elif method.upper() == "PATCH":
+                    response = await client.patch(
+                        url,
+                        json=data,
+                        headers=headers,
+                        timeout=timeout
+                    )
+                elif method.upper() == "DELETE":
+                    response = await client.delete(
+                        url,
+                        headers=headers,
+                        timeout=timeout
+                    )
+                else:
+                    return {"success": False, "error": f"Unsupported HTTP method: {method}"}
+                
+                response.raise_for_status()
+                result = response.json()
+                
+                return {
+                    "success": True,
+                    "data": result,
+                    "status_code": response.status_code
+                }
+                
+        except httpx.HTTPStatusError as e:
+            last_error = e
+            error_msg = f"HTTP error occurred: {e.response.status_code}"
+            logger.error(f"{error_msg}. Response: {e.response.text}")
+            
+            # Only retry on server errors (5xx) and some specific status codes
+            if 500 <= e.response.status_code < 600 or e.response.status_code in [429]:
+                if attempt <= retries:
+                    wait_time = RETRY_DELAY * (2 ** (attempt - 1))  # Exponential backoff
+                    logger.info(f"Retrying in {wait_time}s... (Attempt {attempt}/{retries})")
+                    await asyncio.sleep(wait_time)
+                    continue
+            
+            # For client errors or after max retries, return error
+            try:
+                error_response = e.response.json()
+            except:
+                error_response = {"message": e.response.text}
+                
+            return {
+                "success": False,
+                "error": error_msg,
+                "details": error_response,
+                "status_code": e.response.status_code
+            }
+            
+        except httpx.ConnectError as e:
+            last_error = e
+            error_msg = f"Connection error occurred: {str(e)}"
+            logger.error(error_msg)
+            
+            if attempt <= retries:
+                wait_time = RETRY_DELAY * (2 ** (attempt - 1))
+                logger.info(f"Retrying in {wait_time}s... (Attempt {attempt}/{retries})")
+                await asyncio.sleep(wait_time)
+                continue
+                
+            return {"success": False, "error": error_msg, "is_connection_error": True}
+            
+        except httpx.RequestError as e:
+            last_error = e
+            error_msg = f"Request error occurred: {str(e)}"
+            logger.error(error_msg)
+            
+            if attempt <= retries:
+                wait_time = RETRY_DELAY * (2 ** (attempt - 1))
+                logger.info(f"Retrying in {wait_time}s... (Attempt {attempt}/{retries})")
+                await asyncio.sleep(wait_time)
+                continue
+                
+            return {"success": False, "error": error_msg}
+            
+        except Exception as e:
+            last_error = e
+            error_msg = f"Unexpected error occurred: {str(e)}"
+            logger.error(error_msg)
+            
+            if attempt <= retries:
+                wait_time = RETRY_DELAY * (2 ** (attempt - 1))
+                logger.info(f"Retrying in {wait_time}s... (Attempt {attempt}/{retries})")
+                await asyncio.sleep(wait_time)
+                continue
+                
+            return {"success": False, "error": error_msg}
+    
+    # If we get here, we've exhausted our retries
+    return {"success": False, "error": f"Failed after {retries} retries. Last error: {str(last_error)}"}
+
+# API Functions based on official Vexa documentation
+
+async def request_meeting_bot(native_meeting_id: str, platform: str = "google_meet", language: str = "en", bot_name: str = "Spiked AI Bot") -> Dict[str, Any]:
+    """
+    Request a Vexa bot for a meeting.
+    
+    Args:
+        native_meeting_id: The meeting ID from the platform
+        platform: The platform name (google_meet, zoom, teams)
+        language: The language for transcription
+        bot_name: The name for the bot
+        
+    Returns:
+        Response with meeting ID and status
+    """
+    data = {
+        "platform": platform,
+        "native_meeting_id": native_meeting_id,
+        "language": language,
+        "bot_name": bot_name
+    }
+    
+    return await vexa_api_request("POST", "/bots", data=data)
+
+async def get_meeting_transcript(meeting_id: str, platform: str = "google_meet") -> Dict[str, Any]:
+    """
+    Get real-time meeting transcript.
+    
+    Args:
+        meeting_id: The meeting ID (native_meeting_id from the platform)
+        platform: The platform name (google_meet, zoom, teams)
+        
+    Returns:
+        Meeting transcript data
+    """
+    return await vexa_api_request("GET", f"/transcripts/{platform}/{meeting_id}", retry=False)
+
+async def get_bot_status() -> Dict[str, Any]:
+    """
+    Get status of running bots.
+    
+    Returns:
+        Status of all running bots
+    """
+    return await vexa_api_request("GET", "/bots/status")
+
+async def update_bot_config(meeting_id: str, platform: str = "google_meet", config: Dict[str, Any] = None) -> Dict[str, Any]:
+    """
+    Update bot configuration.
+    
+    Args:
+        meeting_id: The meeting ID (native_meeting_id)
+        platform: The platform name
+        config: Configuration to update
+        
+    Returns:
+        Updated configuration response
+    """
+    if config is None:
+        config = {}
+        
+    return await vexa_api_request("PUT", f"/bots/{platform}/{meeting_id}/config", data=config)
+
+async def stop_meeting_bot(meeting_id: str, platform: str = "google_meet") -> Dict[str, Any]:
+    """
+    Stop a meeting bot.
+    
+    Args:
+        meeting_id: The meeting ID (native_meeting_id)
+        platform: The platform name
+        
+    Returns:
+        Stop operation response
+    """
+    return await vexa_api_request("DELETE", f"/bots/{platform}/{meeting_id}")
+
+async def list_meetings() -> Dict[str, Any]:
+    """
+    List all meetings.
+    
+    Returns:
+        List of meetings
+    """
+    return await vexa_api_request("GET", "/meetings")
+
+async def update_meeting_data(meeting_id: str, platform: str = "google_meet", data: Dict[str, Any] = None) -> Dict[str, Any]:
+    """
+    Update meeting metadata.
+    
+    Args:
+        meeting_id: The meeting ID (native_meeting_id)
+        platform: The platform name
+        data: Meeting data to update
+        
+    Returns:
+        Updated meeting response
+    """
+    if data is None:
+        data = {}
+        
+    payload = {"data": data}
+    return await vexa_api_request("PATCH", f"/meetings/{platform}/{meeting_id}", data=payload)
+
+async def delete_meeting(meeting_id: str, platform: str = "google_meet") -> Dict[str, Any]:
+    """
+    Delete a meeting and its transcripts.
+    
+    Args:
+        meeting_id: The meeting ID (native_meeting_id)
+        platform: The platform name
+        
+    Returns:
+        Delete operation response
+    """
+    return await vexa_api_request("DELETE", f"/meetings/{platform}/{meeting_id}")
+
+async def set_webhook_url(webhook_url: str) -> Dict[str, Any]:
+    """
+    Set webhook URL for the user.
+    
+    Args:
+        webhook_url: The webhook URL to set
+        
+    Returns:
+        Webhook configuration response
+    """
+    data = {"webhook_url": webhook_url}
+    return await vexa_api_request("PUT", "/user/webhook", data=data)
+
+# Compatibility functions for existing code
+async def join_meeting(native_meeting_id: str, platform: str) -> Dict[str, Any]:
+    """
+    Add Vexa bot to a meeting.
+    
+    Args:
+        native_meeting_id: The meeting ID from the platform (Google Meet, etc.)
+        platform: The platform name (google_meet, zoom, teams)
+        
+    Returns:
+        Response with meeting ID and status
+    """
+    return await request_meeting_bot(native_meeting_id, platform)
+
+async def get_meeting_transcripts(platform: str, meeting_id: str) -> Dict[str, Any]:
+    """
+    Get transcripts from a meeting.
+    
+    Args:
+        platform: The platform name (google_meet, zoom, teams)
+        meeting_id: The meeting ID (native_meeting_id)
+        
+    Returns:
+        List of transcripts from the meeting
+    """
+    return await get_meeting_transcript(meeting_id, platform)
+
+async def leave_meeting(platform: str, meeting_id: str) -> Dict[str, Any]:
+    """
+    Remove Vexa bot from a meeting.
+    
+    Args:
+        platform: The platform name (google_meet, zoom, teams)
+        meeting_id: The meeting ID (native_meeting_id)
+        
+    Returns:
+        Status of the leave operation
+    """
+    return await stop_meeting_bot(meeting_id, platform)

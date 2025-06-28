@@ -1,0 +1,106 @@
+# Yellow.ai Battlecard
+
+## Basic Information
+
+### Company Overview
+- **Name:** Yellow.ai
+- **Founded:** 2016
+- **Type:** Conversational AI and Customer Experience (CX) Automation Platform
+- **Funding:** Over $102 million raised
+- **Investors:** 
+  - WestBridge Capital
+  - Sapphire Ventures
+  - Salesforce Ventures
+- **Customers:** Over 700 globally
+- **Notable Clients:** 
+  - Domino's
+  - Hyundai
+  - Tata Capital
+
+### Competing Products
+- **Platforms:**
+  - Yellow.ai Customer Service Automation Platform
+  - VoiceX Platform
+- **Key Features:**
+  - AI Agents
+  - AI Assistants
+  - No-code builder
+  - Lifecycle optimizer
+  - Designer tools
+  - AI Analytics
+  - Marketplace
+
+## Pricing
+- **Plans:**
+  - Freemium
+  - Premium Enterprise Plans
+- **Enterprise Pricing:** Based on Monthly Tracked Users (MTU), customized according to features, integrations, and compliance.
+- **Usage Charges:** Based on specific modules (e.g., MRU count, WhatsApp usage).
+- **Estimated Pricing:**
+  - Professional Voice: $58,000 for 120k voice minutes and 5 agents/year
+  - Enterprise: $285,000 for 480k conversations and 600k voice minutes for up to 20 live agents + $18k/year for generative AI features
+  - Setup and Platform Fee: $1
+
+## Features Comparison
+| Feature | Free | Enterprise |
+|---------|------|------------|
+| Channels | 2 |  |
+| Conversations | Limited |  |
+| Records | Limited |  |
+| Agents | Max 10 |  |
+| Analytics | Basic | Comprehensive |
+
+## How to Spot Yellow.ai in Deals
+### Common Feature Names/Phrases
+- Automation (bot building platform)
+- Conversation (Gen AI bot builder)
+- VoiceX (new voice bot platform)
+- YellowG, Orchestrator LLM, Komodo 7B, Analyze LLM
+- Dynamic NLP
+- Conversational Service Cloud/Commerce Cloud
+- Dynamic AI agents
+- Unified customer service automation platform
+
+## Talk Tracks
+### Competitive Positioning
+- **Core Idea:** Yellow.ai is suitable for basic chat and voice automation but may lock customers into their ecosystem. 
+- **Differentiation:** Kore.ai offers a broader range of CX and EX use cases, including generative AI apps and RAG/LLM-based search, without vendor lock-in.
+
+### Acknowledging Competitor Strengths
+- Yellow.ai is recognized for customer service automation and its new Conversation module, which allows fast bot building.
+
+### Reframing
+- Customers report a steep learning curve and support experience issues with Yellow.ai. Limitations include lack of multilingual support and privacy controls.
+
+## Landmines
+### Conversation Starters
+1. **Complex Setup:** Inquire about the importance of UI and UX for creating AI agents.
+2. **Integration Challenges:** Ask about the need for integration with various systems.
+3. **Search Limitations:** Discuss the importance of knowledge retrieval for AI agents.
+
+## Tactical Information
+### Product Teardown
+| Feature | Status |
+|---------|--------|
+| Pre-Built Solutions | Differentiated |
+| DialogGPT (Dynamic generative AI) | Supported |
+| Context Management | Supported |
+| Advanced Voice Capabilities | Supported |
+| Knowledge Retrieval | Supported |
+| Real-time Sentiment Analysis | Supported |
+| Comprehensive Analytics | Supported |
+
+### Notes on Yellow.ai
+1. Provides banking templates for account creation, loan tracking, etc.
+2. Offers retail and e-commerce templates for product browsing and payment status.
+3. Limited model integrations, primarily with OpenAI and Anthropic.
+4. NLP engine based on zero-shot learning with market-leading intent accuracy.
+5. Basic privacy protections without comprehensive guardrails.
+
+## Supporting Information
+### External Validation
+- **Disclaimer:** This document is customer-facing and should not be shared directly. For questions, contact sean_tynch@kore.com.
+
+---
+
+**© 2024 Kore.ai | All Rights Reserved**

@@ -1,0 +1,193 @@
+# Kore SOC 2 Type 2 Certification – Extensive FAQ
+
+## 1. Overview of SOC 2 Type 2 Certification
+- **Definition**: SOC 2 Type 2 is a third-party audit evaluating how well a company safeguards customer data over a sustained period, ensuring compliance with security, availability, processing integrity, confidentiality, and privacy standards.
+
+## 2. Audit Details
+- **Audit Period**: The exact audit period and report date can be found in Kore’s SOC 2 Type 2 report. Typically, audits cover a period of **3 to 12 months**.
+
+## 3. Purpose of Certification
+- **Reason for Pursuit**: Kore pursued SOC 2 Type 2 to demonstrate its commitment to robust security, instill confidence in clients, and meet industry and regulatory expectations for handling sensitive information.
+
+## 4. Audit Conduct
+- **Auditor**: A licensed, independent third-party auditing firm conducted the assessment to ensure objectivity and adherence to industry standards.
+
+## 5. Customer Benefits
+- **Reassurance**: The certification reassures customers that Kore follows best practices for security and compliance, reducing risks related to data breaches, system downtime, and unauthorized access.
+
+## 6. SOC 2 Type 1 vs. Type 2
+- **SOC 2 Type 1**: Evaluates security controls at a single point in time.
+- **SOC 2 Type 2**: Assesses the effectiveness of security controls over an extended period.
+
+## 7. Security Measures Implemented
+- **Measures**: Kore implemented data encryption, multi-factor authentication, access control policies, continuous monitoring, and regular security assessments to meet SOC 2 Type 2 requirements.
+
+## 8. Security Assurance
+- **Security Guarantee**: No certification guarantees absolute security; however, SOC 2 Type 2 compliance confirms that Kore has implemented strong and effective security controls to protect customer data.
+
+## 9. Audit Frequency
+- **Annual Audits**: SOC 2 Type 2 audits are typically conducted **annually** to ensure ongoing compliance and security improvements.
+
+## 10. Comparison with Other Frameworks
+- **Alignment**: SOC 2 Type 2 aligns with standards such as:
+  - **ISO 27001**: Global security framework for information security management.
+  - **HIPAA**: U.S. regulation for healthcare data protection.
+  - **PCI-DSS**: Standard for payment card data security.
+
+## 11. Access to Reports
+- **Customer Access**: Customers can access Kore’s SOC 2 Type 2 report upon request, typically under a non-disclosure agreement (NDA) to protect sensitive security details.
+
+## 12. Impact on Business Partners
+- **Reassurance for Partners**: It reassures business partners that Kore follows strict security measures, reducing third-party risk and ensuring compliance with regulatory standards.
+
+## 13. Non-Compliance Consequences
+- **Corrective Actions**: If non-compliance issues arise, Kore must implement corrective actions, improve controls, and undergo reassessment to maintain certification.
+
+## 14. Steps to Certification
+- **Process**:
+  - Conducting an internal security assessment.
+  - Implementing and strengthening security controls.
+  - Undergoing a third-party audit.
+  - Addressing any findings or recommendations.
+
+## 15. Legal Requirement
+- **Legality**: SOC 2 Type 2 is not legally required but is often expected by enterprise clients and regulators as a best practice for security compliance.
+
+## 16. Compliance with GDPR and CCPA
+- **Privacy Regulations**: While SOC 2 Type 2 covers privacy and security, GDPR and CCPA have additional legal requirements. Compliance with SOC 2 Type 2 supports overall data privacy efforts.
+
+## 17. Data Protection Scope
+- **Protected Data**: Kore’s compliance covers all customer data, including personally identifiable information (PII), confidential business data, and access logs.
+
+## 18. Product and Service Reliability
+- **Impact on Reliability**: The certification ensures that Kore maintains high availability, processing integrity, and uptime, improving service reliability and minimizing operational disruptions.
+
+## 19. Beneficial Industries
+- **Industries**:
+  - Technology & SaaS
+  - Healthcare
+  - Finance
+  - Retail & E-commerce
+
+## 20. Continuous Compliance
+- **Monitoring Approach**: Kore follows a continuous monitoring approach, including regular security audits, system updates, employee training, and risk assessments.
+
+## 21. Regulatory Audit Impact
+- **Documentation**: SOC 2 Type 2 compliance provides documentation and evidence that Kore follows best practices, making regulatory audits smoother and reducing compliance-related risks.
+
+## 22. Benefits for Small Businesses
+- **Leverage Security**: Smaller businesses benefit by leveraging Kore’s enterprise-grade security framework without having to implement expensive compliance measures themselves.
+
+## 23. Risk Management
+- **Protocols**: The certification ensures Kore has risk management protocols in place, helping to prevent and mitigate security incidents.
+
+## 24. Additional Security Assurances
+- **Customer Requests**: Customers can request further details on Kore’s security measures, compliance policies, and risk mitigation strategies.
+
+## 25. Third-Party Vendor Compliance
+- **Vendor Standards**: Kore ensures that its third-party vendors adhere to security and compliance standards, minimizing risks across the supply chain.
+
+## 26. Future of Compliance
+- **Ongoing Enhancements**: Kore will continue to enhance security, adopt emerging technologies, and undergo regular audits to maintain and improve compliance.
+
+---
+
+## Limitations of Kore’s SOC 2 Type 2 Report – FAQ
+
+### 27. Limitations of the Report
+- **Assessment Period**: The report assesses controls only during the audit period; security measures could evolve or change afterward.
+- **No Absolute Security**: It does not guarantee absolute security; it only confirms that Kore follows best practices.
+- **Focus of Audit**: The audit focuses on design and operational effectiveness but does not cover every possible security risk.
+
+### 28. Cyber Threat Immunity
+- **Threats**: SOC 2 Type 2 compliance reduces risks but does not eliminate them entirely; cyber threats constantly evolve.
+
+### 29. Regulatory Requirements
+- **Additional Certifications**: SOC 2 Type 2 aligns with many compliance frameworks, but additional certifications (such as GDPR, CCPA, HIPAA, or PCI-DSS) may be required depending on specific regulatory needs.
+
+### 30. Penetration Testing
+- **Testing Results**: The SOC 2 Type 2 report does not include penetration testing results; it focuses on security controls and processes.
+
+### 31. Infrastructure Coverage
+- **Audit Scope**: The report typically covers specific systems and processes but may not include every component of Kore’s infrastructure.
+
+### 32. Audit Process
+- **Ongoing Compliance**: SOC 2 Type 2 requires ongoing compliance; the certification is only valid for the audit period.
+
+### 33. Changes Post-Audit
+- **Security Controls**: Kore’s security controls can change after the audit; the report reflects controls in place during the audit period.
+
+### 34. Addressing Limitations
+- **Continuous Improvement**: Kore continuously improves security by conducting risk assessments, updating policies, implementing new technologies, and undergoing periodic audits.
+
+---
+
+## Auditor & Compliance Process – FAQ
+
+### 35. Auditor Information
+- **Conducting Firm**: A licensed, independent third-party auditing firm performed the SOC 2 Type 2 assessment.
+
+### 36. Importance of Independent Audit
+- **Objectivity**: An independent audit ensures objectivity, credibility, and compliance with industry standards.
+
+### 37. Auditor Qualifications
+- **Expertise**: The auditing firm is likely a Certified Public Accountant (CPA) firm specializing in SOC 2 compliance, with expertise in cybersecurity, risk management, and regulatory frameworks.
+
+### 38. Assessment Process
+- **Evaluation Steps**:
+  - Reviewing security policies, procedures, and technical controls.
+  - Evaluating system logs, incident reports, and access controls.
+  - Conducting interviews with key personnel.
+  - Testing security effectiveness over the audit period.
+
+### 39. Audit Frequency
+- **Annual Audits**: Kore undergoes SOC 2 Type 2 audits annually to maintain compliance and ensure continuous improvement.
+
+### 40. Verifying Auditor Credentials
+- **Customer Assurance**: Customers can request details about the independent auditor and review the official SOC 2 Type 2 report for assurance.
+
+---
+
+## Auditor Details
+
+### Schellman Overview
+- **Company**: Schellman & Company, LLC
+  - **Type**: Licensed certified public accounting firm (Florida license number AD62941).
+  - **Services**: Provides attest services to clients.
+  - **Website**: [schellman.com](http://schellman.com)
+
+### Compliance Services
+- **Schellman Compliance, LLC**: Offers non-attest cybersecurity and compliance professional services.
+
+### Accreditations
+- **Global Licenses**: Schellman is uniquely positioned as the only company globally licensed across multiple accreditations, including:
+  - PCI Qualified Security Assessor
+  - ISO Certification Body
+  - HITRUST CSF Assessor
+  - FedRAMP 3PAO
+  - CMMC C3PAO
+  - APEC Accountability Agent
+
+### Company Status
+- **B Corporation**: Achieved Certified B Corporation status in June 2024, underscoring its commitment to social and environmental responsibility.
+
+### Company Size
+- **Headquarters**: Tampa, Florida
+- **Ranking**: 47th-largest CPA firm in the U.S.
+- **Annual Revenue**: $148.5 million
+- **Clientele**: Over 900 clients, including numerous publicly traded and Fortune 500 companies.
+
+### Services Offered
+- **Audit Types**: Schellman offers a comprehensive suite of services, encompassing nearly 60 types of audits and assessments, such as:
+  - SOC examinations
+  - Payment card assessments
+  - ISO certifications
+  - Privacy assessments
+  - Federal assessments
+  - Healthcare assessments
+  - Penetration testing
+  - AI services
+
+--- 
+
+Would you like any additional FAQs or modifications to tailor this for specific audiences, such as executives, security professionals, or customers?

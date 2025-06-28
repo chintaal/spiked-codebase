@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Meeting Bot Reconnection</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .status { padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { background-color: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+        .error { background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
+        .info { background-color: #d1ecf1; border: 1px solid #bee5eb; color: #0c5460; }
+        button { padding: 10px 20px; margin: 5px; }
+        pre { background-color: #f8f9fa; padding: 10px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Meeting Bot Reconnection Test</h1>
+    
+    <div id="status" class="status info">Ready to test</div>
+    
+    <button onclick="testBotStatus()">1. Check Bot Status</button>
+    <button onclick="testUrlValidation()">2. Test URL Validation</button>
+    <button onclick="testReconnection()">3. Test Reconnection Logic</button>
+    <button onclick="setTestUrl()">4. Set Test URL in localStorage</button>
+    <button onclick="clearStorage()">5. Clear localStorage</button>
+    
+    <h3>Current localStorage:</h3>
+    <pre id="localStorage"></pre>
+    
+    <h3>API Results:</h3>
+    <pre id="results"></pre>
+    
+    <script>
+        const VEXA_BASE_URL = 'http://localhost:8000/vexa';
+        
+        function updateStatus(message, type = 'info') {
+            const statusEl = document.getElementById('status');
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+        }
+        
+        function updateResults(data) {
+            document.getElementById('results').textContent = JSON.stringify(data, null, 2);
+        }
+        
+        function updateLocalStorage() {
+            const storage = {};
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                storage[key] = localStorage.getItem(key);
+            }
+            document.getElementById('localStorage').textContent = JSON.stringify(storage, null, 2);
+        }
+        
+        async function testBotStatus() {
+            try {
+                updateStatus('Checking bot status...', 'info');
+                const response = await fetch(`${VEXA_BASE_URL}/bots/status`);
+                const data = await response.json();
+                updateResults(data);
+                updateStatus(`Found ${data.running_bots?.length || 0} running bots`, 'success');
+            } catch (error) {
+                updateStatus(`Error: ${error.message}`, 'error');
+                updateResults({ error: error.message });
+            }
+        }
+        
+        function validateMeetingUrl(url) {
+            const googleMeetRegex = /meet\.google\.com\/([a-z0-9-]+)/i;
+            const match = url.match(googleMeetRegex);
+            
+            if (match) {
+                return {
+                    platform: 'google_meet',
+                    meetingId: match[1],
+                    isValid: true
+                };
+            }
+
+            return {
+                platform: null,
+                meetingId: null,
+                isValid: false
+            };
+        }
+        
+        async function testUrlValidation() {
+            const testUrl = 'https://meet.google.com/tjc-kxof-eoc';
+            const validation = validateMeetingUrl(testUrl);
+            updateResults({ testUrl, validation });
+            updateStatus(`URL validation: ${validation.isValid ? 'Valid' : 'Invalid'}`, validation.isValid ? 'success' : 'error');
+        }
+        
+        async function testReconnection() {
+            try {
+                updateStatus('Testing reconnection logic...', 'info');
+                
+                // Get bot status
+                const botResponse = await fetch(`${VEXA_BASE_URL}/bots/status`);
+                const botData = await botResponse.json();
+                
+                const testUrl = 'https://meet.google.com/tjc-kxof-eoc';
+                const validation = validateMeetingUrl(testUrl);
+                
+                if (validation.isValid && botData.running_bots) {
+                    const existingBot = botData.running_bots.find(bot => 
+                        bot.native_meeting_id === validation.meetingId && 
+                        bot.platform === validation.platform
+                    );
+                    
+                    const result = {
+                        testUrl,
+                        validation,
+                        runningBots: botData.running_bots,
+                        existingBot,
+                        canReconnect: !!existingBot
+                    };
+                    
+                    updateResults(result);
+                    updateStatus(
+                        existingBot ? 'Reconnection possible!' : 'No existing bot found', 
+                        existingBot ? 'success' : 'error'
+                    );
+                } else {
+                    updateStatus('Invalid URL or no bot data', 'error');
+                }
+            } catch (error) {
+                updateStatus(`Error: ${error.message}`, 'error');
+                updateResults({ error: error.message });
+            }
+        }
+        
+        function setTestUrl() {
+            const testUrl = 'https://meet.google.com/tjc-kxof-eoc';
+            localStorage.setItem('currentMeetingUrl', testUrl);
+            updateLocalStorage();
+            updateStatus('Test URL set in localStorage', 'success');
+        }
+        
+        function clearStorage() {
+            localStorage.clear();
+            updateLocalStorage();
+            updateStatus('localStorage cleared', 'success');
+        }
+        
+        // Update localStorage display on page load
+        updateLocalStorage();
+    </script>
+</body>
+</html>
